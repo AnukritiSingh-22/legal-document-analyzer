@@ -10,18 +10,6 @@ PDF ─► app.py (P2)  ─► legal_extraction.py (P3) ─► conflict_detectio
 pipeline.py = glue (runs everything)     evaluation.py = metrics for the results table
 ```
 
-## Files
-
-| File | Who | Status |
-|---|---|---|
-| `app.py` | Person 2 | **Run on its own or imported.** UI wrapped in `main()` (no behaviour change) + 2 bug fixes (below) |
-| `legal_extraction.py` | Person 3 | 2 small improvements (below) |
-| `conflict_detection.py` | Person 4 | Colab notebook → module. Same rules/embeddings/NLI, now works on real documents |
-| `rag_chat.py` | Person 5 | **Unchanged** |
-| `chat_app.py` | Person 5 | UI wrapped in `main()`; its helpers are reused by the main app. Still runs on its own |
-| `pipeline.py`, `main_app.py`, `evaluation.py` | Person 6's role | New. Replace the stand-alone Gradio notebook (its summary + metric functions were kept) |
-| `sample_contracts/` | – | 3 small test PDFs with known conflicts |
-
 ## 1. Install (once)
 
 You need Python 3.10–3.12 and internet for the first run (models download automatically).
