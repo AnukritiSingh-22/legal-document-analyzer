@@ -1,0 +1,4894 @@
+{
+  "documents": 60,
+  "evidence_retrieval": {
+    "questions": 313,
+    "Recall@3": 0.535,
+    "Recall@5": 0.61,
+    "MRR": 0.72,
+    "gold_text_not_found_in_extraction": 0
+  },
+  "question_answering": {
+    "answerable_questions": 313,
+    "evidence_support_rate": 0.693,
+    "unanswerable_questions": 407,
+    "correct_abstention_rate": 0.391
+  },
+  "citation_accuracy": {
+    "citations": 815,
+    "accurate": 815,
+    "accuracy": 1.0
+  },
+  "annotated_clause_coverage": {
+    "annotated_spans": 1617,
+    "found_in_extracted_clauses": 1616,
+    "recall": 0.999
+  },
+  "legal_information_extraction": {
+    "dates (role-labelled)": {
+      "Precision": 0.469,
+      "Recall": 0.828,
+      "F1": 0.599,
+      "TP": 53,
+      "FP": 60,
+      "FN": 11
+    },
+    "dates recall ignoring role": 0.984,
+    "notice periods (precision is a lower bound)": {
+      "Precision": 0.259,
+      "Recall": 0.5,
+      "F1": 0.341,
+      "TP": 7,
+      "FP": 20,
+      "FN": 7
+    },
+    "parties": {
+      "Precision": 0.487,
+      "Recall": 0.529,
+      "F1": 0.507,
+      "TP": 155,
+      "FP": 163,
+      "FN": 138
+    }
+  },
+  "details": [
+    {
+      "doc": "RevolutionMedicinesInc_20200117_S-1_EX-10.1_11948417_EX-10.1_Development Agreement.pdf",
+      "category": "Governing Law",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00512",
+        "CLAUSE-00443",
+        "CLAUSE-00271"
+      ],
+      "relevant": [
+        "CLAUSE-00512",
+        "CLAUSE-00542"
+      ]
+    },
+    {
+      "doc": "RevolutionMedicinesInc_20200117_S-1_EX-10.1_11948417_EX-10.1_Development Agreement.pdf",
+      "category": "Termination For Convenience",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00521",
+        "CLAUSE-00438",
+        "CLAUSE-00247#3"
+      ],
+      "relevant": [
+        "CLAUSE-00409",
+        "CLAUSE-00411",
+        "CLAUSE-00415",
+        "CLAUSE-00418",
+        "CLAUSE-00426#2"
+      ]
+    },
+    {
+      "doc": "RevolutionMedicinesInc_20200117_S-1_EX-10.1_11948417_EX-10.1_Development Agreement.pdf",
+      "category": "Expiration Date",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00438",
+        "CLAUSE-00419",
+        "CLAUSE-00437#2"
+      ],
+      "relevant": [
+        "CLAUSE-00406",
+        "CLAUSE-00418"
+      ]
+    },
+    {
+      "doc": "RevolutionMedicinesInc_20200117_S-1_EX-10.1_11948417_EX-10.1_Development Agreement.pdf",
+      "category": "Non-Compete",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00023",
+        "CLAUSE-00414",
+        "CLAUSE-00086"
+      ],
+      "relevant": [
+        "CLAUSE-00057",
+        "CLAUSE-00130",
+        "CLAUSE-00237",
+        "CLAUSE-00238",
+        "CLAUSE-00414"
+      ]
+    },
+    {
+      "doc": "RevolutionMedicinesInc_20200117_S-1_EX-10.1_11948417_EX-10.1_Development Agreement.pdf",
+      "category": "Anti-Assignment",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00509",
+        "CLAUSE-00506",
+        "CLAUSE-00508#1"
+      ],
+      "relevant": [
+        "CLAUSE-00004",
+        "CLAUSE-00005",
+        "CLAUSE-00047",
+        "CLAUSE-00141",
+        "CLAUSE-00170"
+      ]
+    },
+    {
+      "doc": "RevolutionMedicinesInc_20200117_S-1_EX-10.1_11948417_EX-10.1_Development Agreement.pdf",
+      "category": "Cap On Liability",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "BLOCK-00483",
+        "CLAUSE-00501",
+        "CLAUSE-00497#3"
+      ],
+      "relevant": [
+        "CLAUSE-00501"
+      ]
+    },
+    {
+      "doc": "RevolutionMedicinesInc_20200117_S-1_EX-10.1_11948417_EX-10.1_Development Agreement.pdf",
+      "category": "Exclusivity",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00367",
+        "CLAUSE-00438",
+        "CLAUSE-00104"
+      ],
+      "relevant": [
+        "CLAUSE-00130",
+        "CLAUSE-00227",
+        "CLAUSE-00229",
+        "CLAUSE-00231",
+        "CLAUSE-00233"
+      ]
+    },
+    {
+      "doc": "RevolutionMedicinesInc_20200117_S-1_EX-10.1_11948417_EX-10.1_Development Agreement.pdf",
+      "category": "Insurance",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "BLOCK-00483",
+        "CLAUSE-00502",
+        "CLAUSE-00446"
+      ],
+      "relevant": [
+        "CLAUSE-00293#2",
+        "CLAUSE-00338#2",
+        "CLAUSE-00374",
+        "CLAUSE-00428#3",
+        "CLAUSE-00502"
+      ]
+    },
+    {
+      "doc": "RevolutionMedicinesInc_20200117_S-1_EX-10.1_11948417_EX-10.1_Development Agreement.pdf",
+      "category": "Audit Rights",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00353",
+        "CLAUSE-00350",
+        "CLAUSE-00351#1"
+      ],
+      "relevant": [
+        "CLAUSE-00019",
+        "CLAUSE-00141",
+        "CLAUSE-00256#4",
+        "CLAUSE-00276",
+        "CLAUSE-00297#2"
+      ]
+    },
+    {
+      "doc": "ScansourceInc_20190822_10-K_EX-10.38_11793958_EX-10.38_Distributor Agreement1.pdf",
+      "category": "Governing Law",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00111",
+        "CLAUSE-00176#9",
+        "CLAUSE-00115"
+      ],
+      "relevant": [
+        "CLAUSE-00111"
+      ]
+    },
+    {
+      "doc": "ScansourceInc_20190822_10-K_EX-10.38_11793958_EX-10.38_Distributor Agreement1.pdf",
+      "category": "Termination For Convenience",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00084",
+        "CLAUSE-00085",
+        "CLAUSE-00115"
+      ],
+      "relevant": [
+        "CLAUSE-00083#1",
+        "CLAUSE-00084",
+        "CLAUSE-00087",
+        "CLAUSE-00096#2",
+        "CLAUSE-00115"
+      ]
+    },
+    {
+      "doc": "ScansourceInc_20190822_10-K_EX-10.38_11793958_EX-10.38_Distributor Agreement1.pdf",
+      "category": "Expiration Date",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00083#1",
+        "CLAUSE-00177",
+        "CLAUSE-00182#1"
+      ],
+      "relevant": [
+        "CLAUSE-00083#1"
+      ]
+    },
+    {
+      "doc": "ScansourceInc_20190822_10-K_EX-10.38_11793958_EX-10.38_Distributor Agreement1.pdf",
+      "category": "Renewal Term",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00083#2",
+        "CLAUSE-00083#1",
+        "CLAUSE-00182#1"
+      ],
+      "relevant": [
+        "CLAUSE-00083#1"
+      ]
+    },
+    {
+      "doc": "ScansourceInc_20190822_10-K_EX-10.38_11793958_EX-10.38_Distributor Agreement1.pdf",
+      "category": "Anti-Assignment",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00176#9",
+        "CLAUSE-00176#5",
+        "CLAUSE-00176#8"
+      ],
+      "relevant": [
+        "CLAUSE-00070",
+        "CLAUSE-00114",
+        "CLAUSE-00134"
+      ]
+    },
+    {
+      "doc": "ScansourceInc_20190822_10-K_EX-10.38_11793958_EX-10.38_Distributor Agreement1.pdf",
+      "category": "Cap On Liability",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00107",
+        "BLOCK-00105#2",
+        "CLAUSE-00104"
+      ],
+      "relevant": [
+        "CLAUSE-00006",
+        "CLAUSE-00037",
+        "CLAUSE-00043",
+        "CLAUSE-00044#1",
+        "CLAUSE-00044#2"
+      ]
+    },
+    {
+      "doc": "ScansourceInc_20190822_10-K_EX-10.38_11793958_EX-10.38_Distributor Agreement1.pdf",
+      "category": "Exclusivity",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "BLOCK-00105#3",
+        "CLAUSE-00073",
+        "CLAUSE-00134"
+      ],
+      "relevant": [
+        "CLAUSE-00081"
+      ]
+    },
+    {
+      "doc": "ScansourceInc_20190822_10-K_EX-10.38_11793958_EX-10.38_Distributor Agreement1.pdf",
+      "category": "Insurance",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00106",
+        "CLAUSE-00107",
+        "CLAUSE-00141"
+      ],
+      "relevant": [
+        "CLAUSE-00106",
+        "CLAUSE-00107"
+      ]
+    },
+    {
+      "doc": "ScansourceInc_20190822_10-K_EX-10.38_11793958_EX-10.38_Distributor Agreement1.pdf",
+      "category": "Audit Rights",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00018#2",
+        "CLAUSE-00117",
+        "BLOCK-00105#2"
+      ],
+      "relevant": [
+        "CLAUSE-00077#1"
+      ]
+    },
+    {
+      "doc": "XinhuaSportsEntertainmentLtd_20070221_F-1_EX-99.4_645553_EX-99.4_Content License Agreement.pdf",
+      "category": "Governing Law",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00084",
+        "CLAUSE-00017",
+        "CLAUSE-00086#1"
+      ],
+      "relevant": [
+        "CLAUSE-00023",
+        "CLAUSE-00074",
+        "CLAUSE-00085",
+        "CLAUSE-00086#1"
+      ]
+    },
+    {
+      "doc": "XinhuaSportsEntertainmentLtd_20070221_F-1_EX-99.4_645553_EX-99.4_Content License Agreement.pdf",
+      "category": "Termination For Convenience",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00070",
+        "CLAUSE-00009",
+        "CLAUSE-00074"
+      ],
+      "relevant": [
+        "CLAUSE-00067",
+        "CLAUSE-00069",
+        "CLAUSE-00070",
+        "CLAUSE-00083"
+      ]
+    },
+    {
+      "doc": "XinhuaSportsEntertainmentLtd_20070221_F-1_EX-99.4_645553_EX-99.4_Content License Agreement.pdf",
+      "category": "Expiration Date",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00009",
+        "CLAUSE-00074",
+        "CLAUSE-00070"
+      ],
+      "relevant": [
+        "CLAUSE-00066"
+      ]
+    },
+    {
+      "doc": "XinhuaSportsEntertainmentLtd_20070221_F-1_EX-99.4_645553_EX-99.4_Content License Agreement.pdf",
+      "category": "Renewal Term",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00008",
+        "CLAUSE-00067",
+        "CLAUSE-00049"
+      ],
+      "relevant": [
+        "CLAUSE-00049",
+        "CLAUSE-00067",
+        "CLAUSE-00069",
+        "CLAUSE-00074"
+      ]
+    },
+    {
+      "doc": "XinhuaSportsEntertainmentLtd_20070221_F-1_EX-99.4_645553_EX-99.4_Content License Agreement.pdf",
+      "category": "Exclusivity",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00057",
+        "CLAUSE-00060",
+        "CLAUSE-00033"
+      ],
+      "relevant": [
+        "CLAUSE-00023",
+        "CLAUSE-00029",
+        "CLAUSE-00030",
+        "CLAUSE-00031",
+        "CLAUSE-00032"
+      ]
+    },
+    {
+      "doc": "SmartRxSystemsInc_20180914_1-A_EX1A-6 MAT CTRCT_11351705_EX1A-6 MAT CTRCT_Distributor Agreement.pdf",
+      "category": "Governing Law",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00028",
+        "CLAUSE-00098",
+        "CLAUSE-00097"
+      ],
+      "relevant": [
+        "CLAUSE-00084",
+        "CLAUSE-00098"
+      ]
+    },
+    {
+      "doc": "SmartRxSystemsInc_20180914_1-A_EX1A-6 MAT CTRCT_11351705_EX1A-6 MAT CTRCT_Distributor Agreement.pdf",
+      "category": "Notice Period To Terminate Renewal",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00085",
+        "CLAUSE-00088",
+        "CLAUSE-00086#1"
+      ],
+      "relevant": [
+        "CLAUSE-00038",
+        "CLAUSE-00084",
+        "CLAUSE-00085"
+      ]
+    },
+    {
+      "doc": "SmartRxSystemsInc_20180914_1-A_EX1A-6 MAT CTRCT_11351705_EX1A-6 MAT CTRCT_Distributor Agreement.pdf",
+      "category": "Expiration Date",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00051#3",
+        "CLAUSE-00038",
+        "CLAUSE-00059"
+      ],
+      "relevant": [
+        "CLAUSE-00038",
+        "CLAUSE-00084",
+        "CLAUSE-00085"
+      ]
+    },
+    {
+      "doc": "SmartRxSystemsInc_20180914_1-A_EX1A-6 MAT CTRCT_11351705_EX1A-6 MAT CTRCT_Distributor Agreement.pdf",
+      "category": "Renewal Term",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00085",
+        "CLAUSE-00084",
+        "CLAUSE-00095"
+      ],
+      "relevant": [
+        "CLAUSE-00038",
+        "CLAUSE-00084",
+        "CLAUSE-00085"
+      ]
+    },
+    {
+      "doc": "SmartRxSystemsInc_20180914_1-A_EX1A-6 MAT CTRCT_11351705_EX1A-6 MAT CTRCT_Distributor Agreement.pdf",
+      "category": "Exclusivity",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00090",
+        "CLAUSE-00012",
+        "CLAUSE-00088"
+      ],
+      "relevant": [
+        "CLAUSE-00004",
+        "CLAUSE-00027",
+        "CLAUSE-00055#1",
+        "CLAUSE-00063"
+      ]
+    },
+    {
+      "doc": "SmartRxSystemsInc_20180914_1-A_EX1A-6 MAT CTRCT_11351705_EX1A-6 MAT CTRCT_Distributor Agreement.pdf",
+      "category": "Insurance",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00029",
+        "CLAUSE-00065",
+        "CLAUSE-00090"
+      ],
+      "relevant": [
+        "CLAUSE-00027",
+        "CLAUSE-00028",
+        "CLAUSE-00029"
+      ]
+    },
+    {
+      "doc": "SmartRxSystemsInc_20180914_1-A_EX1A-6 MAT CTRCT_11351705_EX1A-6 MAT CTRCT_Distributor Agreement.pdf",
+      "category": "Audit Rights",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00045",
+        "CLAUSE-00099",
+        "CLAUSE-00105"
+      ],
+      "relevant": [
+        "CLAUSE-00045"
+      ]
+    },
+    {
+      "doc": "PhoenixNewMediaLtd_20110421_F-1_EX-10.17_6958322_EX-10.17_Content License Agreement.pdf",
+      "category": "Governing Law",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00053",
+        "CLAUSE-00054#2",
+        "CLAUSE-00054#1"
+      ],
+      "relevant": [
+        "CLAUSE-00053"
+      ]
+    },
+    {
+      "doc": "PhoenixNewMediaLtd_20110421_F-1_EX-10.17_6958322_EX-10.17_Content License Agreement.pdf",
+      "category": "Expiration Date",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00049",
+        "CLAUSE-00047",
+        "CLAUSE-00042"
+      ],
+      "relevant": [
+        "CLAUSE-00050"
+      ]
+    },
+    {
+      "doc": "PhoenixNewMediaLtd_20110421_F-1_EX-10.17_6958322_EX-10.17_Content License Agreement.pdf",
+      "category": "Anti-Assignment",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00056",
+        "CLAUSE-00018",
+        "CLAUSE-00061#1"
+      ],
+      "relevant": [
+        "CLAUSE-00056"
+      ]
+    },
+    {
+      "doc": "PhoenixNewMediaLtd_20110421_F-1_EX-10.17_6958322_EX-10.17_Content License Agreement.pdf",
+      "category": "Exclusivity",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00058",
+        "CLAUSE-00056",
+        "CLAUSE-00057"
+      ],
+      "relevant": [
+        "CLAUSE-00018"
+      ]
+    },
+    {
+      "doc": "AlliedEsportsEntertainmentInc_20190815_8-K_EX-10.19_11788293_EX-10.19_Content License Agreement.pdf",
+      "category": "Governing Law",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00017#5",
+        "CLAUSE-00017#4",
+        "CLAUSE-00013#1"
+      ],
+      "relevant": [
+        "CLAUSE-00017#5"
+      ]
+    },
+    {
+      "doc": "AlliedEsportsEntertainmentInc_20190815_8-K_EX-10.19_11788293_EX-10.19_Content License Agreement.pdf",
+      "category": "Expiration Date",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00013#2",
+        "CLAUSE-00004",
+        "CLAUSE-00013#1"
+      ],
+      "relevant": [
+        "CLAUSE-00004"
+      ]
+    },
+    {
+      "doc": "AlliedEsportsEntertainmentInc_20190815_8-K_EX-10.19_11788293_EX-10.19_Content License Agreement.pdf",
+      "category": "Renewal Term",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00004",
+        "CLAUSE-00017#7",
+        "CLAUSE-00017#4"
+      ],
+      "relevant": [
+        "CLAUSE-00004"
+      ]
+    },
+    {
+      "doc": "AlliedEsportsEntertainmentInc_20190815_8-K_EX-10.19_11788293_EX-10.19_Content License Agreement.pdf",
+      "category": "Non-Compete",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00008#10",
+        "CLAUSE-00008#2",
+        "CLAUSE-00015"
+      ],
+      "relevant": [
+        "CLAUSE-00008#10"
+      ]
+    },
+    {
+      "doc": "AlliedEsportsEntertainmentInc_20190815_8-K_EX-10.19_11788293_EX-10.19_Content License Agreement.pdf",
+      "category": "Anti-Assignment",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00017#6",
+        "CLAUSE-00008#11",
+        "CLAUSE-00017#5"
+      ],
+      "relevant": [
+        "CLAUSE-00017#6"
+      ]
+    },
+    {
+      "doc": "AlliedEsportsEntertainmentInc_20190815_8-K_EX-10.19_11788293_EX-10.19_Content License Agreement.pdf",
+      "category": "Cap On Liability",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00010#1",
+        "CLAUSE-00010#3",
+        "CLAUSE-00010#4"
+      ],
+      "relevant": [
+        "CLAUSE-00010#4"
+      ]
+    },
+    {
+      "doc": "AlliedEsportsEntertainmentInc_20190815_8-K_EX-10.19_11788293_EX-10.19_Content License Agreement.pdf",
+      "category": "Insurance",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00017#1",
+        "CLAUSE-00010#1",
+        "CLAUSE-00012#2"
+      ],
+      "relevant": [
+        "CLAUSE-00017#1"
+      ]
+    },
+    {
+      "doc": "AlliedEsportsEntertainmentInc_20190815_8-K_EX-10.19_11788293_EX-10.19_Content License Agreement.pdf",
+      "category": "Audit Rights",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00009#6",
+        "CLAUSE-00008#11",
+        "CLAUSE-00017#6"
+      ],
+      "relevant": [
+        "CLAUSE-00009#6"
+      ]
+    },
+    {
+      "doc": "PenntexMidstreamPartnersLp_20150416_S-1A_EX-10.4_9042833_EX-10.4_Transportation Agreement.pdf",
+      "category": "Governing Law",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "BLOCK-00024#3",
+        "BLOCK-00024#4",
+        "BLOCK-00024#5"
+      ],
+      "relevant": [
+        "BLOCK-00024#3",
+        "BLOCK-00024#4"
+      ]
+    },
+    {
+      "doc": "PenntexMidstreamPartnersLp_20150416_S-1A_EX-10.4_9042833_EX-10.4_Transportation Agreement.pdf",
+      "category": "Notice Period To Terminate Renewal",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00025#1",
+        "BLOCK-00024#10",
+        "BLOCK-00015#1"
+      ],
+      "relevant": [
+        "CLAUSE-00025#1"
+      ]
+    },
+    {
+      "doc": "PenntexMidstreamPartnersLp_20150416_S-1A_EX-10.4_9042833_EX-10.4_Transportation Agreement.pdf",
+      "category": "Expiration Date",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "BLOCK-00024#10",
+        "CLAUSE-00025#1",
+        "BLOCK-00024#9"
+      ],
+      "relevant": [
+        "CLAUSE-00025#1"
+      ]
+    },
+    {
+      "doc": "PenntexMidstreamPartnersLp_20150416_S-1A_EX-10.4_9042833_EX-10.4_Transportation Agreement.pdf",
+      "category": "Renewal Term",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00025#1",
+        "BLOCK-00024#10",
+        "BLOCK-00024#2"
+      ],
+      "relevant": [
+        "CLAUSE-00025#1"
+      ]
+    },
+    {
+      "doc": "PenntexMidstreamPartnersLp_20150416_S-1A_EX-10.4_9042833_EX-10.4_Transportation Agreement.pdf",
+      "category": "Anti-Assignment",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "BLOCK-00024#6",
+        "BLOCK-00024#5",
+        "BLOCK-00024#7"
+      ],
+      "relevant": [
+        "BLOCK-00024#5"
+      ]
+    },
+    {
+      "doc": "PenntexMidstreamPartnersLp_20150416_S-1A_EX-10.4_9042833_EX-10.4_Transportation Agreement.pdf",
+      "category": "Cap On Liability",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "BLOCK-00019#3",
+        "BLOCK-00019#1",
+        "BLOCK-00019#2"
+      ],
+      "relevant": [
+        "BLOCK-00019#3"
+      ]
+    },
+    {
+      "doc": "PenntexMidstreamPartnersLp_20150416_S-1A_EX-10.4_9042833_EX-10.4_Transportation Agreement.pdf",
+      "category": "Exclusivity",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "BLOCK-00024#7",
+        "BLOCK-00024#5",
+        "BLOCK-00016#3"
+      ],
+      "relevant": [
+        "BLOCK-00002#2",
+        "BLOCK-00002#19"
+      ]
+    },
+    {
+      "doc": "PenntexMidstreamPartnersLp_20150416_S-1A_EX-10.4_9042833_EX-10.4_Transportation Agreement.pdf",
+      "category": "Audit Rights",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00014#4",
+        "BLOCK-00024#8",
+        "BLOCK-00024#2"
+      ],
+      "relevant": [
+        "CLAUSE-00014#4"
+      ]
+    },
+    {
+      "doc": "VgrabCommunicationsInc_20200129_10-K_EX-10.33_11958828_EX-10.33_Development Agreement.pdf",
+      "category": "Governing Law",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00030",
+        "CLAUSE-00027",
+        "BLOCK-00001#4"
+      ],
+      "relevant": [
+        "CLAUSE-00030"
+      ]
+    },
+    {
+      "doc": "VgrabCommunicationsInc_20200129_10-K_EX-10.33_11958828_EX-10.33_Development Agreement.pdf",
+      "category": "Termination For Convenience",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00028",
+        "CLAUSE-00029",
+        "CLAUSE-00027"
+      ],
+      "relevant": [
+        "CLAUSE-00028"
+      ]
+    },
+    {
+      "doc": "VgrabCommunicationsInc_20200129_10-K_EX-10.33_11958828_EX-10.33_Development Agreement.pdf",
+      "category": "Expiration Date",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00029",
+        "CLAUSE-00004",
+        "CLAUSE-00028"
+      ],
+      "relevant": [
+        "CLAUSE-00004",
+        "CLAUSE-00029"
+      ]
+    },
+    {
+      "doc": "CerenceInc_20191002_8-K_EX-10.4_11827494_EX-10.4_Intellectual Property Agreement.pdf",
+      "category": "Governing Law",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00050#2",
+        "CLAUSE-00050#6",
+        "CLAUSE-00050#14"
+      ],
+      "relevant": [
+        "CLAUSE-00050#2",
+        "CLAUSE-00050#4"
+      ]
+    },
+    {
+      "doc": "CerenceInc_20191002_8-K_EX-10.4_11827494_EX-10.4_Intellectual Property Agreement.pdf",
+      "category": "Termination For Convenience",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "BLOCK-00041#1",
+        "BLOCK-00041#2",
+        "CLAUSE-00050#7"
+      ],
+      "relevant": [
+        "BLOCK-00041#1"
+      ]
+    },
+    {
+      "doc": "CerenceInc_20191002_8-K_EX-10.4_11827494_EX-10.4_Intellectual Property Agreement.pdf",
+      "category": "Anti-Assignment",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "BLOCK-00040#2",
+        "BLOCK-00040#1",
+        "BLOCK-00040#3"
+      ],
+      "relevant": [
+        "BLOCK-00015#4",
+        "BLOCK-00040#1",
+        "BLOCK-00040#2",
+        "CLAUSE-00044"
+      ]
+    },
+    {
+      "doc": "CerenceInc_20191002_8-K_EX-10.4_11827494_EX-10.4_Intellectual Property Agreement.pdf",
+      "category": "Cap On Liability",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "BLOCK-00039#1",
+        "BLOCK-00008",
+        "CLAUSE-00050#17"
+      ],
+      "relevant": [
+        "BLOCK-00004",
+        "BLOCK-00005",
+        "BLOCK-00016",
+        "BLOCK-00026",
+        "BLOCK-00039#1"
+      ]
+    },
+    {
+      "doc": "GpaqAcquisitionHoldingsInc_20200123_S-4A_EX-10.8_11951679_EX-10.8_Service Agreement.pdf",
+      "category": "Governing Law",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00079#1",
+        "CLAUSE-00070#3",
+        "CLAUSE-00094"
+      ],
+      "relevant": [
+        "CLAUSE-00079#1",
+        "CLAUSE-00087#1"
+      ]
+    },
+    {
+      "doc": "GpaqAcquisitionHoldingsInc_20200123_S-4A_EX-10.8_11951679_EX-10.8_Service Agreement.pdf",
+      "category": "Expiration Date",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00041",
+        "CLAUSE-00055#1",
+        "CLAUSE-00094"
+      ],
+      "relevant": [
+        "CLAUSE-00041",
+        "CLAUSE-00050#2"
+      ]
+    },
+    {
+      "doc": "GpaqAcquisitionHoldingsInc_20200123_S-4A_EX-10.8_11951679_EX-10.8_Service Agreement.pdf",
+      "category": "Anti-Assignment",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00076",
+        "CLAUSE-00048",
+        "CLAUSE-00095"
+      ],
+      "relevant": [
+        "CLAUSE-00054",
+        "CLAUSE-00058",
+        "CLAUSE-00063",
+        "CLAUSE-00065",
+        "CLAUSE-00076"
+      ]
+    },
+    {
+      "doc": "GpaqAcquisitionHoldingsInc_20200123_S-4A_EX-10.8_11951679_EX-10.8_Service Agreement.pdf",
+      "category": "Exclusivity",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00097#1",
+        "CLAUSE-00017#1",
+        "CLAUSE-00062"
+      ],
+      "relevant": [
+        "CLAUSE-00017#1",
+        "CLAUSE-00025#3",
+        "CLAUSE-00058",
+        "CLAUSE-00063",
+        "CLAUSE-00097#1"
+      ]
+    },
+    {
+      "doc": "GpaqAcquisitionHoldingsInc_20200123_S-4A_EX-10.8_11951679_EX-10.8_Service Agreement.pdf",
+      "category": "Insurance",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00086#1",
+        "CLAUSE-00086#2",
+        "CLAUSE-00025#3"
+      ],
+      "relevant": [
+        "CLAUSE-00058",
+        "CLAUSE-00086#1",
+        "CLAUSE-00086#2"
+      ]
+    },
+    {
+      "doc": "GpaqAcquisitionHoldingsInc_20200123_S-4A_EX-10.8_11951679_EX-10.8_Service Agreement.pdf",
+      "category": "Audit Rights",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00050#3",
+        "CLAUSE-00059",
+        "CLAUSE-00060"
+      ],
+      "relevant": [
+        "CLAUSE-00050#3",
+        "CLAUSE-00058"
+      ]
+    },
+    {
+      "doc": "IntegrityFunds_20200121_485BPOS_EX-99.E UNDR CONTR_11948727_EX-99.E UNDR CONTR_Service Agreement.pdf",
+      "category": "Governing Law",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "BLOCK-00020#2",
+        "BLOCK-00020#1",
+        "BLOCK-00018#2"
+      ],
+      "relevant": [
+        "BLOCK-00002#5",
+        "BLOCK-00011#2",
+        "BLOCK-00012",
+        "BLOCK-00020#1"
+      ]
+    },
+    {
+      "doc": "IntegrityFunds_20200121_485BPOS_EX-99.E UNDR CONTR_11948727_EX-99.E UNDR CONTR_Service Agreement.pdf",
+      "category": "Expiration Date",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "BLOCK-00018#2",
+        "BLOCK-00010#3",
+        "BLOCK-00001"
+      ],
+      "relevant": [
+        "BLOCK-00018#1"
+      ]
+    },
+    {
+      "doc": "IntegrityFunds_20200121_485BPOS_EX-99.E UNDR CONTR_11948727_EX-99.E UNDR CONTR_Service Agreement.pdf",
+      "category": "Renewal Term",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "BLOCK-00018#2",
+        "BLOCK-00018#1",
+        "BLOCK-00001"
+      ],
+      "relevant": [
+        "BLOCK-00018#1"
+      ]
+    },
+    {
+      "doc": "IntegrityFunds_20200121_485BPOS_EX-99.E UNDR CONTR_11948727_EX-99.E UNDR CONTR_Service Agreement.pdf",
+      "category": "Anti-Assignment",
+      "answered": false,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "BLOCK-00011#8",
+        "BLOCK-00011#9",
+        "BLOCK-00018#2"
+      ],
+      "relevant": [
+        "BLOCK-00002#5",
+        "BLOCK-00018#1",
+        "BLOCK-00018#2"
+      ]
+    },
+    {
+      "doc": "IntegrityFunds_20200121_485BPOS_EX-99.E UNDR CONTR_11948727_EX-99.E UNDR CONTR_Service Agreement.pdf",
+      "category": "Audit Rights",
+      "answered": false,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "BLOCK-00011#8",
+        "BLOCK-00011#9",
+        "BLOCK-00010#4"
+      ],
+      "relevant": [
+        "BLOCK-00009#2"
+      ]
+    },
+    {
+      "doc": "RangeResourcesLouisianaInc_20150417_8-K_EX-10.5_9045501_EX-10.5_Transportation Agreement.pdf",
+      "category": "Governing Law",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00082",
+        "CLAUSE-00071",
+        "CLAUSE-00054"
+      ],
+      "relevant": [
+        "CLAUSE-00082",
+        "CLAUSE-00089"
+      ]
+    },
+    {
+      "doc": "RangeResourcesLouisianaInc_20150417_8-K_EX-10.5_9045501_EX-10.5_Transportation Agreement.pdf",
+      "category": "Notice Period To Terminate Renewal",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00004",
+        "CLAUSE-00042",
+        "CLAUSE-00015#4"
+      ],
+      "relevant": [
+        "CLAUSE-00004"
+      ]
+    },
+    {
+      "doc": "RangeResourcesLouisianaInc_20150417_8-K_EX-10.5_9045501_EX-10.5_Transportation Agreement.pdf",
+      "category": "Expiration Date",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00004",
+        "CLAUSE-00087",
+        "CLAUSE-00030"
+      ],
+      "relevant": [
+        "CLAUSE-00004"
+      ]
+    },
+    {
+      "doc": "RangeResourcesLouisianaInc_20150417_8-K_EX-10.5_9045501_EX-10.5_Transportation Agreement.pdf",
+      "category": "Renewal Term",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00004",
+        "BLOCK-00002#2",
+        "CLAUSE-00084"
+      ],
+      "relevant": [
+        "CLAUSE-00004"
+      ]
+    },
+    {
+      "doc": "RangeResourcesLouisianaInc_20150417_8-K_EX-10.5_9045501_EX-10.5_Transportation Agreement.pdf",
+      "category": "Anti-Assignment",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00074#2",
+        "CLAUSE-00073",
+        "CLAUSE-00074#3"
+      ],
+      "relevant": [
+        "CLAUSE-00057",
+        "CLAUSE-00073"
+      ]
+    },
+    {
+      "doc": "RangeResourcesLouisianaInc_20150417_8-K_EX-10.5_9045501_EX-10.5_Transportation Agreement.pdf",
+      "category": "Cap On Liability",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00122",
+        "CLAUSE-00155",
+        "CLAUSE-00140#4"
+      ],
+      "relevant": [
+        "BLOCK-00038#1"
+      ]
+    },
+    {
+      "doc": "RangeResourcesLouisianaInc_20150417_8-K_EX-10.5_9045501_EX-10.5_Transportation Agreement.pdf",
+      "category": "Audit Rights",
+      "answered": false,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00015#6",
+        "CLAUSE-00015#5",
+        "CLAUSE-00055"
+      ],
+      "relevant": [
+        "CLAUSE-00015#5"
+      ]
+    },
+    {
+      "doc": "MphaseTechnologiesInc_20030911_10-K_EX-10.15_1560667_EX-10.15_Co-Branding Agreement.pdf",
+      "category": "Governing Law",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00016",
+        "CLAUSE-00017#1",
+        "CLAUSE-00007"
+      ],
+      "relevant": [
+        "CLAUSE-00016"
+      ]
+    },
+    {
+      "doc": "MphaseTechnologiesInc_20030911_10-K_EX-10.15_1560667_EX-10.15_Co-Branding Agreement.pdf",
+      "category": "Termination For Convenience",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00012",
+        "CLAUSE-00007",
+        "CLAUSE-00013"
+      ],
+      "relevant": [
+        "CLAUSE-00012"
+      ]
+    },
+    {
+      "doc": "MphaseTechnologiesInc_20030911_10-K_EX-10.15_1560667_EX-10.15_Co-Branding Agreement.pdf",
+      "category": "Expiration Date",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00012",
+        "CLAUSE-00007",
+        "CLAUSE-00013"
+      ],
+      "relevant": [
+        "CLAUSE-00012"
+      ]
+    },
+    {
+      "doc": "MphaseTechnologiesInc_20030911_10-K_EX-10.15_1560667_EX-10.15_Co-Branding Agreement.pdf",
+      "category": "Renewal Term",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00012",
+        "CLAUSE-00017#1",
+        "CLAUSE-00007"
+      ],
+      "relevant": [
+        "CLAUSE-00012",
+        "CLAUSE-00015"
+      ]
+    },
+    {
+      "doc": "MphaseTechnologiesInc_20030911_10-K_EX-10.15_1560667_EX-10.15_Co-Branding Agreement.pdf",
+      "category": "Anti-Assignment",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00015",
+        "CLAUSE-00014",
+        "CLAUSE-00012"
+      ],
+      "relevant": [
+        "CLAUSE-00006",
+        "CLAUSE-00011",
+        "CLAUSE-00012",
+        "CLAUSE-00015"
+      ]
+    },
+    {
+      "doc": "MphaseTechnologiesInc_20030911_10-K_EX-10.15_1560667_EX-10.15_Co-Branding Agreement.pdf",
+      "category": "Cap On Liability",
+      "answered": false,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00014",
+        "CLAUSE-00007",
+        "BLOCK-00001#2"
+      ],
+      "relevant": [
+        "CLAUSE-00014"
+      ]
+    },
+    {
+      "doc": "ArconicRolledProductsCorp_20191217_10-12B_EX-2.7_11923804_EX-2.7_Trademark License Agreement.pdf",
+      "category": "Governing Law",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00022",
+        "CLAUSE-00030",
+        "CLAUSE-00023#1"
+      ],
+      "relevant": [
+        "CLAUSE-00020#1",
+        "CLAUSE-00022"
+      ]
+    },
+    {
+      "doc": "ArconicRolledProductsCorp_20191217_10-12B_EX-2.7_11923804_EX-2.7_Trademark License Agreement.pdf",
+      "category": "Expiration Date",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00011",
+        "CLAUSE-00012",
+        "CLAUSE-00013"
+      ],
+      "relevant": [
+        "CLAUSE-00012"
+      ]
+    },
+    {
+      "doc": "ArconicRolledProductsCorp_20191217_10-12B_EX-2.7_11923804_EX-2.7_Trademark License Agreement.pdf",
+      "category": "Anti-Assignment",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00031",
+        "CLAUSE-00028",
+        "CLAUSE-00013"
+      ],
+      "relevant": [
+        "CLAUSE-00031"
+      ]
+    },
+    {
+      "doc": "ArconicRolledProductsCorp_20191217_10-12B_EX-2.7_11923804_EX-2.7_Trademark License Agreement.pdf",
+      "category": "Audit Rights",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00007#2",
+        "CLAUSE-00007#3",
+        "CLAUSE-00009"
+      ],
+      "relevant": [
+        "CLAUSE-00007#1",
+        "CLAUSE-00007#2"
+      ]
+    },
+    {
+      "doc": "EcoScienceSolutionsInc_20180406_8-K_EX-10.1_11135398_EX-10.1_Sponsorship Agreement.pdf",
+      "category": "Governing Law",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "BLOCK-00001#8",
+        "BLOCK-00001#7",
+        "BLOCK-00001#4"
+      ],
+      "relevant": [
+        "BLOCK-00001#7",
+        "BLOCK-00001#8"
+      ]
+    },
+    {
+      "doc": "EcoScienceSolutionsInc_20180406_8-K_EX-10.1_11135398_EX-10.1_Sponsorship Agreement.pdf",
+      "category": "Expiration Date",
+      "answered": false,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "BLOCK-00001#2",
+        "BLOCK-00001#9",
+        "BLOCK-00001#8"
+      ],
+      "relevant": [
+        "BLOCK-00001#2"
+      ]
+    },
+    {
+      "doc": "EcoScienceSolutionsInc_20180406_8-K_EX-10.1_11135398_EX-10.1_Sponsorship Agreement.pdf",
+      "category": "Anti-Assignment",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "BLOCK-00001#8",
+        "BLOCK-00001#5",
+        "BLOCK-00001#3"
+      ],
+      "relevant": [
+        "BLOCK-00001#8"
+      ]
+    },
+    {
+      "doc": "EcoScienceSolutionsInc_20180406_8-K_EX-10.1_11135398_EX-10.1_Sponsorship Agreement.pdf",
+      "category": "Insurance",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "BLOCK-00001#6",
+        "BLOCK-00001#4",
+        "BLOCK-00001#8"
+      ],
+      "relevant": [
+        "BLOCK-00001#6"
+      ]
+    },
+    {
+      "doc": "MidwestEnergyEmissionsCorp_20080604_8-K_EX-10.2_3093976_EX-10.2_Content License Agreement.pdf",
+      "category": "Governing Law",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00029#1",
+        "CLAUSE-00029#2",
+        "CLAUSE-00030"
+      ],
+      "relevant": [
+        "CLAUSE-00029#1"
+      ]
+    },
+    {
+      "doc": "MidwestEnergyEmissionsCorp_20080604_8-K_EX-10.2_3093976_EX-10.2_Content License Agreement.pdf",
+      "category": "Termination For Convenience",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00013",
+        "CLAUSE-00014",
+        "CLAUSE-00015#5"
+      ],
+      "relevant": [
+        "CLAUSE-00013"
+      ]
+    },
+    {
+      "doc": "MidwestEnergyEmissionsCorp_20080604_8-K_EX-10.2_3093976_EX-10.2_Content License Agreement.pdf",
+      "category": "Notice Period To Terminate Renewal",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00013",
+        "CLAUSE-00010",
+        "CLAUSE-00011"
+      ],
+      "relevant": [
+        "CLAUSE-00010",
+        "CLAUSE-00011"
+      ]
+    },
+    {
+      "doc": "MidwestEnergyEmissionsCorp_20080604_8-K_EX-10.2_3093976_EX-10.2_Content License Agreement.pdf",
+      "category": "Expiration Date",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00013",
+        "CLAUSE-00014",
+        "CLAUSE-00010"
+      ],
+      "relevant": [
+        "CLAUSE-00009"
+      ]
+    },
+    {
+      "doc": "MidwestEnergyEmissionsCorp_20080604_8-K_EX-10.2_3093976_EX-10.2_Content License Agreement.pdf",
+      "category": "Renewal Term",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00010",
+        "CLAUSE-00011",
+        "CLAUSE-00009"
+      ],
+      "relevant": [
+        "CLAUSE-00010",
+        "CLAUSE-00011"
+      ]
+    },
+    {
+      "doc": "MidwestEnergyEmissionsCorp_20080604_8-K_EX-10.2_3093976_EX-10.2_Content License Agreement.pdf",
+      "category": "Cap On Liability",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00027#6",
+        "CLAUSE-00027#2",
+        "CLAUSE-00027#4"
+      ],
+      "relevant": [
+        "CLAUSE-00008#2",
+        "CLAUSE-00027#6"
+      ]
+    },
+    {
+      "doc": "MidwestEnergyEmissionsCorp_20080604_8-K_EX-10.2_3093976_EX-10.2_Content License Agreement.pdf",
+      "category": "Exclusivity",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00022",
+        "CLAUSE-00003#4",
+        "CLAUSE-00014"
+      ],
+      "relevant": [
+        "CLAUSE-00002#2"
+      ]
+    },
+    {
+      "doc": "MidwestEnergyEmissionsCorp_20080604_8-K_EX-10.2_3093976_EX-10.2_Content License Agreement.pdf",
+      "category": "Audit Rights",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00007#1",
+        "CLAUSE-00015#3",
+        "CLAUSE-00015#5"
+      ],
+      "relevant": [
+        "CLAUSE-00007#1"
+      ]
+    },
+    {
+      "doc": "AzulSa_20170303_F-1A_EX-10.3_9943903_EX-10.3_Maintenance Agreement1.pdf",
+      "category": "Governing Law",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00243",
+        "CLAUSE-00212",
+        "CLAUSE-00184"
+      ],
+      "relevant": [
+        "CLAUSE-00002",
+        "CLAUSE-00006",
+        "CLAUSE-00049",
+        "CLAUSE-00050",
+        "CLAUSE-00066"
+      ]
+    },
+    {
+      "doc": "AzulSa_20170303_F-1A_EX-10.3_9943903_EX-10.3_Maintenance Agreement1.pdf",
+      "category": "Termination For Convenience",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00187",
+        "CLAUSE-00167",
+        "CLAUSE-00058"
+      ],
+      "relevant": [
+        "CLAUSE-00002",
+        "CLAUSE-00032#1",
+        "CLAUSE-00032#3",
+        "CLAUSE-00032#4",
+        "CLAUSE-00039#1"
+      ]
+    },
+    {
+      "doc": "AzulSa_20170303_F-1A_EX-10.3_9943903_EX-10.3_Maintenance Agreement1.pdf",
+      "category": "Notice Period To Terminate Renewal",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00056",
+        "CLAUSE-00058",
+        "CLAUSE-00004"
+      ],
+      "relevant": [
+        "CLAUSE-00039#1",
+        "CLAUSE-00039#2",
+        "CLAUSE-00058",
+        "CLAUSE-00157",
+        "CLAUSE-00452#2"
+      ]
+    },
+    {
+      "doc": "AzulSa_20170303_F-1A_EX-10.3_9943903_EX-10.3_Maintenance Agreement1.pdf",
+      "category": "Expiration Date",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00058",
+        "CLAUSE-00216",
+        "CLAUSE-00059"
+      ],
+      "relevant": [
+        "CLAUSE-00036#3",
+        "CLAUSE-00037",
+        "CLAUSE-00038",
+        "CLAUSE-00039#1",
+        "CLAUSE-00039#2"
+      ]
+    },
+    {
+      "doc": "AzulSa_20170303_F-1A_EX-10.3_9943903_EX-10.3_Maintenance Agreement1.pdf",
+      "category": "Renewal Term",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00056",
+        "CLAUSE-00038",
+        "CLAUSE-00058"
+      ],
+      "relevant": [
+        "CLAUSE-00039#1",
+        "CLAUSE-00039#2",
+        "CLAUSE-00058",
+        "CLAUSE-00157",
+        "CLAUSE-00452#2"
+      ]
+    },
+    {
+      "doc": "AzulSa_20170303_F-1A_EX-10.3_9943903_EX-10.3_Maintenance Agreement1.pdf",
+      "category": "Anti-Assignment",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00222",
+        "CLAUSE-00220",
+        "CLAUSE-00321"
+      ],
+      "relevant": [
+        "CLAUSE-00002",
+        "CLAUSE-00006",
+        "CLAUSE-00039#1",
+        "CLAUSE-00046#2",
+        "CLAUSE-00066"
+      ]
+    },
+    {
+      "doc": "AzulSa_20170303_F-1A_EX-10.3_9943903_EX-10.3_Maintenance Agreement1.pdf",
+      "category": "Cap On Liability",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00162",
+        "CLAUSE-00016",
+        "CLAUSE-00165"
+      ],
+      "relevant": [
+        "CLAUSE-00002",
+        "CLAUSE-00079",
+        "CLAUSE-00081",
+        "CLAUSE-00128",
+        "CLAUSE-00163"
+      ]
+    },
+    {
+      "doc": "AzulSa_20170303_F-1A_EX-10.3_9943903_EX-10.3_Maintenance Agreement1.pdf",
+      "category": "Exclusivity",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00079",
+        "CLAUSE-00078",
+        "CLAUSE-00299"
+      ],
+      "relevant": [
+        "CLAUSE-00025#1",
+        "CLAUSE-00039#1",
+        "CLAUSE-00039#2",
+        "CLAUSE-00046#1",
+        "CLAUSE-00046#2"
+      ]
+    },
+    {
+      "doc": "AzulSa_20170303_F-1A_EX-10.3_9943903_EX-10.3_Maintenance Agreement1.pdf",
+      "category": "Insurance",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00115",
+        "CLAUSE-00112#1",
+        "CLAUSE-00114"
+      ],
+      "relevant": [
+        "CLAUSE-00016",
+        "CLAUSE-00036#3",
+        "CLAUSE-00039#1",
+        "CLAUSE-00039#2",
+        "CLAUSE-00046#2"
+      ]
+    },
+    {
+      "doc": "AzulSa_20170303_F-1A_EX-10.3_9943903_EX-10.3_Maintenance Agreement1.pdf",
+      "category": "Audit Rights",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00072",
+        "CLAUSE-00071",
+        "CLAUSE-00265#1"
+      ],
+      "relevant": [
+        "CLAUSE-00002",
+        "CLAUSE-00039#1",
+        "CLAUSE-00039#2",
+        "CLAUSE-00046#2",
+        "CLAUSE-00066"
+      ]
+    },
+    {
+      "doc": "HfEnterprisesInc_20191223_S-1_EX-10.22_11931299_EX-10.22_Development Agreement.pdf",
+      "category": "Governing Law",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00014#2",
+        "CLAUSE-00013#3",
+        "CLAUSE-00005#2"
+      ],
+      "relevant": [
+        "CLAUSE-00014#2"
+      ]
+    },
+    {
+      "doc": "HfEnterprisesInc_20191223_S-1_EX-10.22_11931299_EX-10.22_Development Agreement.pdf",
+      "category": "Termination For Convenience",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00003",
+        "CLAUSE-00013#3",
+        "CLAUSE-00013#2"
+      ],
+      "relevant": [
+        "CLAUSE-00004#1"
+      ]
+    },
+    {
+      "doc": "HfEnterprisesInc_20191223_S-1_EX-10.22_11931299_EX-10.22_Development Agreement.pdf",
+      "category": "Notice Period To Terminate Renewal",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00003",
+        "CLAUSE-00013#6",
+        "CLAUSE-00004#2"
+      ],
+      "relevant": [
+        "CLAUSE-00003"
+      ]
+    },
+    {
+      "doc": "HfEnterprisesInc_20191223_S-1_EX-10.22_11931299_EX-10.22_Development Agreement.pdf",
+      "category": "Expiration Date",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00003",
+        "CLAUSE-00004#2",
+        "CLAUSE-00019"
+      ],
+      "relevant": [
+        "CLAUSE-00003"
+      ]
+    },
+    {
+      "doc": "HfEnterprisesInc_20191223_S-1_EX-10.22_11931299_EX-10.22_Development Agreement.pdf",
+      "category": "Renewal Term",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00003",
+        "CLAUSE-00004#2",
+        "CLAUSE-00007"
+      ],
+      "relevant": [
+        "CLAUSE-00003"
+      ]
+    },
+    {
+      "doc": "HfEnterprisesInc_20191223_S-1_EX-10.22_11931299_EX-10.22_Development Agreement.pdf",
+      "category": "Anti-Assignment",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00013#1",
+        "CLAUSE-00013#5",
+        "CLAUSE-00005#2"
+      ],
+      "relevant": [
+        "CLAUSE-00012#2",
+        "CLAUSE-00013#1",
+        "CLAUSE-00013#2"
+      ]
+    },
+    {
+      "doc": "TubeMediaCorp_20060310_8-K_EX-10.1_513921_EX-10.1_Affiliate Agreement.pdf",
+      "category": "Governing Law",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00063",
+        "CLAUSE-00062#2",
+        "CLAUSE-00060#3"
+      ],
+      "relevant": [
+        "CLAUSE-00063"
+      ]
+    },
+    {
+      "doc": "TubeMediaCorp_20060310_8-K_EX-10.1_513921_EX-10.1_Affiliate Agreement.pdf",
+      "category": "Termination For Convenience",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00065#2",
+        "CLAUSE-00058",
+        "CLAUSE-00055"
+      ],
+      "relevant": [
+        "CLAUSE-00056"
+      ]
+    },
+    {
+      "doc": "TubeMediaCorp_20060310_8-K_EX-10.1_513921_EX-10.1_Affiliate Agreement.pdf",
+      "category": "Notice Period To Terminate Renewal",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00004",
+        "CLAUSE-00005",
+        "CLAUSE-00003"
+      ],
+      "relevant": [
+        "CLAUSE-00004",
+        "CLAUSE-00005"
+      ]
+    },
+    {
+      "doc": "TubeMediaCorp_20060310_8-K_EX-10.1_513921_EX-10.1_Affiliate Agreement.pdf",
+      "category": "Expiration Date",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00003",
+        "CLAUSE-00006",
+        "CLAUSE-00036"
+      ],
+      "relevant": [
+        "CLAUSE-00003"
+      ]
+    },
+    {
+      "doc": "TubeMediaCorp_20060310_8-K_EX-10.1_513921_EX-10.1_Affiliate Agreement.pdf",
+      "category": "Renewal Term",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00005",
+        "CLAUSE-00003",
+        "CLAUSE-00004"
+      ],
+      "relevant": [
+        "CLAUSE-00004",
+        "CLAUSE-00005",
+        "CLAUSE-00006"
+      ]
+    },
+    {
+      "doc": "TubeMediaCorp_20060310_8-K_EX-10.1_513921_EX-10.1_Affiliate Agreement.pdf",
+      "category": "Non-Compete",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00012",
+        "CLAUSE-00065#1",
+        "CLAUSE-00011#2"
+      ],
+      "relevant": [
+        "CLAUSE-00044#1"
+      ]
+    },
+    {
+      "doc": "TubeMediaCorp_20060310_8-K_EX-10.1_513921_EX-10.1_Affiliate Agreement.pdf",
+      "category": "Anti-Assignment",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00061#1",
+        "CLAUSE-00067",
+        "CLAUSE-00061#2"
+      ],
+      "relevant": [
+        "CLAUSE-00060#3",
+        "CLAUSE-00061#1"
+      ]
+    },
+    {
+      "doc": "TubeMediaCorp_20060310_8-K_EX-10.1_513921_EX-10.1_Affiliate Agreement.pdf",
+      "category": "Cap On Liability",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00070",
+        "CLAUSE-00054",
+        "CLAUSE-00052"
+      ],
+      "relevant": [
+        "CLAUSE-00070"
+      ]
+    },
+    {
+      "doc": "TubeMediaCorp_20060310_8-K_EX-10.1_513921_EX-10.1_Affiliate Agreement.pdf",
+      "category": "Exclusivity",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00009#1",
+        "CLAUSE-00007#1",
+        "CLAUSE-00047"
+      ],
+      "relevant": [
+        "CLAUSE-00006",
+        "CLAUSE-00007#1",
+        "CLAUSE-00009#1",
+        "CLAUSE-00011#1"
+      ]
+    },
+    {
+      "doc": "TubeMediaCorp_20060310_8-K_EX-10.1_513921_EX-10.1_Affiliate Agreement.pdf",
+      "category": "Insurance",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00054",
+        "CLAUSE-00027#2",
+        "CLAUSE-00070"
+      ],
+      "relevant": [
+        "CLAUSE-00054"
+      ]
+    },
+    {
+      "doc": "TubeMediaCorp_20060310_8-K_EX-10.1_513921_EX-10.1_Affiliate Agreement.pdf",
+      "category": "Audit Rights",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00040",
+        "CLAUSE-00041",
+        "CLAUSE-00060#3"
+      ],
+      "relevant": [
+        "CLAUSE-00039#2"
+      ]
+    },
+    {
+      "doc": "RgcResourcesInc_20151216_8-K_EX-10.3_9372751_EX-10.3_Franchise Agreement.pdf",
+      "category": "Expiration Date",
+      "answered": false,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00003",
+        "BLOCK-00001",
+        "CLAUSE-00010"
+      ],
+      "relevant": [
+        "CLAUSE-00003"
+      ]
+    },
+    {
+      "doc": "DovaPharmaceuticalsInc_20181108_10-Q_EX-10.2_11414857_EX-10.2_Promotion Agreement.pdf",
+      "category": "Governing Law",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00062",
+        "CLAUSE-00375",
+        "CLAUSE-00378"
+      ],
+      "relevant": [
+        "CLAUSE-00014",
+        "CLAUSE-00221",
+        "CLAUSE-00375"
+      ]
+    },
+    {
+      "doc": "DovaPharmaceuticalsInc_20181108_10-Q_EX-10.2_11414857_EX-10.2_Promotion Agreement.pdf",
+      "category": "Termination For Convenience",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00365",
+        "CLAUSE-00356",
+        "CLAUSE-00366"
+      ],
+      "relevant": [
+        "CLAUSE-00214#2",
+        "CLAUSE-00292#2",
+        "CLAUSE-00293#2",
+        "CLAUSE-00356",
+        "CLAUSE-00357"
+      ]
+    },
+    {
+      "doc": "DovaPharmaceuticalsInc_20181108_10-Q_EX-10.2_11414857_EX-10.2_Promotion Agreement.pdf",
+      "category": "Expiration Date",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00365",
+        "CLAUSE-00278#3",
+        "CLAUSE-00356"
+      ],
+      "relevant": [
+        "CLAUSE-00355"
+      ]
+    },
+    {
+      "doc": "DovaPharmaceuticalsInc_20181108_10-Q_EX-10.2_11414857_EX-10.2_Promotion Agreement.pdf",
+      "category": "Non-Compete",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00166",
+        "CLAUSE-00005",
+        "CLAUSE-00169"
+      ],
+      "relevant": [
+        "CLAUSE-00167",
+        "BLOCK-00202",
+        "CLAUSE-00214#2"
+      ]
+    },
+    {
+      "doc": "DovaPharmaceuticalsInc_20181108_10-Q_EX-10.2_11414857_EX-10.2_Promotion Agreement.pdf",
+      "category": "Anti-Assignment",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00372#1",
+        "CLAUSE-00372#2",
+        "CLAUSE-00340"
+      ],
+      "relevant": [
+        "BLOCK-00002",
+        "CLAUSE-00158",
+        "CLAUSE-00165",
+        "CLAUSE-00169",
+        "CLAUSE-00194#2"
+      ]
+    },
+    {
+      "doc": "DovaPharmaceuticalsInc_20181108_10-Q_EX-10.2_11414857_EX-10.2_Promotion Agreement.pdf",
+      "category": "Cap On Liability",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "BLOCK-00348",
+        "CLAUSE-00050",
+        "CLAUSE-00352#1"
+      ],
+      "relevant": [
+        "CLAUSE-00007",
+        "CLAUSE-00009",
+        "CLAUSE-00080",
+        "CLAUSE-00081",
+        "CLAUSE-00089"
+      ]
+    },
+    {
+      "doc": "DovaPharmaceuticalsInc_20181108_10-Q_EX-10.2_11414857_EX-10.2_Promotion Agreement.pdf",
+      "category": "Exclusivity",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "BLOCK-00156",
+        "BLOCK-00002",
+        "CLAUSE-00352#2"
+      ],
+      "relevant": [
+        "CLAUSE-00147",
+        "CLAUSE-00157#1",
+        "BLOCK-00202",
+        "CLAUSE-00204",
+        "CLAUSE-00362"
+      ]
+    },
+    {
+      "doc": "DovaPharmaceuticalsInc_20181108_10-Q_EX-10.2_11414857_EX-10.2_Promotion Agreement.pdf",
+      "category": "Insurance",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00353#1",
+        "CLAUSE-00051",
+        "CLAUSE-00353#2"
+      ],
+      "relevant": [
+        "CLAUSE-00353#1"
+      ]
+    },
+    {
+      "doc": "DovaPharmaceuticalsInc_20181108_10-Q_EX-10.2_11414857_EX-10.2_Promotion Agreement.pdf",
+      "category": "Audit Rights",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00033",
+        "CLAUSE-00293#3",
+        "CLAUSE-00292#3"
+      ],
+      "relevant": [
+        "CLAUSE-00014",
+        "CLAUSE-00017",
+        "CLAUSE-00080",
+        "CLAUSE-00121",
+        "CLAUSE-00122"
+      ]
+    },
+    {
+      "doc": "DovaPharmaceuticalsInc_20181108_10-Q_EX-10.2_11414857_EX-10.2_Promotion Agreement.pdf",
+      "category": "Liquidated Damages",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "BLOCK-00348",
+        "CLAUSE-00352#1",
+        "CLAUSE-00115"
+      ],
+      "relevant": [
+        "CLAUSE-00080",
+        "CLAUSE-00113",
+        "CLAUSE-00147",
+        "CLAUSE-00149",
+        "CLAUSE-00362"
+      ]
+    },
+    {
+      "doc": "ClickstreamCorp_20200330_1-A_EX1A-6 MAT CTRCT_12089935_EX1A-6 MAT CTRCT_Development Agreement.pdf",
+      "category": "Governing Law",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00076",
+        "CLAUSE-00032",
+        "CLAUSE-00078"
+      ],
+      "relevant": [
+        "CLAUSE-00051#1",
+        "CLAUSE-00056#1",
+        "CLAUSE-00056#2",
+        "CLAUSE-00071",
+        "CLAUSE-00076"
+      ]
+    },
+    {
+      "doc": "ClickstreamCorp_20200330_1-A_EX1A-6 MAT CTRCT_12089935_EX1A-6 MAT CTRCT_Development Agreement.pdf",
+      "category": "Termination For Convenience",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00006",
+        "CLAUSE-00033",
+        "CLAUSE-00008"
+      ],
+      "relevant": [
+        "CLAUSE-00008"
+      ]
+    },
+    {
+      "doc": "ClickstreamCorp_20200330_1-A_EX1A-6 MAT CTRCT_12089935_EX1A-6 MAT CTRCT_Development Agreement.pdf",
+      "category": "Expiration Date",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00006",
+        "CLAUSE-00008",
+        "CLAUSE-00004"
+      ],
+      "relevant": [
+        "CLAUSE-00004"
+      ]
+    },
+    {
+      "doc": "ClickstreamCorp_20200330_1-A_EX1A-6 MAT CTRCT_12089935_EX1A-6 MAT CTRCT_Development Agreement.pdf",
+      "category": "Non-Compete",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00041",
+        "CLAUSE-00047",
+        "CLAUSE-00080#4"
+      ],
+      "relevant": [
+        "CLAUSE-00041",
+        "CLAUSE-00080#1"
+      ]
+    },
+    {
+      "doc": "ClickstreamCorp_20200330_1-A_EX1A-6 MAT CTRCT_12089935_EX1A-6 MAT CTRCT_Development Agreement.pdf",
+      "category": "Anti-Assignment",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00069",
+        "CLAUSE-00070",
+        "CLAUSE-00057"
+      ],
+      "relevant": [
+        "CLAUSE-00006",
+        "CLAUSE-00044",
+        "CLAUSE-00069"
+      ]
+    },
+    {
+      "doc": "ClickstreamCorp_20200330_1-A_EX1A-6 MAT CTRCT_12089935_EX1A-6 MAT CTRCT_Development Agreement.pdf",
+      "category": "Exclusivity",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00053#2",
+        "CLAUSE-00032",
+        "CLAUSE-00031"
+      ],
+      "relevant": [
+        "CLAUSE-00058"
+      ]
+    },
+    {
+      "doc": "GentechHoldingsInc_20190808_1-A_EX1A-6 MAT CTRCT_11776814_EX1A-6 MAT CTRCT_Distributor Agreement.pdf",
+      "category": "Governing Law",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00050",
+        "CLAUSE-00051#2",
+        "CLAUSE-00051#1"
+      ],
+      "relevant": [
+        "CLAUSE-00012",
+        "CLAUSE-00050"
+      ]
+    },
+    {
+      "doc": "GentechHoldingsInc_20190808_1-A_EX1A-6 MAT CTRCT_11776814_EX1A-6 MAT CTRCT_Distributor Agreement.pdf",
+      "category": "Expiration Date",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00041",
+        "CLAUSE-00039#1",
+        "CLAUSE-00039#2"
+      ],
+      "relevant": [
+        "CLAUSE-00010",
+        "CLAUSE-00037"
+      ]
+    },
+    {
+      "doc": "GentechHoldingsInc_20190808_1-A_EX1A-6 MAT CTRCT_11776814_EX1A-6 MAT CTRCT_Distributor Agreement.pdf",
+      "category": "Renewal Term",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00038",
+        "CLAUSE-00012",
+        "CLAUSE-00042"
+      ],
+      "relevant": [
+        "CLAUSE-00038"
+      ]
+    },
+    {
+      "doc": "GentechHoldingsInc_20190808_1-A_EX1A-6 MAT CTRCT_11776814_EX1A-6 MAT CTRCT_Distributor Agreement.pdf",
+      "category": "Anti-Assignment",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00052",
+        "CLAUSE-00033",
+        "BLOCK-00001#2"
+      ],
+      "relevant": [
+        "CLAUSE-00052"
+      ]
+    },
+    {
+      "doc": "GentechHoldingsInc_20190808_1-A_EX1A-6 MAT CTRCT_11776814_EX1A-6 MAT CTRCT_Distributor Agreement.pdf",
+      "category": "Cap On Liability",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00043",
+        "CLAUSE-00045",
+        "CLAUSE-00044#1"
+      ],
+      "relevant": [
+        "CLAUSE-00045"
+      ]
+    },
+    {
+      "doc": "GentechHoldingsInc_20190808_1-A_EX1A-6 MAT CTRCT_11776814_EX1A-6 MAT CTRCT_Distributor Agreement.pdf",
+      "category": "Exclusivity",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00022",
+        "CLAUSE-00041",
+        "CLAUSE-00052"
+      ],
+      "relevant": [
+        "CLAUSE-00003#1",
+        "CLAUSE-00011",
+        "CLAUSE-00012",
+        "CLAUSE-00047#1"
+      ]
+    },
+    {
+      "doc": "BIOAMBERINC_04_10_2013-EX-10.34-DEVELOPMENT AGREEMENT (1).pdf",
+      "category": "Governing Law",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00055",
+        "CLAUSE-00059",
+        "CLAUSE-00050"
+      ],
+      "relevant": [
+        "CLAUSE-00055"
+      ]
+    },
+    {
+      "doc": "BIOAMBERINC_04_10_2013-EX-10.34-DEVELOPMENT AGREEMENT (1).pdf",
+      "category": "Expiration Date",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00048",
+        "CLAUSE-00049",
+        "CLAUSE-00050"
+      ],
+      "relevant": [
+        "CLAUSE-00049"
+      ]
+    },
+    {
+      "doc": "BIOAMBERINC_04_10_2013-EX-10.34-DEVELOPMENT AGREEMENT (1).pdf",
+      "category": "Non-Compete",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00062#1",
+        "CLAUSE-00029",
+        "CLAUSE-00057"
+      ],
+      "relevant": [
+        "CLAUSE-00062#1",
+        "CLAUSE-00062#2"
+      ]
+    },
+    {
+      "doc": "BIOAMBERINC_04_10_2013-EX-10.34-DEVELOPMENT AGREEMENT (1).pdf",
+      "category": "Anti-Assignment",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00056",
+        "CLAUSE-00050",
+        "CLAUSE-00058"
+      ],
+      "relevant": [
+        "CLAUSE-00031",
+        "CLAUSE-00050",
+        "CLAUSE-00056"
+      ]
+    },
+    {
+      "doc": "BIOAMBERINC_04_10_2013-EX-10.34-DEVELOPMENT AGREEMENT (1).pdf",
+      "category": "Cap On Liability",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00046",
+        "CLAUSE-00060",
+        "CLAUSE-00028"
+      ],
+      "relevant": [
+        "CLAUSE-00046"
+      ]
+    },
+    {
+      "doc": "BIOAMBERINC_04_10_2013-EX-10.34-DEVELOPMENT AGREEMENT (1).pdf",
+      "category": "Exclusivity",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00056",
+        "CLAUSE-00029",
+        "CLAUSE-00057"
+      ],
+      "relevant": [
+        "CLAUSE-00035#1",
+        "CLAUSE-00036",
+        "CLAUSE-00037"
+      ]
+    },
+    {
+      "doc": "BIOAMBERINC_04_10_2013-EX-10.34-DEVELOPMENT AGREEMENT (1).pdf",
+      "category": "Audit Rights",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00013#2",
+        "CLAUSE-00027",
+        "CLAUSE-00026"
+      ],
+      "relevant": [
+        "CLAUSE-00013#2",
+        "CLAUSE-00021",
+        "CLAUSE-00036",
+        "CLAUSE-00039",
+        "CLAUSE-00041"
+      ]
+    },
+    {
+      "doc": "CardlyticsInc_20180112_S-1_EX-10.16_11002987_EX-10.16_Maintenance Agreement4.pdf",
+      "category": "Termination For Convenience",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "BLOCK-00001#3",
+        "BLOCK-00001#4",
+        "BLOCK-00001#2"
+      ],
+      "relevant": [
+        "BLOCK-00001#3",
+        "CLAUSE-00002#2"
+      ]
+    },
+    {
+      "doc": "CardlyticsInc_20180112_S-1_EX-10.16_11002987_EX-10.16_Maintenance Agreement4.pdf",
+      "category": "Expiration Date",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "BLOCK-00001#3",
+        "BLOCK-00001#2",
+        "BLOCK-00001#4"
+      ],
+      "relevant": [
+        "BLOCK-00001#3"
+      ]
+    },
+    {
+      "doc": "CardlyticsInc_20180112_S-1_EX-10.16_11002987_EX-10.16_Maintenance Agreement4.pdf",
+      "category": "Renewal Term",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "BLOCK-00001#4",
+        "BLOCK-00001#3",
+        "BLOCK-00001#1"
+      ],
+      "relevant": [
+        "BLOCK-00001#3"
+      ]
+    },
+    {
+      "doc": "PareteumCorp_20081001_8-K_EX-99.1_2654808_EX-99.1_Hosting Agreement.pdf",
+      "category": "Governing Law",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00226",
+        "CLAUSE-00210",
+        "CLAUSE-00003"
+      ],
+      "relevant": [
+        "CLAUSE-00003",
+        "CLAUSE-00018",
+        "CLAUSE-00019",
+        "CLAUSE-00068",
+        "CLAUSE-00087"
+      ]
+    },
+    {
+      "doc": "PareteumCorp_20081001_8-K_EX-99.1_2654808_EX-99.1_Hosting Agreement.pdf",
+      "category": "Termination For Convenience",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00019",
+        "CLAUSE-00204#1",
+        "CLAUSE-00203"
+      ],
+      "relevant": [
+        "CLAUSE-00018",
+        "CLAUSE-00019",
+        "CLAUSE-00200",
+        "CLAUSE-00202"
+      ]
+    },
+    {
+      "doc": "PareteumCorp_20081001_8-K_EX-99.1_2654808_EX-99.1_Hosting Agreement.pdf",
+      "category": "Expiration Date",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00019",
+        "CLAUSE-00222",
+        "CLAUSE-00203"
+      ],
+      "relevant": [
+        "CLAUSE-00003",
+        "CLAUSE-00018",
+        "CLAUSE-00019",
+        "CLAUSE-00068",
+        "CLAUSE-00200"
+      ]
+    },
+    {
+      "doc": "PareteumCorp_20081001_8-K_EX-99.1_2654808_EX-99.1_Hosting Agreement.pdf",
+      "category": "Renewal Term",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00202",
+        "CLAUSE-00050",
+        "CLAUSE-00207"
+      ],
+      "relevant": [
+        "CLAUSE-00019",
+        "CLAUSE-00202"
+      ]
+    },
+    {
+      "doc": "PareteumCorp_20081001_8-K_EX-99.1_2654808_EX-99.1_Hosting Agreement.pdf",
+      "category": "Anti-Assignment",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00213",
+        "CLAUSE-00215",
+        "CLAUSE-00121"
+      ],
+      "relevant": [
+        "CLAUSE-00003",
+        "CLAUSE-00018",
+        "CLAUSE-00019",
+        "CLAUSE-00035",
+        "CLAUSE-00068"
+      ]
+    },
+    {
+      "doc": "PareteumCorp_20081001_8-K_EX-99.1_2654808_EX-99.1_Hosting Agreement.pdf",
+      "category": "Cap On Liability",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00013",
+        "CLAUSE-00164",
+        "CLAUSE-00170"
+      ],
+      "relevant": [
+        "CLAUSE-00003",
+        "CLAUSE-00018",
+        "CLAUSE-00019",
+        "CLAUSE-00035",
+        "CLAUSE-00068"
+      ]
+    },
+    {
+      "doc": "PareteumCorp_20081001_8-K_EX-99.1_2654808_EX-99.1_Hosting Agreement.pdf",
+      "category": "Liquidated Damages",
+      "answered": false,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00168",
+        "CLAUSE-00173",
+        "CLAUSE-00165"
+      ],
+      "relevant": [
+        "CLAUSE-00221"
+      ]
+    },
+    {
+      "doc": "ThriventVariableInsuranceAccountB_20190701_N-6_EX-99.D(IV)_11720968_EX-99.D(IV)_Endorsement Agreement.pdf",
+      "category": "Anti-Assignment",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00002#4",
+        "CLAUSE-00002#1",
+        "BLOCK-00001#1"
+      ],
+      "relevant": [
+        "CLAUSE-00002#2",
+        "CLAUSE-00002#4"
+      ]
+    },
+    {
+      "doc": "PapaJohnsInternationalInc_20190617_8-K_EX-10.1_11707365_EX-10.1_Endorsement Agreement.pdf",
+      "category": "Governing Law",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00044",
+        "CLAUSE-00048#1",
+        "CLAUSE-00040#6"
+      ],
+      "relevant": [
+        "CLAUSE-00047#2",
+        "CLAUSE-00048#2"
+      ]
+    },
+    {
+      "doc": "PapaJohnsInternationalInc_20190617_8-K_EX-10.1_11707365_EX-10.1_Endorsement Agreement.pdf",
+      "category": "Expiration Date",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00003",
+        "CLAUSE-00041#9",
+        "CLAUSE-00041#8"
+      ],
+      "relevant": [
+        "CLAUSE-00003"
+      ]
+    },
+    {
+      "doc": "PapaJohnsInternationalInc_20190617_8-K_EX-10.1_11707365_EX-10.1_Endorsement Agreement.pdf",
+      "category": "Renewal Term",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00003",
+        "CLAUSE-00042#8",
+        "CLAUSE-00049#3"
+      ],
+      "relevant": [
+        "CLAUSE-00003"
+      ]
+    },
+    {
+      "doc": "PapaJohnsInternationalInc_20190617_8-K_EX-10.1_11707365_EX-10.1_Endorsement Agreement.pdf",
+      "category": "Anti-Assignment",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00048#2",
+        "CLAUSE-00048#3",
+        "CLAUSE-00042#2"
+      ],
+      "relevant": [
+        "CLAUSE-00039#1",
+        "CLAUSE-00041#1"
+      ]
+    },
+    {
+      "doc": "PapaJohnsInternationalInc_20190617_8-K_EX-10.1_11707365_EX-10.1_Endorsement Agreement.pdf",
+      "category": "Cap On Liability",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00042#1",
+        "CLAUSE-00043#2",
+        "CLAUSE-00042#3"
+      ],
+      "relevant": [
+        "CLAUSE-00043#2",
+        "CLAUSE-00043#3"
+      ]
+    },
+    {
+      "doc": "PapaJohnsInternationalInc_20190617_8-K_EX-10.1_11707365_EX-10.1_Endorsement Agreement.pdf",
+      "category": "Exclusivity",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00042#1",
+        "CLAUSE-00048#3",
+        "CLAUSE-00042#3"
+      ],
+      "relevant": [
+        "CLAUSE-00004#2",
+        "CLAUSE-00025",
+        "CLAUSE-00027",
+        "CLAUSE-00041#1",
+        "CLAUSE-00041#3"
+      ]
+    },
+    {
+      "doc": "PapaJohnsInternationalInc_20190617_8-K_EX-10.1_11707365_EX-10.1_Endorsement Agreement.pdf",
+      "category": "Insurance",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00042#1",
+        "CLAUSE-00042#7",
+        "CLAUSE-00043#2"
+      ],
+      "relevant": [
+        "CLAUSE-00040#1",
+        "CLAUSE-00041#1",
+        "CLAUSE-00042#1",
+        "CLAUSE-00042#7",
+        "CLAUSE-00042#8"
+      ]
+    },
+    {
+      "doc": "NakedBrandGroupInc_20150731_POS AM (on S-1)_EX-10.75_9196027_EX-10.75_Endorsement Agreement.pdf",
+      "category": "Governing Law",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00053",
+        "CLAUSE-00054#2",
+        "CLAUSE-00052"
+      ],
+      "relevant": [
+        "CLAUSE-00053"
+      ]
+    },
+    {
+      "doc": "NakedBrandGroupInc_20150731_POS AM (on S-1)_EX-10.75_9196027_EX-10.75_Endorsement Agreement.pdf",
+      "category": "Expiration Date",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00022",
+        "CLAUSE-00003#1",
+        "CLAUSE-00035#5"
+      ],
+      "relevant": [
+        "CLAUSE-00003#1"
+      ]
+    },
+    {
+      "doc": "NakedBrandGroupInc_20150731_POS AM (on S-1)_EX-10.75_9196027_EX-10.75_Endorsement Agreement.pdf",
+      "category": "Renewal Term",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00003#1",
+        "CLAUSE-00003#2",
+        "CLAUSE-00022"
+      ],
+      "relevant": [
+        "CLAUSE-00003#1",
+        "CLAUSE-00003#2"
+      ]
+    },
+    {
+      "doc": "NakedBrandGroupInc_20150731_POS AM (on S-1)_EX-10.75_9196027_EX-10.75_Endorsement Agreement.pdf",
+      "category": "Non-Compete",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00034",
+        "CLAUSE-00043#1",
+        "CLAUSE-00043#2"
+      ],
+      "relevant": [
+        "CLAUSE-00034"
+      ]
+    },
+    {
+      "doc": "NakedBrandGroupInc_20150731_POS AM (on S-1)_EX-10.75_9196027_EX-10.75_Endorsement Agreement.pdf",
+      "category": "Anti-Assignment",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00046",
+        "CLAUSE-00045",
+        "CLAUSE-00059"
+      ],
+      "relevant": [
+        "CLAUSE-00046",
+        "CLAUSE-00048"
+      ]
+    },
+    {
+      "doc": "NakedBrandGroupInc_20150731_POS AM (on S-1)_EX-10.75_9196027_EX-10.75_Endorsement Agreement.pdf",
+      "category": "Exclusivity",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00053",
+        "CLAUSE-00046",
+        "CLAUSE-00051"
+      ],
+      "relevant": [
+        "CLAUSE-00003#2",
+        "CLAUSE-00004#1",
+        "CLAUSE-00004#2",
+        "CLAUSE-00005"
+      ]
+    },
+    {
+      "doc": "LegacyEducationAllianceInc_20141110_8-K_EX-10.9_8828866_EX-10.9_Endorsement Agreement.pdf",
+      "category": "Governing Law",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00025",
+        "CLAUSE-00035#1",
+        "CLAUSE-00018#3"
+      ],
+      "relevant": [
+        "CLAUSE-00025"
+      ]
+    },
+    {
+      "doc": "LegacyEducationAllianceInc_20141110_8-K_EX-10.9_8828866_EX-10.9_Endorsement Agreement.pdf",
+      "category": "Expiration Date",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00030",
+        "CLAUSE-00013",
+        "CLAUSE-00015"
+      ],
+      "relevant": [
+        "CLAUSE-00013"
+      ]
+    },
+    {
+      "doc": "LegacyEducationAllianceInc_20141110_8-K_EX-10.9_8828866_EX-10.9_Endorsement Agreement.pdf",
+      "category": "Renewal Term",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00015",
+        "CLAUSE-00013",
+        "CLAUSE-00035#1"
+      ],
+      "relevant": [
+        "CLAUSE-00015"
+      ]
+    },
+    {
+      "doc": "LegacyEducationAllianceInc_20141110_8-K_EX-10.9_8828866_EX-10.9_Endorsement Agreement.pdf",
+      "category": "Non-Compete",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00017#2",
+        "CLAUSE-00018#1",
+        "CLAUSE-00019#2"
+      ],
+      "relevant": [
+        "CLAUSE-00018#1",
+        "CLAUSE-00019#1"
+      ]
+    },
+    {
+      "doc": "LegacyEducationAllianceInc_20141110_8-K_EX-10.9_8828866_EX-10.9_Endorsement Agreement.pdf",
+      "category": "Anti-Assignment",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00027",
+        "CLAUSE-00026",
+        "CLAUSE-00014#2"
+      ],
+      "relevant": [
+        "CLAUSE-00018#3",
+        "CLAUSE-00027"
+      ]
+    },
+    {
+      "doc": "LegacyEducationAllianceInc_20141110_8-K_EX-10.9_8828866_EX-10.9_Endorsement Agreement.pdf",
+      "category": "Audit Rights",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00016#2",
+        "CLAUSE-00027",
+        "CLAUSE-00020#2"
+      ],
+      "relevant": [
+        "CLAUSE-00016#2"
+      ]
+    },
+    {
+      "doc": "GpaqAcquisitionHoldingsInc_20200123_S-4A_EX-10.6_11951677_EX-10.6_License Agreement.pdf",
+      "category": "Governing Law",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00057",
+        "CLAUSE-00058",
+        "CLAUSE-00062"
+      ],
+      "relevant": [
+        "CLAUSE-00058"
+      ]
+    },
+    {
+      "doc": "GpaqAcquisitionHoldingsInc_20200123_S-4A_EX-10.6_11951677_EX-10.6_License Agreement.pdf",
+      "category": "Notice Period To Terminate Renewal",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00037",
+        "CLAUSE-00042",
+        "CLAUSE-00043"
+      ],
+      "relevant": [
+        "CLAUSE-00037"
+      ]
+    },
+    {
+      "doc": "GpaqAcquisitionHoldingsInc_20200123_S-4A_EX-10.6_11951677_EX-10.6_License Agreement.pdf",
+      "category": "Expiration Date",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00036",
+        "CLAUSE-00043",
+        "CLAUSE-00042"
+      ],
+      "relevant": [
+        "CLAUSE-00037"
+      ]
+    },
+    {
+      "doc": "GpaqAcquisitionHoldingsInc_20200123_S-4A_EX-10.6_11951677_EX-10.6_License Agreement.pdf",
+      "category": "Renewal Term",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00037",
+        "CLAUSE-00036",
+        "CLAUSE-00070"
+      ],
+      "relevant": [
+        "CLAUSE-00037"
+      ]
+    },
+    {
+      "doc": "GpaqAcquisitionHoldingsInc_20200123_S-4A_EX-10.6_11951677_EX-10.6_License Agreement.pdf",
+      "category": "Anti-Assignment",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00061",
+        "CLAUSE-00039",
+        "CLAUSE-00065"
+      ],
+      "relevant": [
+        "CLAUSE-00029",
+        "CLAUSE-00061"
+      ]
+    },
+    {
+      "doc": "GpaqAcquisitionHoldingsInc_20200123_S-4A_EX-10.6_11951677_EX-10.6_License Agreement.pdf",
+      "category": "Exclusivity",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00043",
+        "CLAUSE-00064",
+        "CLAUSE-00047"
+      ],
+      "relevant": [
+        "CLAUSE-00029",
+        "CLAUSE-00030",
+        "CLAUSE-00035"
+      ]
+    },
+    {
+      "doc": "PrudentialBancorpInc_20170606_8-K_EX-10.4_10474434_EX-10.4_Endorsement Agreement.pdf",
+      "category": "Governing Law",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "BLOCK-00024",
+        "BLOCK-00001#3",
+        "CLAUSE-00028"
+      ],
+      "relevant": [
+        "BLOCK-00024"
+      ]
+    },
+    {
+      "doc": "PrudentialBancorpInc_20170606_8-K_EX-10.4_10474434_EX-10.4_Endorsement Agreement.pdf",
+      "category": "Termination For Convenience",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "BLOCK-00007",
+        "BLOCK-00022",
+        "BLOCK-00024"
+      ],
+      "relevant": [
+        "BLOCK-00005#1",
+        "BLOCK-00007"
+      ]
+    },
+    {
+      "doc": "FEDERATEDGOVERNMENTINCOMESECURITIESINC_04_28_2020-EX-99.SERV AGREE-SERVICES AGREEMENT_POWEROF.pdf",
+      "category": "Governing Law",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "BLOCK-00001#10",
+        "BLOCK-00001#11",
+        "BLOCK-00001#4"
+      ],
+      "relevant": [
+        "BLOCK-00001#10"
+      ]
+    },
+    {
+      "doc": "FEDERATEDGOVERNMENTINCOMESECURITIESINC_04_28_2020-EX-99.SERV AGREE-SERVICES AGREEMENT_POWEROF.pdf",
+      "category": "Expiration Date",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "BLOCK-00001#8",
+        "BLOCK-00001#9",
+        "BLOCK-00001#5"
+      ],
+      "relevant": [
+        "BLOCK-00001#1",
+        "BLOCK-00001#3",
+        "BLOCK-00001#8",
+        "BLOCK-00001#9"
+      ]
+    },
+    {
+      "doc": "FEDERATEDGOVERNMENTINCOMESECURITIESINC_04_28_2020-EX-99.SERV AGREE-SERVICES AGREEMENT_POWEROF.pdf",
+      "category": "Anti-Assignment",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "BLOCK-00001#10",
+        "BLOCK-00001#4",
+        "BLOCK-00001#11"
+      ],
+      "relevant": [
+        "BLOCK-00001#5",
+        "BLOCK-00001#8",
+        "BLOCK-00001#10"
+      ]
+    },
+    {
+      "doc": "PcquoteComInc_19990721_S-1A_EX-10.11_6377149_EX-10.11_Co-Branding Agreement1.pdf",
+      "category": "Governing Law",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00018",
+        "CLAUSE-00019",
+        "CLAUSE-00020#1"
+      ],
+      "relevant": [
+        "CLAUSE-00018"
+      ]
+    },
+    {
+      "doc": "PcquoteComInc_19990721_S-1A_EX-10.11_6377149_EX-10.11_Co-Branding Agreement1.pdf",
+      "category": "Anti-Assignment",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00020#1",
+        "CLAUSE-00017",
+        "CLAUSE-00020#2"
+      ],
+      "relevant": [
+        "CLAUSE-00017",
+        "CLAUSE-00021#1"
+      ]
+    },
+    {
+      "doc": "PcquoteComInc_19990721_S-1A_EX-10.11_6377149_EX-10.11_Co-Branding Agreement1.pdf",
+      "category": "Cap On Liability",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00008#3",
+        "CLAUSE-00015",
+        "BLOCK-00014"
+      ],
+      "relevant": [
+        "CLAUSE-00008#3"
+      ]
+    },
+    {
+      "doc": "EdietsComInc_20001030_10QSB_EX-10.4_2606646_EX-10.4_Co-Branding Agreement.pdf",
+      "category": "Governing Law",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00087",
+        "CLAUSE-00086",
+        "CLAUSE-00061"
+      ],
+      "relevant": [
+        "CLAUSE-00087"
+      ]
+    },
+    {
+      "doc": "EdietsComInc_20001030_10QSB_EX-10.4_2606646_EX-10.4_Co-Branding Agreement.pdf",
+      "category": "Notice Period To Terminate Renewal",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00038",
+        "CLAUSE-00040",
+        "CLAUSE-00015#3"
+      ],
+      "relevant": [
+        "CLAUSE-00038"
+      ]
+    },
+    {
+      "doc": "EdietsComInc_20001030_10QSB_EX-10.4_2606646_EX-10.4_Co-Branding Agreement.pdf",
+      "category": "Expiration Date",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00038",
+        "CLAUSE-00040",
+        "CLAUSE-00015#3"
+      ],
+      "relevant": [
+        "CLAUSE-00022",
+        "CLAUSE-00038",
+        "CLAUSE-00111#1",
+        "CLAUSE-00111#4"
+      ]
+    },
+    {
+      "doc": "EdietsComInc_20001030_10QSB_EX-10.4_2606646_EX-10.4_Co-Branding Agreement.pdf",
+      "category": "Renewal Term",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00038",
+        "CLAUSE-00042",
+        "CLAUSE-00049"
+      ],
+      "relevant": [
+        "CLAUSE-00038"
+      ]
+    },
+    {
+      "doc": "EdietsComInc_20001030_10QSB_EX-10.4_2606646_EX-10.4_Co-Branding Agreement.pdf",
+      "category": "Non-Compete",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00032",
+        "BLOCK-00012",
+        "CLAUSE-00019#2"
+      ],
+      "relevant": [
+        "CLAUSE-00019#1",
+        "CLAUSE-00019#2",
+        "CLAUSE-00020"
+      ]
+    },
+    {
+      "doc": "EdietsComInc_20001030_10QSB_EX-10.4_2606646_EX-10.4_Co-Branding Agreement.pdf",
+      "category": "Anti-Assignment",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00085#1",
+        "CLAUSE-00085#2",
+        "CLAUSE-00089"
+      ],
+      "relevant": [
+        "CLAUSE-00035#1",
+        "CLAUSE-00054",
+        "CLAUSE-00055",
+        "CLAUSE-00058",
+        "CLAUSE-00066"
+      ]
+    },
+    {
+      "doc": "EdietsComInc_20001030_10QSB_EX-10.4_2606646_EX-10.4_Co-Branding Agreement.pdf",
+      "category": "Cap On Liability",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00083",
+        "CLAUSE-00074",
+        "CLAUSE-00080"
+      ],
+      "relevant": [
+        "CLAUSE-00071",
+        "CLAUSE-00074",
+        "CLAUSE-00083"
+      ]
+    },
+    {
+      "doc": "EdietsComInc_20001030_10QSB_EX-10.4_2606646_EX-10.4_Co-Branding Agreement.pdf",
+      "category": "Exclusivity",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00007",
+        "CLAUSE-00061",
+        "CLAUSE-00079#1"
+      ],
+      "relevant": [
+        "BLOCK-00001#2",
+        "CLAUSE-00003#1",
+        "CLAUSE-00004#2",
+        "CLAUSE-00019#1",
+        "CLAUSE-00019#2"
+      ]
+    },
+    {
+      "doc": "ZogenixInc_20190509_10-Q_EX-10.2_11663313_EX-10.2_Distributor Agreement.pdf",
+      "category": "Governing Law",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00374",
+        "CLAUSE-00310",
+        "CLAUSE-00369"
+      ],
+      "relevant": [
+        "CLAUSE-00040",
+        "CLAUSE-00374"
+      ]
+    },
+    {
+      "doc": "ZogenixInc_20190509_10-Q_EX-10.2_11663313_EX-10.2_Distributor Agreement.pdf",
+      "category": "Termination For Convenience",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00362",
+        "CLAUSE-00350",
+        "CLAUSE-00340"
+      ],
+      "relevant": [
+        "CLAUSE-00002",
+        "CLAUSE-00022",
+        "CLAUSE-00065",
+        "CLAUSE-00104",
+        "CLAUSE-00109"
+      ]
+    },
+    {
+      "doc": "ZogenixInc_20190509_10-Q_EX-10.2_11663313_EX-10.2_Distributor Agreement.pdf",
+      "category": "Expiration Date",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00338",
+        "CLAUSE-00364#1",
+        "CLAUSE-00340"
+      ],
+      "relevant": [
+        "CLAUSE-00338"
+      ]
+    },
+    {
+      "doc": "ZogenixInc_20190509_10-Q_EX-10.2_11663313_EX-10.2_Distributor Agreement.pdf",
+      "category": "Non-Compete",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00006",
+        "CLAUSE-00169",
+        "CLAUSE-00289#3"
+      ],
+      "relevant": [
+        "CLAUSE-00002",
+        "CLAUSE-00004",
+        "CLAUSE-00022",
+        "CLAUSE-00055",
+        "CLAUSE-00109"
+      ]
+    },
+    {
+      "doc": "ZogenixInc_20190509_10-Q_EX-10.2_11663313_EX-10.2_Distributor Agreement.pdf",
+      "category": "Anti-Assignment",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00376",
+        "CLAUSE-00378",
+        "CLAUSE-00377"
+      ],
+      "relevant": [
+        "CLAUSE-00002",
+        "CLAUSE-00040",
+        "CLAUSE-00045",
+        "CLAUSE-00048",
+        "CLAUSE-00065"
+      ]
+    },
+    {
+      "doc": "ZogenixInc_20190509_10-Q_EX-10.2_11663313_EX-10.2_Distributor Agreement.pdf",
+      "category": "Cap On Liability",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00057",
+        "BLOCK-00307",
+        "CLAUSE-00330"
+      ],
+      "relevant": [
+        "CLAUSE-00002",
+        "CLAUSE-00065",
+        "CLAUSE-00088",
+        "CLAUSE-00216#3",
+        "CLAUSE-00216#4"
+      ]
+    },
+    {
+      "doc": "ZogenixInc_20190509_10-Q_EX-10.2_11663313_EX-10.2_Distributor Agreement.pdf",
+      "category": "Exclusivity",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00289#1",
+        "CLAUSE-00376",
+        "CLAUSE-00310"
+      ],
+      "relevant": [
+        "CLAUSE-00002",
+        "CLAUSE-00003",
+        "CLAUSE-00004",
+        "CLAUSE-00014",
+        "CLAUSE-00015"
+      ]
+    },
+    {
+      "doc": "ZogenixInc_20190509_10-Q_EX-10.2_11663313_EX-10.2_Distributor Agreement.pdf",
+      "category": "Insurance",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00336",
+        "CLAUSE-00066",
+        "CLAUSE-00131"
+      ],
+      "relevant": [
+        "CLAUSE-00200#3",
+        "CLAUSE-00336"
+      ]
+    },
+    {
+      "doc": "ZogenixInc_20190509_10-Q_EX-10.2_11663313_EX-10.2_Distributor Agreement.pdf",
+      "category": "Audit Rights",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00211#1",
+        "CLAUSE-00211#2",
+        "CLAUSE-00018"
+      ],
+      "relevant": [
+        "CLAUSE-00002",
+        "CLAUSE-00003",
+        "CLAUSE-00004",
+        "CLAUSE-00014",
+        "CLAUSE-00015"
+      ]
+    },
+    {
+      "doc": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement.pdf",
+      "category": "Governing Law",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00293",
+        "CLAUSE-00292",
+        "CLAUSE-00103#3"
+      ],
+      "relevant": [
+        "CLAUSE-00293"
+      ]
+    },
+    {
+      "doc": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement.pdf",
+      "category": "Termination For Convenience",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00259",
+        "CLAUSE-00209",
+        "CLAUSE-00257#1"
+      ],
+      "relevant": [
+        "CLAUSE-00237#2",
+        "CLAUSE-00257#1",
+        "CLAUSE-00257#2",
+        "CLAUSE-00259",
+        "CLAUSE-00260"
+      ]
+    },
+    {
+      "doc": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement.pdf",
+      "category": "Expiration Date",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00020",
+        "CLAUSE-00274",
+        "CLAUSE-00275#2"
+      ],
+      "relevant": [
+        "CLAUSE-00256"
+      ]
+    },
+    {
+      "doc": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement.pdf",
+      "category": "Non-Compete",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00103#3",
+        "CLAUSE-00222",
+        "CLAUSE-00178#1"
+      ],
+      "relevant": [
+        "CLAUSE-00008",
+        "CLAUSE-00081",
+        "CLAUSE-00083",
+        "CLAUSE-00097",
+        "CLAUSE-00103#1"
+      ]
+    },
+    {
+      "doc": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement.pdf",
+      "category": "Anti-Assignment",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00283#1",
+        "CLAUSE-00283#2",
+        "CLAUSE-00266"
+      ],
+      "relevant": [
+        "CLAUSE-00080",
+        "CLAUSE-00100",
+        "CLAUSE-00283#1",
+        "CLAUSE-00283#2"
+      ]
+    },
+    {
+      "doc": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement.pdf",
+      "category": "Cap On Liability",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00235",
+        "CLAUSE-00186",
+        "CLAUSE-00234"
+      ],
+      "relevant": [
+        "CLAUSE-00235",
+        "CLAUSE-00236"
+      ]
+    },
+    {
+      "doc": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement.pdf",
+      "category": "Exclusivity",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00240#2",
+        "CLAUSE-00283#2",
+        "CLAUSE-00236"
+      ],
+      "relevant": [
+        "CLAUSE-00008",
+        "CLAUSE-00013",
+        "CLAUSE-00095",
+        "CLAUSE-00171",
+        "CLAUSE-00202"
+      ]
+    },
+    {
+      "doc": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement.pdf",
+      "category": "Insurance",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00237#2",
+        "CLAUSE-00237#1",
+        "CLAUSE-00169"
+      ],
+      "relevant": [
+        "CLAUSE-00008",
+        "CLAUSE-00237#1",
+        "CLAUSE-00237#2",
+        "BLOCK-00261",
+        "CLAUSE-00262"
+      ]
+    },
+    {
+      "doc": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement.pdf",
+      "category": "Audit Rights",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "BLOCK-00154",
+        "CLAUSE-00162#4",
+        "CLAUSE-00162#3"
+      ],
+      "relevant": [
+        "CLAUSE-00008",
+        "CLAUSE-00100",
+        "CLAUSE-00103#3",
+        "CLAUSE-00140",
+        "CLAUSE-00162#2"
+      ]
+    },
+    {
+      "doc": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement.pdf",
+      "category": "Governing Law",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00036",
+        "CLAUSE-00034",
+        "CLAUSE-00005"
+      ],
+      "relevant": [
+        "CLAUSE-00036"
+      ]
+    },
+    {
+      "doc": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement.pdf",
+      "category": "Expiration Date",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00033#2",
+        "CLAUSE-00038",
+        "CLAUSE-00005"
+      ],
+      "relevant": [
+        "CLAUSE-00033#1",
+        "CLAUSE-00038"
+      ]
+    },
+    {
+      "doc": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement.pdf",
+      "category": "Insurance",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00024",
+        "CLAUSE-00017",
+        "CLAUSE-00031#1"
+      ],
+      "relevant": [
+        "CLAUSE-00017",
+        "CLAUSE-00028"
+      ]
+    },
+    {
+      "doc": "MusclepharmCorp_20170208_10-KA_EX-10.38_9893581_EX-10.38_Co-Branding Agreement.pdf",
+      "category": "Governing Law",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00126#2",
+        "CLAUSE-00124",
+        "CLAUSE-00126#1"
+      ],
+      "relevant": [
+        "CLAUSE-00124"
+      ]
+    },
+    {
+      "doc": "MusclepharmCorp_20170208_10-KA_EX-10.38_9893581_EX-10.38_Co-Branding Agreement.pdf",
+      "category": "Expiration Date",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00004#2",
+        "CLAUSE-00005#2",
+        "CLAUSE-00003"
+      ],
+      "relevant": [
+        "CLAUSE-00003",
+        "CLAUSE-00004#1",
+        "CLAUSE-00005#1",
+        "CLAUSE-00043",
+        "CLAUSE-00133#1"
+      ]
+    },
+    {
+      "doc": "MusclepharmCorp_20170208_10-KA_EX-10.38_9893581_EX-10.38_Co-Branding Agreement.pdf",
+      "category": "Renewal Term",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00005#1",
+        "CLAUSE-00004#2",
+        "CLAUSE-00005#2"
+      ],
+      "relevant": [
+        "CLAUSE-00004#1",
+        "CLAUSE-00004#2",
+        "CLAUSE-00005#1",
+        "CLAUSE-00005#2",
+        "CLAUSE-00068"
+      ]
+    },
+    {
+      "doc": "MusclepharmCorp_20170208_10-KA_EX-10.38_9893581_EX-10.38_Co-Branding Agreement.pdf",
+      "category": "Non-Compete",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00116",
+        "CLAUSE-00118",
+        "CLAUSE-00050"
+      ],
+      "relevant": [
+        "BLOCK-00001#2",
+        "CLAUSE-00011#1",
+        "CLAUSE-00011#2",
+        "CLAUSE-00017",
+        "CLAUSE-00018"
+      ]
+    },
+    {
+      "doc": "MusclepharmCorp_20170208_10-KA_EX-10.38_9893581_EX-10.38_Co-Branding Agreement.pdf",
+      "category": "Anti-Assignment",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00121#1",
+        "CLAUSE-00121#2",
+        "CLAUSE-00072"
+      ],
+      "relevant": [
+        "BLOCK-00001#1",
+        "BLOCK-00001#2",
+        "CLAUSE-00007",
+        "CLAUSE-00010",
+        "CLAUSE-00011#1"
+      ]
+    },
+    {
+      "doc": "MusclepharmCorp_20170208_10-KA_EX-10.38_9893581_EX-10.38_Co-Branding Agreement.pdf",
+      "category": "Cap On Liability",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00134#1",
+        "CLAUSE-00114",
+        "CLAUSE-00130#2"
+      ],
+      "relevant": [
+        "CLAUSE-00072",
+        "CLAUSE-00077",
+        "CLAUSE-00078#3",
+        "CLAUSE-00081",
+        "CLAUSE-00110"
+      ]
+    },
+    {
+      "doc": "MusclepharmCorp_20170208_10-KA_EX-10.38_9893581_EX-10.38_Co-Branding Agreement.pdf",
+      "category": "Exclusivity",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00116",
+        "CLAUSE-00133#2",
+        "CLAUSE-00112#2"
+      ],
+      "relevant": [
+        "CLAUSE-00117#1"
+      ]
+    },
+    {
+      "doc": "MusclepharmCorp_20170208_10-KA_EX-10.38_9893581_EX-10.38_Co-Branding Agreement.pdf",
+      "category": "Insurance",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00134#1",
+        "CLAUSE-00134#3",
+        "CLAUSE-00134#2"
+      ],
+      "relevant": [
+        "CLAUSE-00068",
+        "CLAUSE-00072",
+        "CLAUSE-00112#1",
+        "CLAUSE-00134#1",
+        "CLAUSE-00134#2"
+      ]
+    },
+    {
+      "doc": "MusclepharmCorp_20170208_10-KA_EX-10.38_9893581_EX-10.38_Co-Branding Agreement.pdf",
+      "category": "Audit Rights",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00083",
+        "CLAUSE-00137#3",
+        "CLAUSE-00133#1"
+      ],
+      "relevant": [
+        "CLAUSE-00053#1",
+        "CLAUSE-00060",
+        "CLAUSE-00069",
+        "CLAUSE-00081",
+        "CLAUSE-00083"
+      ]
+    },
+    {
+      "doc": "EmeraldHealthBioceuticalsInc_20200218_1-A_EX1A-6 MAT CTRCT_11987205_EX1A-6 MAT CTRCT_Development Agreement.pdf",
+      "category": "Governing Law",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00034",
+        "CLAUSE-00039#2",
+        "CLAUSE-00039#1"
+      ],
+      "relevant": [
+        "CLAUSE-00034",
+        "CLAUSE-00040"
+      ]
+    },
+    {
+      "doc": "EmeraldHealthBioceuticalsInc_20200218_1-A_EX1A-6 MAT CTRCT_11987205_EX1A-6 MAT CTRCT_Development Agreement.pdf",
+      "category": "Termination For Convenience",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00027",
+        "CLAUSE-00028",
+        "CLAUSE-00026"
+      ],
+      "relevant": [
+        "CLAUSE-00024",
+        "CLAUSE-00026"
+      ]
+    },
+    {
+      "doc": "EmeraldHealthBioceuticalsInc_20200218_1-A_EX1A-6 MAT CTRCT_11987205_EX1A-6 MAT CTRCT_Development Agreement.pdf",
+      "category": "Notice Period To Terminate Renewal",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00024",
+        "CLAUSE-00028",
+        "CLAUSE-00026"
+      ],
+      "relevant": [
+        "CLAUSE-00024"
+      ]
+    },
+    {
+      "doc": "EmeraldHealthBioceuticalsInc_20200218_1-A_EX1A-6 MAT CTRCT_11987205_EX1A-6 MAT CTRCT_Development Agreement.pdf",
+      "category": "Expiration Date",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00028",
+        "CLAUSE-00027",
+        "CLAUSE-00024"
+      ],
+      "relevant": [
+        "CLAUSE-00024",
+        "CLAUSE-00025",
+        "CLAUSE-00028"
+      ]
+    },
+    {
+      "doc": "EmeraldHealthBioceuticalsInc_20200218_1-A_EX1A-6 MAT CTRCT_11987205_EX1A-6 MAT CTRCT_Development Agreement.pdf",
+      "category": "Renewal Term",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00024",
+        "CLAUSE-00023",
+        "CLAUSE-00025"
+      ],
+      "relevant": [
+        "CLAUSE-00024"
+      ]
+    },
+    {
+      "doc": "EmeraldHealthBioceuticalsInc_20200218_1-A_EX1A-6 MAT CTRCT_11987205_EX1A-6 MAT CTRCT_Development Agreement.pdf",
+      "category": "Non-Compete",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00013",
+        "BLOCK-00031#3",
+        "CLAUSE-00035"
+      ],
+      "relevant": [
+        "CLAUSE-00013",
+        "CLAUSE-00015",
+        "CLAUSE-00022",
+        "BLOCK-00031#1",
+        "CLAUSE-00044"
+      ]
+    },
+    {
+      "doc": "EmeraldHealthBioceuticalsInc_20200218_1-A_EX1A-6 MAT CTRCT_11987205_EX1A-6 MAT CTRCT_Development Agreement.pdf",
+      "category": "Anti-Assignment",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00037",
+        "CLAUSE-00039#2",
+        "CLAUSE-00035"
+      ],
+      "relevant": [
+        "CLAUSE-00044"
+      ]
+    },
+    {
+      "doc": "EmeraldHealthBioceuticalsInc_20200218_1-A_EX1A-6 MAT CTRCT_11987205_EX1A-6 MAT CTRCT_Development Agreement.pdf",
+      "category": "Exclusivity",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00013",
+        "CLAUSE-00029",
+        "CLAUSE-00028"
+      ],
+      "relevant": [
+        "CLAUSE-00013",
+        "CLAUSE-00015"
+      ]
+    },
+    {
+      "doc": "PharmagenInc_20120803_8-KA_EX-10.1_7693204_EX-10.1_Endorsement Agreement.pdf",
+      "category": "Governing Law",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00029",
+        "CLAUSE-00027",
+        "CLAUSE-00022"
+      ],
+      "relevant": [
+        "CLAUSE-00029"
+      ]
+    },
+    {
+      "doc": "PharmagenInc_20120803_8-KA_EX-10.1_7693204_EX-10.1_Endorsement Agreement.pdf",
+      "category": "Expiration Date",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00003",
+        "CLAUSE-00015#1",
+        "CLAUSE-00015#2"
+      ],
+      "relevant": [
+        "CLAUSE-00003"
+      ]
+    },
+    {
+      "doc": "PharmagenInc_20120803_8-KA_EX-10.1_7693204_EX-10.1_Endorsement Agreement.pdf",
+      "category": "Anti-Assignment",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00022",
+        "CLAUSE-00024",
+        "CLAUSE-00034"
+      ],
+      "relevant": [
+        "CLAUSE-00022",
+        "CLAUSE-00023"
+      ]
+    },
+    {
+      "doc": "PharmagenInc_20120803_8-KA_EX-10.1_7693204_EX-10.1_Endorsement Agreement.pdf",
+      "category": "Exclusivity",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00022",
+        "CLAUSE-00013",
+        "CLAUSE-00029"
+      ],
+      "relevant": [
+        "CLAUSE-00013"
+      ]
+    },
+    {
+      "doc": "PharmagenInc_20120803_8-KA_EX-10.1_7693204_EX-10.1_Endorsement Agreement.pdf",
+      "category": "Insurance",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00020",
+        "CLAUSE-00019#2",
+        "CLAUSE-00019#1"
+      ],
+      "relevant": [
+        "CLAUSE-00004#1",
+        "CLAUSE-00005#1",
+        "CLAUSE-00015#3",
+        "CLAUSE-00020"
+      ]
+    },
+    {
+      "doc": "RandWorldwideInc_20010402_8-KA_EX-10.2_2102464_EX-10.2_Co-Branding Agreement.pdf",
+      "category": "Governing Law",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00109#1",
+        "CLAUSE-00109#2",
+        "CLAUSE-00101"
+      ],
+      "relevant": [
+        "BLOCK-00001#1",
+        "CLAUSE-00019",
+        "CLAUSE-00057",
+        "CLAUSE-00062#1",
+        "CLAUSE-00063#1"
+      ]
+    },
+    {
+      "doc": "RandWorldwideInc_20010402_8-KA_EX-10.2_2102464_EX-10.2_Co-Branding Agreement.pdf",
+      "category": "Notice Period To Terminate Renewal",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "BLOCK-00094",
+        "CLAUSE-00096",
+        "CLAUSE-00116"
+      ],
+      "relevant": [
+        "CLAUSE-00095"
+      ]
+    },
+    {
+      "doc": "RandWorldwideInc_20010402_8-KA_EX-10.2_2102464_EX-10.2_Co-Branding Agreement.pdf",
+      "category": "Expiration Date",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00097",
+        "CLAUSE-00095",
+        "BLOCK-00094"
+      ],
+      "relevant": [
+        "CLAUSE-00095"
+      ]
+    },
+    {
+      "doc": "RandWorldwideInc_20010402_8-KA_EX-10.2_2102464_EX-10.2_Co-Branding Agreement.pdf",
+      "category": "Renewal Term",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00095",
+        "BLOCK-00094",
+        "CLAUSE-00097"
+      ],
+      "relevant": [
+        "CLAUSE-00095"
+      ]
+    },
+    {
+      "doc": "RandWorldwideInc_20010402_8-KA_EX-10.2_2102464_EX-10.2_Co-Branding Agreement.pdf",
+      "category": "Non-Compete",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "BLOCK-00070",
+        "CLAUSE-00071",
+        "CLAUSE-00077"
+      ],
+      "relevant": [
+        "CLAUSE-00007",
+        "CLAUSE-00040",
+        "CLAUSE-00047",
+        "CLAUSE-00051",
+        "CLAUSE-00063#1"
+      ]
+    },
+    {
+      "doc": "RandWorldwideInc_20010402_8-KA_EX-10.2_2102464_EX-10.2_Co-Branding Agreement.pdf",
+      "category": "Anti-Assignment",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00117",
+        "CLAUSE-00116",
+        "CLAUSE-00119#1"
+      ],
+      "relevant": [
+        "CLAUSE-00009",
+        "CLAUSE-00088",
+        "CLAUSE-00116",
+        "CLAUSE-00117"
+      ]
+    },
+    {
+      "doc": "RandWorldwideInc_20010402_8-KA_EX-10.2_2102464_EX-10.2_Co-Branding Agreement.pdf",
+      "category": "Cap On Liability",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "BLOCK-00084",
+        "CLAUSE-00093",
+        "CLAUSE-00087"
+      ],
+      "relevant": [
+        "CLAUSE-00022",
+        "CLAUSE-00093"
+      ]
+    },
+    {
+      "doc": "RandWorldwideInc_20010402_8-KA_EX-10.2_2102464_EX-10.2_Co-Branding Agreement.pdf",
+      "category": "Audit Rights",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "BLOCK-00052",
+        "CLAUSE-00063#1",
+        "CLAUSE-00063#2"
+      ],
+      "relevant": [
+        "CLAUSE-00024",
+        "CLAUSE-00063#1",
+        "CLAUSE-00064"
+      ]
+    },
+    {
+      "doc": "CnsPharmaceuticalsInc_20200326_8-K_EX-10.1_12079626_EX-10.1_Development Agreement.pdf",
+      "category": "Governing Law",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00036",
+        "CLAUSE-00053",
+        "CLAUSE-00038"
+      ],
+      "relevant": [
+        "CLAUSE-00014",
+        "CLAUSE-00053"
+      ]
+    },
+    {
+      "doc": "CnsPharmaceuticalsInc_20200326_8-K_EX-10.1_12079626_EX-10.1_Development Agreement.pdf",
+      "category": "Expiration Date",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00031",
+        "BLOCK-00029",
+        "CLAUSE-00030"
+      ],
+      "relevant": [
+        "CLAUSE-00030"
+      ]
+    },
+    {
+      "doc": "CnsPharmaceuticalsInc_20200326_8-K_EX-10.1_12079626_EX-10.1_Development Agreement.pdf",
+      "category": "Audit Rights",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00037",
+        "CLAUSE-00033",
+        "CLAUSE-00044"
+      ],
+      "relevant": [
+        "CLAUSE-00042"
+      ]
+    },
+    {
+      "doc": "ArmstrongFlooringInc_20190107_8-K_EX-10.2_11471795_EX-10.2_Intellectual Property Agreement.pdf",
+      "category": "Governing Law",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00094",
+        "CLAUSE-00095#1",
+        "CLAUSE-00095#2"
+      ],
+      "relevant": [
+        "CLAUSE-00095#1"
+      ]
+    },
+    {
+      "doc": "ArmstrongFlooringInc_20190107_8-K_EX-10.2_11471795_EX-10.2_Intellectual Property Agreement.pdf",
+      "category": "Expiration Date",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00085",
+        "CLAUSE-00083",
+        "CLAUSE-00086"
+      ],
+      "relevant": [
+        "CLAUSE-00013",
+        "CLAUSE-00020",
+        "CLAUSE-00029",
+        "CLAUSE-00030",
+        "CLAUSE-00031"
+      ]
+    },
+    {
+      "doc": "ArmstrongFlooringInc_20190107_8-K_EX-10.2_11471795_EX-10.2_Intellectual Property Agreement.pdf",
+      "category": "Anti-Assignment",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00089#2",
+        "CLAUSE-00041",
+        "CLAUSE-00074"
+      ],
+      "relevant": [
+        "CLAUSE-00028",
+        "CLAUSE-00029",
+        "CLAUSE-00030",
+        "CLAUSE-00034",
+        "CLAUSE-00040"
+      ]
+    },
+    {
+      "doc": "BravatekSolutionsInc_20170418_8-K_EX-10.1_10205739_EX-10.1_Reseller Agreement.pdf",
+      "category": "Governing Law",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00015#1",
+        "CLAUSE-00006#2",
+        "CLAUSE-00012#1"
+      ],
+      "relevant": [
+        "CLAUSE-00015#1"
+      ]
+    },
+    {
+      "doc": "BravatekSolutionsInc_20170418_8-K_EX-10.1_10205739_EX-10.1_Reseller Agreement.pdf",
+      "category": "Termination For Convenience",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "BLOCK-00001#2",
+        "CLAUSE-00011#2",
+        "CLAUSE-00011#4"
+      ],
+      "relevant": [
+        "BLOCK-00001#2",
+        "CLAUSE-00011#2"
+      ]
+    },
+    {
+      "doc": "BravatekSolutionsInc_20170418_8-K_EX-10.1_10205739_EX-10.1_Reseller Agreement.pdf",
+      "category": "Renewal Term",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "BLOCK-00001#2",
+        "CLAUSE-00011#1",
+        "CLAUSE-00006#2"
+      ],
+      "relevant": [
+        "BLOCK-00001#2"
+      ]
+    },
+    {
+      "doc": "BravatekSolutionsInc_20170418_8-K_EX-10.1_10205739_EX-10.1_Reseller Agreement.pdf",
+      "category": "Cap On Liability",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00013",
+        "CLAUSE-00011#2",
+        "CLAUSE-00009"
+      ],
+      "relevant": [
+        "CLAUSE-00013"
+      ]
+    },
+    {
+      "doc": "BravatekSolutionsInc_20170418_8-K_EX-10.1_10205739_EX-10.1_Reseller Agreement.pdf",
+      "category": "Exclusivity",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00006#1",
+        "CLAUSE-00005",
+        "CLAUSE-00015#1"
+      ],
+      "relevant": [
+        "CLAUSE-00006#2",
+        "CLAUSE-00011#4"
+      ]
+    },
+    {
+      "doc": "IdeanomicsInc_20151124_8-K_EX-10.2_9354744_EX-10.2_Content License Agreement.pdf",
+      "category": "Governing Law",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00054",
+        "CLAUSE-00055#3",
+        "CLAUSE-00055#2"
+      ],
+      "relevant": [
+        "CLAUSE-00054",
+        "CLAUSE-00055#1"
+      ]
+    },
+    {
+      "doc": "IdeanomicsInc_20151124_8-K_EX-10.2_9354744_EX-10.2_Content License Agreement.pdf",
+      "category": "Expiration Date",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00034",
+        "CLAUSE-00036",
+        "CLAUSE-00035"
+      ],
+      "relevant": [
+        "CLAUSE-00015",
+        "CLAUSE-00035"
+      ]
+    },
+    {
+      "doc": "IdeanomicsInc_20151124_8-K_EX-10.2_9354744_EX-10.2_Content License Agreement.pdf",
+      "category": "Anti-Assignment",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00061",
+        "CLAUSE-00036",
+        "CLAUSE-00055#2"
+      ],
+      "relevant": [
+        "CLAUSE-00009",
+        "CLAUSE-00022",
+        "CLAUSE-00024",
+        "CLAUSE-00061"
+      ]
+    },
+    {
+      "doc": "IdeanomicsInc_20151124_8-K_EX-10.2_9354744_EX-10.2_Content License Agreement.pdf",
+      "category": "Cap On Liability",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00052",
+        "CLAUSE-00026#1",
+        "CLAUSE-00047#4"
+      ],
+      "relevant": [
+        "CLAUSE-00052"
+      ]
+    },
+    {
+      "doc": "NlsPharmaceuticsLtd_20200228_F-1_EX-10.14_12029046_EX-10.14_Development Agreement.pdf",
+      "category": "Governing Law",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00095#1",
+        "CLAUSE-00077",
+        "CLAUSE-00061"
+      ],
+      "relevant": [
+        "CLAUSE-00095#1"
+      ]
+    },
+    {
+      "doc": "NlsPharmaceuticsLtd_20200228_F-1_EX-10.14_12029046_EX-10.14_Development Agreement.pdf",
+      "category": "Expiration Date",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00084#3",
+        "CLAUSE-00086#1",
+        "CLAUSE-00087#2"
+      ],
+      "relevant": [
+        "CLAUSE-00086#1"
+      ]
+    },
+    {
+      "doc": "NlsPharmaceuticsLtd_20200228_F-1_EX-10.14_12029046_EX-10.14_Development Agreement.pdf",
+      "category": "Anti-Assignment",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00094#3",
+        "CLAUSE-00027#2",
+        "CLAUSE-00045#1"
+      ],
+      "relevant": [
+        "CLAUSE-00023",
+        "CLAUSE-00027#2",
+        "CLAUSE-00032#2",
+        "CLAUSE-00032#5",
+        "CLAUSE-00037#1"
+      ]
+    },
+    {
+      "doc": "NlsPharmaceuticsLtd_20200228_F-1_EX-10.14_12029046_EX-10.14_Development Agreement.pdf",
+      "category": "Cap On Liability",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00017",
+        "CLAUSE-00069",
+        "CLAUSE-00070"
+      ],
+      "relevant": [
+        "CLAUSE-00069",
+        "CLAUSE-00071",
+        "CLAUSE-00073"
+      ]
+    },
+    {
+      "doc": "NlsPharmaceuticsLtd_20200228_F-1_EX-10.14_12029046_EX-10.14_Development Agreement.pdf",
+      "category": "Exclusivity",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00038#2",
+        "CLAUSE-00010",
+        "CLAUSE-00084#3"
+      ],
+      "relevant": [
+        "CLAUSE-00014",
+        "CLAUSE-00026",
+        "CLAUSE-00027#1",
+        "CLAUSE-00030",
+        "CLAUSE-00038#2"
+      ]
+    },
+    {
+      "doc": "NlsPharmaceuticsLtd_20200228_F-1_EX-10.14_12029046_EX-10.14_Development Agreement.pdf",
+      "category": "Audit Rights",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00032#3",
+        "CLAUSE-00074",
+        "CLAUSE-00084#1"
+      ],
+      "relevant": [
+        "CLAUSE-00032#1",
+        "CLAUSE-00032#2",
+        "CLAUSE-00032#3",
+        "CLAUSE-00071"
+      ]
+    },
+    {
+      "doc": "FEDERATEDGOVERNMENTINCOMESECURITIESINC_04_28_2020-EX-99.SERV AGREE-SERVICES AGREEMENT_AMENDMENT.pdf",
+      "category": "Governing Law",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00003#1",
+        "BLOCK-00001#3",
+        "CLAUSE-00002#1"
+      ],
+      "relevant": [
+        "CLAUSE-00003#1"
+      ]
+    },
+    {
+      "doc": "LejuHoldingsLtd_20140121_DRS (on F-1)_EX-10.26_8473102_EX-10.26_Content License Agreement1.pdf",
+      "category": "Governing Law",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00030#9",
+        "CLAUSE-00024#2",
+        "CLAUSE-00030#6"
+      ],
+      "relevant": [
+        "CLAUSE-00030#9"
+      ]
+    },
+    {
+      "doc": "LejuHoldingsLtd_20140121_DRS (on F-1)_EX-10.26_8473102_EX-10.26_Content License Agreement1.pdf",
+      "category": "Expiration Date",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00020",
+        "CLAUSE-00022",
+        "BLOCK-00016#2"
+      ],
+      "relevant": [
+        "CLAUSE-00006#4",
+        "BLOCK-00016#1",
+        "CLAUSE-00020"
+      ]
+    },
+    {
+      "doc": "LejuHoldingsLtd_20140121_DRS (on F-1)_EX-10.26_8473102_EX-10.26_Content License Agreement1.pdf",
+      "category": "Anti-Assignment",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00030#6",
+        "CLAUSE-00004",
+        "CLAUSE-00005"
+      ],
+      "relevant": [
+        "CLAUSE-00006#1",
+        "CLAUSE-00030#6"
+      ]
+    },
+    {
+      "doc": "LejuHoldingsLtd_20140121_DRS (on F-1)_EX-10.26_8473102_EX-10.26_Content License Agreement1.pdf",
+      "category": "Exclusivity",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "BLOCK-00026#2",
+        "BLOCK-00026#4",
+        "BLOCK-00001#3"
+      ],
+      "relevant": [
+        "BLOCK-00003",
+        "CLAUSE-00004",
+        "CLAUSE-00005",
+        "CLAUSE-00008#2",
+        "BLOCK-00023"
+      ]
+    },
+    {
+      "doc": "GlobalTechnologiesGroupInc_20050928_10KSB_EX-10.9_4148808_EX-10.9_Content License Agreement.pdf",
+      "category": "Governing Law",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00057#2",
+        "CLAUSE-00057#1",
+        "CLAUSE-00053#1"
+      ],
+      "relevant": [
+        "CLAUSE-00057#2"
+      ]
+    },
+    {
+      "doc": "GlobalTechnologiesGroupInc_20050928_10KSB_EX-10.9_4148808_EX-10.9_Content License Agreement.pdf",
+      "category": "Expiration Date",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00039",
+        "CLAUSE-00041",
+        "CLAUSE-00043"
+      ],
+      "relevant": [
+        "BLOCK-00001#3"
+      ]
+    },
+    {
+      "doc": "GlobalTechnologiesGroupInc_20050928_10KSB_EX-10.9_4148808_EX-10.9_Content License Agreement.pdf",
+      "category": "Renewal Term",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "BLOCK-00001#3",
+        "CLAUSE-00083",
+        "BLOCK-00001#4"
+      ],
+      "relevant": [
+        "BLOCK-00001#3"
+      ]
+    },
+    {
+      "doc": "GlobalTechnologiesGroupInc_20050928_10KSB_EX-10.9_4148808_EX-10.9_Content License Agreement.pdf",
+      "category": "Anti-Assignment",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00053#1",
+        "CLAUSE-00057#2",
+        "CLAUSE-00057#1"
+      ],
+      "relevant": [
+        "CLAUSE-00053#1"
+      ]
+    },
+    {
+      "doc": "GlobalTechnologiesGroupInc_20050928_10KSB_EX-10.9_4148808_EX-10.9_Content License Agreement.pdf",
+      "category": "Cap On Liability",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00050",
+        "CLAUSE-00045#2",
+        "CLAUSE-00022"
+      ],
+      "relevant": [
+        "BLOCK-00001#1",
+        "CLAUSE-00040#1",
+        "CLAUSE-00040#2",
+        "CLAUSE-00043",
+        "CLAUSE-00050"
+      ]
+    },
+    {
+      "doc": "GridironBionutrientsInc_20171206_8-K_EX-10.1_10972555_EX-10.1_Endorsement Agreement.pdf",
+      "category": "Governing Law",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "BLOCK-00027#2",
+        "BLOCK-00027#1",
+        "BLOCK-00001#3"
+      ],
+      "relevant": [
+        "BLOCK-00027#1"
+      ]
+    },
+    {
+      "doc": "GridironBionutrientsInc_20171206_8-K_EX-10.1_10972555_EX-10.1_Endorsement Agreement.pdf",
+      "category": "Expiration Date",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "BLOCK-00022",
+        "BLOCK-00014#1",
+        "CLAUSE-00016"
+      ],
+      "relevant": [
+        "BLOCK-00002#1",
+        "BLOCK-00022"
+      ]
+    },
+    {
+      "doc": "GridironBionutrientsInc_20171206_8-K_EX-10.1_10972555_EX-10.1_Endorsement Agreement.pdf",
+      "category": "Anti-Assignment",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "BLOCK-00026",
+        "BLOCK-00029",
+        "BLOCK-00001#3"
+      ],
+      "relevant": [
+        "BLOCK-00002#4"
+      ]
+    },
+    {
+      "doc": "GridironBionutrientsInc_20171206_8-K_EX-10.1_10972555_EX-10.1_Endorsement Agreement.pdf",
+      "category": "Cap On Liability",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "BLOCK-00023",
+        "BLOCK-00020",
+        "BLOCK-00014#3"
+      ],
+      "relevant": [
+        "BLOCK-00023"
+      ]
+    },
+    {
+      "doc": "GridironBionutrientsInc_20171206_8-K_EX-10.1_10972555_EX-10.1_Endorsement Agreement.pdf",
+      "category": "Exclusivity",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "BLOCK-00001#3",
+        "BLOCK-00014#2",
+        "BLOCK-00029"
+      ],
+      "relevant": [
+        "BLOCK-00001#2",
+        "BLOCK-00002#6",
+        "BLOCK-00003#1",
+        "BLOCK-00019"
+      ]
+    },
+    {
+      "doc": "GridironBionutrientsInc_20171206_8-K_EX-10.1_10972555_EX-10.1_Endorsement Agreement.pdf",
+      "category": "Insurance",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "BLOCK-00020",
+        "BLOCK-00023",
+        "BLOCK-00014#3"
+      ],
+      "relevant": [
+        "BLOCK-00020"
+      ]
+    },
+    {
+      "doc": "ElPolloLocoHoldingsInc_20200306_10-K_EX-10.16_12041700_EX-10.16_Development Agreement.pdf",
+      "category": "Governing Law",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00017",
+        "CLAUSE-00018#1",
+        "CLAUSE-00018#2"
+      ],
+      "relevant": [
+        "CLAUSE-00018#1"
+      ]
+    },
+    {
+      "doc": "ElPolloLocoHoldingsInc_20200306_10-K_EX-10.16_12041700_EX-10.16_Development Agreement.pdf",
+      "category": "Termination For Convenience",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00010",
+        "CLAUSE-00011#6",
+        "CLAUSE-00012#1"
+      ],
+      "relevant": [
+        "BLOCK-00001#6",
+        "BLOCK-00001#8",
+        "BLOCK-00001#10",
+        "CLAUSE-00002#1",
+        "CLAUSE-00002#2"
+      ]
+    },
+    {
+      "doc": "ElPolloLocoHoldingsInc_20200306_10-K_EX-10.16_12041700_EX-10.16_Development Agreement.pdf",
+      "category": "Expiration Date",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00004",
+        "CLAUSE-00010",
+        "CLAUSE-00021#2"
+      ],
+      "relevant": [
+        "CLAUSE-00002#15",
+        "CLAUSE-00004",
+        "CLAUSE-00010",
+        "CLAUSE-00011#1"
+      ]
+    },
+    {
+      "doc": "ElPolloLocoHoldingsInc_20200306_10-K_EX-10.16_12041700_EX-10.16_Development Agreement.pdf",
+      "category": "Non-Compete",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00021#1",
+        "CLAUSE-00021#5",
+        "CLAUSE-00002#12"
+      ],
+      "relevant": [
+        "CLAUSE-00021#1",
+        "CLAUSE-00021#2",
+        "CLAUSE-00021#3"
+      ]
+    },
+    {
+      "doc": "ElPolloLocoHoldingsInc_20200306_10-K_EX-10.16_12041700_EX-10.16_Development Agreement.pdf",
+      "category": "Anti-Assignment",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00008#1",
+        "CLAUSE-00008#2",
+        "CLAUSE-00011#5"
+      ],
+      "relevant": [
+        "BLOCK-00001#8",
+        "BLOCK-00001#10",
+        "CLAUSE-00002#5",
+        "CLAUSE-00002#8",
+        "CLAUSE-00002#12"
+      ]
+    },
+    {
+      "doc": "ElPolloLocoHoldingsInc_20200306_10-K_EX-10.16_12041700_EX-10.16_Development Agreement.pdf",
+      "category": "Exclusivity",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "BLOCK-00001#7",
+        "CLAUSE-00012#2",
+        "CLAUSE-00005#2"
+      ],
+      "relevant": [
+        "BLOCK-00001#7",
+        "CLAUSE-00002#18"
+      ]
+    },
+    {
+      "doc": "ElPolloLocoHoldingsInc_20200306_10-K_EX-10.16_12041700_EX-10.16_Development Agreement.pdf",
+      "category": "Insurance",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00007#1",
+        "CLAUSE-00007#2",
+        "CLAUSE-00005#2"
+      ],
+      "relevant": [
+        "CLAUSE-00007#1",
+        "CLAUSE-00007#2"
+      ]
+    },
+    {
+      "doc": "BerkshireHillsBancorpInc_20120809_10-Q_EX-10.16_7708169_EX-10.16_Endorsement Agreement.pdf",
+      "category": "Governing Law",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00047",
+        "CLAUSE-00064#3",
+        "CLAUSE-00043"
+      ],
+      "relevant": [
+        "BLOCK-00001#1",
+        "CLAUSE-00036#1",
+        "CLAUSE-00042",
+        "CLAUSE-00043",
+        "CLAUSE-00047"
+      ]
+    },
+    {
+      "doc": "BerkshireHillsBancorpInc_20120809_10-Q_EX-10.16_7708169_EX-10.16_Endorsement Agreement.pdf",
+      "category": "Expiration Date",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00003",
+        "CLAUSE-00040#1",
+        "CLAUSE-00040#3"
+      ],
+      "relevant": [
+        "CLAUSE-00003",
+        "CLAUSE-00004"
+      ]
+    },
+    {
+      "doc": "BerkshireHillsBancorpInc_20120809_10-Q_EX-10.16_7708169_EX-10.16_Endorsement Agreement.pdf",
+      "category": "Non-Compete",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00009",
+        "CLAUSE-00018",
+        "CLAUSE-00056"
+      ],
+      "relevant": [
+        "CLAUSE-00018"
+      ]
+    },
+    {
+      "doc": "BerkshireHillsBancorpInc_20120809_10-Q_EX-10.16_7708169_EX-10.16_Endorsement Agreement.pdf",
+      "category": "Anti-Assignment",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00053",
+        "CLAUSE-00059",
+        "CLAUSE-00046"
+      ],
+      "relevant": [
+        "CLAUSE-00015",
+        "CLAUSE-00042",
+        "CLAUSE-00059",
+        "CLAUSE-00064#2",
+        "CLAUSE-00064#3"
+      ]
+    },
+    {
+      "doc": "BerkshireHillsBancorpInc_20120809_10-Q_EX-10.16_7708169_EX-10.16_Endorsement Agreement.pdf",
+      "category": "Exclusivity",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00016",
+        "CLAUSE-00056",
+        "CLAUSE-00052"
+      ],
+      "relevant": [
+        "CLAUSE-00005",
+        "CLAUSE-00009",
+        "CLAUSE-00012",
+        "CLAUSE-00014",
+        "CLAUSE-00015"
+      ]
+    },
+    {
+      "doc": "GluMobileInc_20070319_S-1A_EX-10.09_436630_EX-10.09_Content License Agreement1.pdf",
+      "category": "Governing Law",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00145",
+        "CLAUSE-00076",
+        "CLAUSE-00149"
+      ],
+      "relevant": [
+        "CLAUSE-00004",
+        "CLAUSE-00145"
+      ]
+    },
+    {
+      "doc": "GluMobileInc_20070319_S-1A_EX-10.09_436630_EX-10.09_Content License Agreement1.pdf",
+      "category": "Expiration Date",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00041",
+        "CLAUSE-00074",
+        "CLAUSE-00152"
+      ],
+      "relevant": [
+        "CLAUSE-00041"
+      ]
+    },
+    {
+      "doc": "GluMobileInc_20070319_S-1A_EX-10.09_436630_EX-10.09_Content License Agreement1.pdf",
+      "category": "Anti-Assignment",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00144",
+        "CLAUSE-00138",
+        "BLOCK-00001#3"
+      ],
+      "relevant": [
+        "CLAUSE-00004",
+        "CLAUSE-00012#2",
+        "CLAUSE-00017#2",
+        "CLAUSE-00018",
+        "CLAUSE-00022"
+      ]
+    },
+    {
+      "doc": "GluMobileInc_20070319_S-1A_EX-10.09_436630_EX-10.09_Content License Agreement1.pdf",
+      "category": "Cap On Liability",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00117#1",
+        "CLAUSE-00118#1",
+        "CLAUSE-00117#3"
+      ],
+      "relevant": [
+        "CLAUSE-00120",
+        "CLAUSE-00148"
+      ]
+    },
+    {
+      "doc": "GluMobileInc_20070319_S-1A_EX-10.09_436630_EX-10.09_Content License Agreement1.pdf",
+      "category": "Exclusivity",
+      "answered": true,
+      "evidence_supported": false,
+      "first_retrieved": [
+        "CLAUSE-00120",
+        "CLAUSE-00144",
+        "CLAUSE-00143"
+      ],
+      "relevant": [
+        "BLOCK-00001#2",
+        "CLAUSE-00003#1",
+        "CLAUSE-00003#2",
+        "CLAUSE-00003#3",
+        "CLAUSE-00004"
+      ]
+    },
+    {
+      "doc": "GluMobileInc_20070319_S-1A_EX-10.09_436630_EX-10.09_Content License Agreement1.pdf",
+      "category": "Audit Rights",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00067",
+        "CLAUSE-00002",
+        "CLAUSE-00137"
+      ],
+      "relevant": [
+        "CLAUSE-00067"
+      ]
+    },
+    {
+      "doc": "GluMobileInc_20070319_S-1A_EX-10.09_436630_EX-10.09_Content License Agreement1.pdf",
+      "category": "Liquidated Damages",
+      "answered": true,
+      "evidence_supported": true,
+      "first_retrieved": [
+        "CLAUSE-00133",
+        "CLAUSE-00117#1",
+        "CLAUSE-00117#3"
+      ],
+      "relevant": [
+        "CLAUSE-00107",
+        "CLAUSE-00113",
+        "CLAUSE-00133"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,235 @@
+{
+  "documents": 60,
+  "injected_conflicts": 100,
+  "overall": {
+    "Precision": 0.132,
+    "Recall": 0.67,
+    "F1": 0.22,
+    "TP": 67,
+    "FP": 441,
+    "FN": 33
+  },
+  "type_correct_recall": 0.67,
+  "per_type_recall": {
+    "modality": 0.483,
+    "notice": 1.0,
+    "amount": 0.85
+  },
+  "flags_per_clean_document": 7.35,
+  "nli_used": false,
+  "how_to_read": "TP = injected conflict reported; FN = injected conflict missed; FP = every conflict flagged in the UNMODIFIED contracts (assumed conflict-free - inspect 'clean_flag_examples' by hand, some may be genuine). Injected clauses are edited copies of real sentences, so recall is optimistic.",
+  "clean_flag_examples": [
+    {
+      "doc": "StampscomInc_20001114_10-Q_EX-10.47_2631630_EX-10.47_Co-Branding Agreement.pdf",
+      "types": [
+        "Potential Modality Conflict (prohibition vs permission/obligation)"
+      ],
+      "a": "Authorized Equipment. Each MBE Center shall be responsible for -------------------- obtaining, installing and maintaining the Authorized Equipment at its sole c",
+      "b": "Limitation of Liability. Notwithstanding anything to the contrary in ----------------------- this Agreement, in no event shall either party's liability under an"
+    },
+    {
+      "doc": "HarpoonTherapeuticsInc_20200312_10-K_EX-10.18_12051356_EX-10.18_Development Agreement_Option Agreement.pdf",
+      "types": [
+        "Potential Modality Conflict (prohibition vs permission/obligation)"
+      ],
+      "a": "On and after the License Option Exercise Closing Date, AbbVie shall have the responsibility for and control over the defense of the validity, patentability and ",
+      "b": "At any time following the [***] and prior to the expiration of the Option Period (as[***]), at AbbVie’s request, Harpoon shall, at its sole cost and expense, ex"
+    },
+    {
+      "doc": "HarpoonTherapeuticsInc_20200312_10-K_EX-10.18_12051356_EX-10.18_Development Agreement_Option Agreement.pdf",
+      "types": [
+        "Potential Modality Conflict (prohibition vs permission/obligation)"
+      ],
+      "a": "Conduct of Biosimilar Patent Litigation Including Under the Biologics Price Competition and Innovation Act. Notwithstanding anything to the contrary in this Sec",
+      "b": "At any time following the [***] and prior to the expiration of the Option Period (as[***]), at AbbVie’s request, Harpoon shall, at its sole cost and expense, ex"
+    },
+    {
+      "doc": "VertexEnergyInc_20200113_8-K_EX-10.1_11943624_EX-10.1_Marketing Agreement.pdf",
+      "types": [
+        "Potential Modality Conflict (prohibition vs permission/obligation)"
+      ],
+      "a": "Confidentiality 8.1. The JSMA is private and confidential. Both Parties agree that all information, other than Exempt Information, obtained in connection with t",
+      "b": "Board of Directors meetings. During the Term of this JSMA, provided that Bunker One, directly or indirectly, consummates the capital investment described in the"
+    },
+    {
+      "doc": "VertexEnergyInc_20200113_8-K_EX-10.1_11943624_EX-10.1_Marketing Agreement.pdf",
+      "types": [
+        "Potential Modality Conflict (prohibition vs permission/obligation)"
+      ],
+      "a": "Confidentiality 8.1. The JSMA is private and confidential. Both Parties agree that all information, other than Exempt Information, obtained in connection with t",
+      "b": "Indemnification. 12.1. Vertex shall promptly indemnify Bunker One and pay any and all damages, losses, liabilities, costs and expenses, including reasonable att"
+    },
+    {
+      "doc": "EuromediaHoldingsCorp_20070215_10SB12G_EX-10.B(01)_525118_EX-10.B(01)_Content License Agreement.pdf",
+      "types": [
+        "Potential Notice Period Inconsistency"
+      ],
+      "a": "Subject to Section 3, Licensor shall forthwith provide to Rogers a comprehensive list (including title, length of program, license period and availability date)",
+      "b": "TERM. The term of this Agreement (the “Initial Term”) shall commence as of the Effective Date and, unless earlier terminated in accordance with this Agreement, "
+    },
+    {
+      "doc": "EuromediaHoldingsCorp_20070215_10SB12G_EX-10.B(01)_525118_EX-10.B(01)_Content License Agreement.pdf",
+      "types": [
+        "Potential Notice Period Inconsistency"
+      ],
+      "a": "Subject to Section 3, Licensor shall forthwith provide to Rogers a comprehensive list (including title, length of program, license period and availability date)",
+      "b": "ROGERS’ TERMINATION RIGHTS. Notwithstanding any other provision of this Agreement, Rogers may terminate this Agreement, at any time, upon sixty (60) days’ prior"
+    },
+    {
+      "doc": "PalmerSquareCapitalBdcInc_20200116_10-12GA_EX-10.6_11949289_EX-10.6_Trademark License Agreement.pdf",
+      "types": [
+        "Potential Modality Conflict (prohibition vs permission/obligation)"
+      ],
+      "a": "LICENSE GRANT 1.1. License. Subject to the terms and conditions of this Agreement, Licensor hereby grants to Licensee, and Licensee hereby accepts from Licensor",
+      "b": "MISCELLANEOUS 5.1. Third Party Beneficiaries. The parties agree that Investment Advisor shall be a third party beneficiary of this Agreement, and shall have the"
+    },
+    {
+      "doc": "DovaPharmaceuticalsInc_20181108_10-Q_EX-10.2_11414857_EX-10.2_Promotion Agreement.pdf",
+      "types": [
+        "Potential Modality Conflict (prohibition vs permission/obligation)"
+      ],
+      "a": "Valeant shall follow all instructions and guidelines of Dova (of which Dova has provided Valeant copies) in connection with the use of any Dova Trademarks and C",
+      "b": "Protection of Trademarks and Copyrights. As between the Parties, Dova shall have the sole right (but not the obligation), as determined by Dova in its sole disc"
+    },
+    {
+      "doc": "DovaPharmaceuticalsInc_20181108_10-Q_EX-10.2_11414857_EX-10.2_Promotion Agreement.pdf",
+      "types": [
+        "Potential Modality Conflict (prohibition vs permission/obligation)"
+      ],
+      "a": "Commencing promptly upon completion of training of the Field Force Personnel that are engaged in Detailing the Product as described in Section 4.4.1 (but on the",
+      "b": "Field Force Personnel that are engaged in Detailing shall conduct the Valeant Activities only after having undergone the training described in this Section 4.4 "
+    },
+    {
+      "doc": "StaarSurgicalCompany_20180801_10-Q_EX-10.37_11289449_EX-10.37_Distributor Agreement.pdf",
+      "types": [
+        "Potential Notice Period Inconsistency"
+      ],
+      "a": "The term “Products” shall mean those certain products, specified by brand name, manufactured and marketed under the Trademarks by STAAR that are listed on Exhib",
+      "b": "Notwithstanding the provisions of Section 3 above, either party shall have the right to terminate this Agreement, without cause, upon no less than ninety (90) d"
+    },
+    {
+      "doc": "StaarSurgicalCompany_20180801_10-Q_EX-10.37_11289449_EX-10.37_Distributor Agreement.pdf",
+      "types": [
+        "Potential Notice Period Inconsistency"
+      ],
+      "a": "The prices which Distributor shall pay to STAAR for the Products shall be as specified on Exhibit A 1. Such prices are exclusive of any national, state, local o",
+      "b": "Notwithstanding the provisions of Section 3 above, either party shall have the right to terminate this Agreement, without cause, upon no less than ninety (90) d"
+    },
+    {
+      "doc": "TubeMediaCorp_20060310_8-K_EX-10.1_513921_EX-10.1_Affiliate Agreement.pdf",
+      "types": [
+        "Potential Notice Period Inconsistency"
+      ],
+      "a": "In addition to Network’s other rights to terminate this Agreement, Network may, by providing Affiliate with thirty (30) days’ prior notice, terminate this Agree",
+      "b": "Network retains the right at all times during the Term to discontinue its distribution of the Service in its entirety and to terminate this Agreement and all ot"
+    },
+    {
+      "doc": "TubeMediaCorp_20060310_8-K_EX-10.1_513921_EX-10.1_Affiliate Agreement.pdf",
+      "types": [
+        "Potential Notice Period Inconsistency"
+      ],
+      "a": "Network retains the right at all times during the Term to discontinue its distribution of the Service in its entirety and to terminate this Agreement and all ot",
+      "b": "In addition to Affiliate’s other rights to terminate this Agreement, Affiliate may, by providing Network with thirty (30) days’ prior notice, terminate this Agr"
+    },
+    {
+      "doc": "BerkshireHillsBancorpInc_20120809_10-Q_EX-10.16_7708169_EX-10.16_Endorsement Agreement.pdf",
+      "types": [
+        "Potential Amount Inconsistency"
+      ],
+      "a": "In consideration of the rights and benefits granted to Berkshire hereunder, Berkshire shall pay to Auriemma the sum of Four Hundred Eighty Thousand and 00/100 D",
+      "b": "Berkshire will make four (4) equal cash payments to Auriemma in the amount of Ninety Thousand and 00/100 Dollars ($90,000.00) on June 1, 2012, June 1, 2013, Jun"
+    }
+  ],
+  "missed_examples": [
+    {
+      "doc": "StampscomInc_20001114_10-Q_EX-10.47_2631630_EX-10.47_Co-Branding Agreement.pdf",
+      "kind": "modality",
+      "original": "Each party shall provide the other party with reasonable and prompt notification of all known failures of the Service to be operational during these hours (\"Outages\").",
+      "injected": "Each party shall not provide the other party with reasonable and prompt notification of all known failures of the Service to be operational during these hours (\"Outages\")."
+    },
+    {
+      "doc": "SouthernStarEnergyInc_20051202_SB-2A_EX-9_801890_EX-9_Affiliate Agreement.pdf",
+      "kind": "modality",
+      "original": "The Affiliate shall integrate the product under the agreement using the appropriate link on its Web site; the link points to the order form operated by element 5.",
+      "injected": "The Affiliate shall not integrate the product under the agreement using the appropriate link on its Web site; the link points to the order form operated by element 5."
+    },
+    {
+      "doc": "HarpoonTherapeuticsInc_20200312_10-K_EX-10.18_12051356_EX-10.18_Development Agreement_Option Agreement.pdf",
+      "kind": "modality",
+      "original": "The JGC shall meet [***], or as otherwise agreed to by the Parties, with the location of such meetings alternating between locations designated by Harpoon and locations designated by AbbVie.",
+      "injected": "The JGC shall not meet [***], or as otherwise agreed to by the Parties, with the location of such meetings alternating between locations designated by Harpoon and locations designated by AbbVie."
+    },
+    {
+      "doc": "VertexEnergyInc_20200113_8-K_EX-10.1_11943624_EX-10.1_Marketing Agreement.pdf",
+      "kind": "modality",
+      "original": "Source: VERTEX ENERGY INC., 8-K, 1/13/2020 “Inventory Market Value” shall mean the then current market value of Inventory as determined by Bunker One on a mark-to-market basis in a commercially reason",
+      "injected": "Source: VERTEX ENERGY INC., 8-K, 1/13/2020 “Inventory Market Value” shall not mean the then current market value of Inventory as determined by Bunker One on a mark-to-market basis in a commercially re"
+    },
+    {
+      "doc": "PalmerSquareCapitalBdcInc_20200116_10-12GA_EX-10.6_11949289_EX-10.6_Trademark License Agreement.pdf",
+      "kind": "modality",
+      "original": "Any purported transfer without such consent shall be void ab initio.",
+      "injected": "Any purported transfer without such consent shall not be void ab initio."
+    },
+    {
+      "doc": "EmbarkComInc_19991008_S-1A_EX-10.10_6487661_EX-10.10_Co-Branding Agreement.pdf",
+      "kind": "modality",
+      "original": "This Agreement shall be governed by, and construed in accordance with, the laws of the State of California without reference to its choice of law rules.",
+      "injected": "This Agreement shall not be governed by, and construed in accordance with, the laws of the State of California without reference to its choice of law rules."
+    },
+    {
+      "doc": "StaarSurgicalCompany_20180801_10-Q_EX-10.37_11289449_EX-10.37_Distributor Agreement.pdf",
+      "kind": "modality",
+      "original": "In no event shall Distributor reverse engineer, decompile, or disassemble the Software.",
+      "injected": "In no event shall not Distributor reverse engineer, decompile, or disassemble the Software."
+    },
+    {
+      "doc": "BerkshireHillsBancorpInc_20120809_10-Q_EX-10.16_7708169_EX-10.16_Endorsement Agreement.pdf",
+      "kind": "modality",
+      "original": "Either Party shall have the right, without prejudice to any other rights it may have, to terminate this Agreement if the other Party materially breaches its obligation hereunder and such breach remain",
+      "injected": "Either Party shall not have the right, without prejudice to any other rights it may have, to terminate this Agreement if the other Party materially breaches its obligation hereunder and such breach re"
+    },
+    {
+      "doc": "LinkPlusCorp_20050802_8-K_EX-10_3240252_EX-10_Affiliate Agreement.pdf",
+      "kind": "modality",
+      "original": "If other terms are defined in the text of this Agreement, then throughout this Agreement, those terms shall have the meanings respectively ascribed to them.",
+      "injected": "If other terms are defined in the text of this Agreement, then throughout this Agreement, those terms shall not have the meanings respectively ascribed to them."
+    },
+    {
+      "doc": "GarrettMotionInc_20181001_8-K_EX-2.4_11364532_EX-2.4_Intellectual Property Agreement.pdf",
+      "kind": "modality",
+      "original": "The Parties acknowledge and agree that the R&D Projects shall be governed by certain separate agreements between the Parties.",
+      "injected": "The Parties acknowledge and agree that the R&D Projects shall not be governed by certain separate agreements between the Parties."
+    },
+    {
+      "doc": "TheglobeComInc_19990503_S-1A_EX-10.20_5416126_EX-10.20_Co-Branding Agreement.pdf",
+      "kind": "modality",
+      "original": "Such reports shall be provided to theglobe on at least a monthly basis in an electronic format that is easily decoded in an automated manner for import into theglobe's statistics database, and the fil",
+      "injected": "Such reports shall not be provided to theglobe on at least a monthly basis in an electronic format that is easily decoded in an automated manner for import into theglobe's statistics database, and the"
+    },
+    {
+      "doc": "GpaqAcquisitionHoldingsInc_20200123_S-4A_EX-10.8_11951679_EX-10.8_Service Agreement.pdf",
+      "kind": "modality",
+      "original": "Notwithstanding the foregoing, this Section 2.2 shall not be deemed to apply to agreements executed prior to the date of this Agreement between the HOF Entities and Johnson Controls, Inc. or any of it",
+      "injected": "Notwithstanding the foregoing, this Section 2.2 may be deemed to apply to agreements executed prior to the date of this Agreement between the HOF Entities and Johnson Controls, Inc. or any of its affi"
+    },
+    {
+      "doc": "XinhuaSportsEntertainmentLtd_20070221_F-1_EX-99.4_645553_EX-99.4_Content License Agreement.pdf",
+      "kind": "modality",
+      "original": "This Agreement is governed by and shall be construed in accordance with the laws of Hong Kong",
+      "injected": "This Agreement is governed by and shall not be construed in accordance with the laws of Hong Kong"
+    },
+    {
+      "doc": "CybergyHoldingsInc_20140520_10-Q_EX-10.27_8605784_EX-10.27_Affiliate Agreement.pdf",
+      "kind": "modality",
+      "original": "MA shall not hold itself out as an employee or agent of Company other than for the limited purposes of marketing the Technology.",
+      "injected": "MA may hold itself out as an employee or agent of Company other than for the limited purposes of marketing the Technology."
+    },
+    {
+      "doc": "ClickstreamCorp_20200330_1-A_EX1A-6 MAT CTRCT_12089935_EX1A-6 MAT CTRCT_Development Agreement.pdf",
+      "kind": "amount",
+      "original": "The total cost for the development of the project is $ 480,000. - Developer has accepted 4,122,394 shares of Clients common stock in exchange for $180,000 worth of services to be provided.",
+      "injected": "The total cost for the development of the project is $ 960,000. - Developer has accepted 4,122,394 shares of Clients common stock in exchange for $180,000 worth of services to be provided."
+    }
+  ]
+}

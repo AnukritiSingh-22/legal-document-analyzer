@@ -1,0 +1,866 @@
+{
+  "document_metadata": {
+    "filename": "employment_conflicts.pdf",
+    "file_type": "application/pdf",
+    "file_size_bytes": 2800,
+    "sha256": "33e88fbe24d158cc682444bbceb22b48d99e305c4a20dd282900f9ea72215f2c",
+    "page_count": 2
+  },
+  "document_summary": {
+    "parties": [
+      {
+        "name": "Acme Technologies Pvt. Ltd.",
+        "alias": "Company"
+      },
+      {
+        "name": "Mr. Arjun Rao",
+        "alias": "Employee"
+      }
+    ],
+    "party_aliases": [
+      "Employee",
+      "Company"
+    ],
+    "defined_terms": {
+      "Company": {
+        "definition": null,
+        "record_id": "BLOCK-00001",
+        "page": 1
+      },
+      "Employee": {
+        "definition": null,
+        "record_id": "BLOCK-00001",
+        "page": 1
+      }
+    },
+    "dates": [
+      {
+        "text": "15 January 2025",
+        "iso": "2025-01-15",
+        "role": "agreement_date",
+        "source": {
+          "record_id": "BLOCK-00001",
+          "record_type": "text_block",
+          "clause_number": null,
+          "section_heading": null,
+          "page_start": 1,
+          "page_end": 1,
+          "filename": "employment_conflicts.pdf"
+        }
+      }
+    ],
+    "amounts": [
+      {
+        "text": "Rs. 80,000",
+        "currency": "INR",
+        "value": 80000.0,
+        "purpose": "salary",
+        "source": {
+          "record_id": "CLAUSE-00005",
+          "record_type": "clause",
+          "clause_number": "2.1",
+          "section_heading": "SECTION 2: COMPENSATION",
+          "page_start": 1,
+          "page_end": 1,
+          "filename": "employment_conflicts.pdf"
+        }
+      },
+      {
+        "text": "Rs. 95,000",
+        "currency": "INR",
+        "value": 95000.0,
+        "purpose": "salary",
+        "source": {
+          "record_id": "CLAUSE-00009",
+          "record_type": "clause",
+          "clause_number": "3.3",
+          "section_heading": "SECTION 3: TERMINATION",
+          "page_start": 2,
+          "page_end": 2,
+          "filename": "employment_conflicts.pdf"
+        }
+      }
+    ],
+    "notice_periods": [
+      {
+        "text": "60 days",
+        "value": 60,
+        "unit": "days",
+        "day_type": null,
+        "days_approx": 60,
+        "is_notice_period": true,
+        "source": {
+          "record_id": "CLAUSE-00007",
+          "record_type": "clause",
+          "clause_number": "3.1",
+          "section_heading": "SECTION 3: TERMINATION",
+          "page_start": 2,
+          "page_end": 2,
+          "filename": "employment_conflicts.pdf"
+        }
+      }
+    ],
+    "percentages": [],
+    "counts": {
+      "records": 12,
+      "statements": 8,
+      "by_modality": {
+        "obligation": 3,
+        "prohibition": 2,
+        "right": 1,
+        "permission": 2
+      }
+    }
+  },
+  "clauses": [
+    {
+      "record_id": "BLOCK-00001",
+      "record_type": "text_block",
+      "clause_number": null,
+      "section_heading": null,
+      "page_start": 1,
+      "page_end": 1,
+      "filename": "employment_conflicts.pdf",
+      "text": "EMPLOYMENT AGREEMENT\nThis Employment Agreement is entered into on 15 January 2025 between Acme Technologies Pvt.\nLtd. (the \"Company\") and Mr. Arjun Rao (the \"Employee\").",
+      "entities": {
+        "dates": [
+          {
+            "text": "15 January 2025",
+            "iso": "2025-01-15",
+            "role": "agreement_date"
+          }
+        ],
+        "amounts": [],
+        "durations": [],
+        "percentages": []
+      },
+      "statements": [],
+      "has_legal_statement": false
+    },
+    {
+      "record_id": "SEC-0001",
+      "record_type": "section",
+      "clause_number": null,
+      "section_heading": "SECTION 1: DUTIES AND RESTRICTIONS",
+      "page_start": 1,
+      "page_end": 1,
+      "filename": "employment_conflicts.pdf",
+      "text": "SECTION 1: DUTIES AND RESTRICTIONS",
+      "entities": {
+        "dates": [],
+        "amounts": [],
+        "durations": [],
+        "percentages": []
+      },
+      "statements": [],
+      "has_legal_statement": false
+    },
+    {
+      "record_id": "CLAUSE-00002",
+      "record_type": "clause",
+      "clause_number": "1.1",
+      "section_heading": "SECTION 1: DUTIES AND RESTRICTIONS",
+      "page_start": 1,
+      "page_end": 1,
+      "filename": "employment_conflicts.pdf",
+      "text": "The Employee shall devote full working time to the Company and shall perform all duties\nassigned.",
+      "entities": {
+        "dates": [],
+        "amounts": [],
+        "durations": [],
+        "percentages": []
+      },
+      "statements": [
+        {
+          "sentence": "The Employee shall devote full working time to the Company and shall perform all duties assigned",
+          "party": "Employee",
+          "modality": "obligation",
+          "modal_verb": "shall",
+          "action": "devote full working time to the Company and shall perform all duties assigned",
+          "condition": null,
+          "exception": null,
+          "time": {
+            "phrases": [],
+            "durations": [],
+            "dates": []
+          },
+          "amounts": [],
+          "is_negated": false,
+          "source": {
+            "record_id": "CLAUSE-00002",
+            "record_type": "clause",
+            "clause_number": "1.1",
+            "section_heading": "SECTION 1: DUTIES AND RESTRICTIONS",
+            "page_start": 1,
+            "page_end": 1,
+            "filename": "employment_conflicts.pdf"
+          }
+        }
+      ],
+      "has_legal_statement": true
+    },
+    {
+      "record_id": "CLAUSE-00003",
+      "record_type": "clause",
+      "clause_number": "1.2",
+      "section_heading": "SECTION 1: DUTIES AND RESTRICTIONS",
+      "page_start": 1,
+      "page_end": 1,
+      "filename": "employment_conflicts.pdf",
+      "text": "The Employee shall not undertake any outside employment or business during the term of\nemployment.",
+      "entities": {
+        "dates": [],
+        "amounts": [],
+        "durations": [],
+        "percentages": []
+      },
+      "statements": [
+        {
+          "sentence": "The Employee shall not undertake any outside employment or business during the term of employment",
+          "party": "Employee",
+          "modality": "prohibition",
+          "modal_verb": "shall not",
+          "action": "undertake any outside employment or business during the term of employment",
+          "condition": null,
+          "exception": null,
+          "time": {
+            "phrases": [
+              "during the term of employment"
+            ],
+            "durations": [],
+            "dates": []
+          },
+          "amounts": [],
+          "is_negated": true,
+          "source": {
+            "record_id": "CLAUSE-00003",
+            "record_type": "clause",
+            "clause_number": "1.2",
+            "section_heading": "SECTION 1: DUTIES AND RESTRICTIONS",
+            "page_start": 1,
+            "page_end": 1,
+            "filename": "employment_conflicts.pdf"
+          }
+        }
+      ],
+      "has_legal_statement": true
+    },
+    {
+      "record_id": "CLAUSE-00004",
+      "record_type": "clause",
+      "clause_number": "1.3",
+      "section_heading": "SECTION 1: DUTIES AND RESTRICTIONS",
+      "page_start": 1,
+      "page_end": 1,
+      "filename": "employment_conflicts.pdf",
+      "text": "The Employee shall keep all Confidential Information secret and shall not disclose it to any third\nparty.",
+      "entities": {
+        "dates": [],
+        "amounts": [],
+        "durations": [],
+        "percentages": []
+      },
+      "statements": [
+        {
+          "sentence": "The Employee shall keep all Confidential Information secret and shall not disclose it to any third party",
+          "party": "Employee",
+          "modality": "prohibition",
+          "modal_verb": "shall not",
+          "action": "disclose it to any third party",
+          "condition": null,
+          "exception": null,
+          "time": {
+            "phrases": [],
+            "durations": [],
+            "dates": []
+          },
+          "amounts": [],
+          "is_negated": true,
+          "source": {
+            "record_id": "CLAUSE-00004",
+            "record_type": "clause",
+            "clause_number": "1.3",
+            "section_heading": "SECTION 1: DUTIES AND RESTRICTIONS",
+            "page_start": 1,
+            "page_end": 1,
+            "filename": "employment_conflicts.pdf"
+          }
+        }
+      ],
+      "has_legal_statement": true
+    },
+    {
+      "record_id": "SEC-0002",
+      "record_type": "section",
+      "clause_number": null,
+      "section_heading": "SECTION 2: COMPENSATION",
+      "page_start": 1,
+      "page_end": 1,
+      "filename": "employment_conflicts.pdf",
+      "text": "SECTION 2: COMPENSATION",
+      "entities": {
+        "dates": [],
+        "amounts": [],
+        "durations": [],
+        "percentages": []
+      },
+      "statements": [],
+      "has_legal_statement": false
+    },
+    {
+      "record_id": "CLAUSE-00005",
+      "record_type": "clause",
+      "clause_number": "2.1",
+      "section_heading": "SECTION 2: COMPENSATION",
+      "page_start": 1,
+      "page_end": 1,
+      "filename": "employment_conflicts.pdf",
+      "text": "The Company shall pay the Employee a monthly salary of Rs. 80,000 on the last working day of\neach month.",
+      "entities": {
+        "dates": [],
+        "amounts": [
+          {
+            "text": "Rs. 80,000",
+            "currency": "INR",
+            "value": 80000.0,
+            "purpose": "salary"
+          }
+        ],
+        "durations": [],
+        "percentages": []
+      },
+      "statements": [
+        {
+          "sentence": "The Company shall pay the Employee a monthly salary of Rs. 80,000 on the last working day of each month",
+          "party": "Company",
+          "modality": "obligation",
+          "modal_verb": "shall",
+          "action": "pay the Employee a monthly salary of Rs. 80,000 on the last working day of each month",
+          "condition": null,
+          "exception": null,
+          "time": {
+            "phrases": [
+              "monthly",
+              "each month"
+            ],
+            "durations": [],
+            "dates": []
+          },
+          "amounts": [
+            {
+              "text": "Rs. 80,000",
+              "currency": "INR",
+              "value": 80000.0,
+              "purpose": "salary"
+            }
+          ],
+          "is_negated": false,
+          "source": {
+            "record_id": "CLAUSE-00005",
+            "record_type": "clause",
+            "clause_number": "2.1",
+            "section_heading": "SECTION 2: COMPENSATION",
+            "page_start": 1,
+            "page_end": 1,
+            "filename": "employment_conflicts.pdf"
+          }
+        }
+      ],
+      "has_legal_statement": true
+    },
+    {
+      "record_id": "CLAUSE-00006",
+      "record_type": "clause",
+      "clause_number": "2.2",
+      "section_heading": "SECTION 2: COMPENSATION",
+      "page_start": 1,
+      "page_end": 1,
+      "filename": "employment_conflicts.pdf",
+      "text": "The Employee is entitled to 24 days of paid leave per year.",
+      "entities": {
+        "dates": [],
+        "amounts": [],
+        "durations": [
+          {
+            "text": "24 days",
+            "value": 24,
+            "unit": "days",
+            "day_type": null,
+            "days_approx": 24,
+            "is_notice_period": false
+          }
+        ],
+        "percentages": []
+      },
+      "statements": [
+        {
+          "sentence": "The Employee is entitled to 24 days of paid leave per year",
+          "party": "Employee",
+          "modality": "right",
+          "modal_verb": "is entitled to",
+          "action": "24 days of paid leave per year",
+          "condition": null,
+          "exception": null,
+          "time": {
+            "phrases": [
+              "per year"
+            ],
+            "durations": [
+              {
+                "text": "24 days",
+                "value": 24,
+                "unit": "days",
+                "day_type": null,
+                "days_approx": 24,
+                "is_notice_period": false
+              }
+            ],
+            "dates": []
+          },
+          "amounts": [],
+          "is_negated": false,
+          "source": {
+            "record_id": "CLAUSE-00006",
+            "record_type": "clause",
+            "clause_number": "2.2",
+            "section_heading": "SECTION 2: COMPENSATION",
+            "page_start": 1,
+            "page_end": 1,
+            "filename": "employment_conflicts.pdf"
+          }
+        }
+      ],
+      "has_legal_statement": true
+    },
+    {
+      "record_id": "SEC-0003",
+      "record_type": "section",
+      "clause_number": null,
+      "section_heading": "SECTION 3: TERMINATION",
+      "page_start": 2,
+      "page_end": 2,
+      "filename": "employment_conflicts.pdf",
+      "text": "SECTION 3: TERMINATION",
+      "entities": {
+        "dates": [],
+        "amounts": [],
+        "durations": [],
+        "percentages": []
+      },
+      "statements": [],
+      "has_legal_statement": false
+    },
+    {
+      "record_id": "CLAUSE-00007",
+      "record_type": "clause",
+      "clause_number": "3.1",
+      "section_heading": "SECTION 3: TERMINATION",
+      "page_start": 2,
+      "page_end": 2,
+      "filename": "employment_conflicts.pdf",
+      "text": "Either party may terminate this Agreement by giving 60 days written notice to the other party.",
+      "entities": {
+        "dates": [],
+        "amounts": [],
+        "durations": [
+          {
+            "text": "60 days",
+            "value": 60,
+            "unit": "days",
+            "day_type": null,
+            "days_approx": 60,
+            "is_notice_period": true
+          }
+        ],
+        "percentages": []
+      },
+      "statements": [
+        {
+          "sentence": "Either party may terminate this Agreement by giving 60 days written notice to the other party",
+          "party": "Parties",
+          "modality": "permission",
+          "modal_verb": "may",
+          "action": "terminate this Agreement by giving 60 days written notice to the other party",
+          "condition": null,
+          "exception": null,
+          "time": {
+            "phrases": [],
+            "durations": [
+              {
+                "text": "60 days",
+                "value": 60,
+                "unit": "days",
+                "day_type": null,
+                "days_approx": 60,
+                "is_notice_period": true
+              }
+            ],
+            "dates": []
+          },
+          "amounts": [],
+          "is_negated": false,
+          "source": {
+            "record_id": "CLAUSE-00007",
+            "record_type": "clause",
+            "clause_number": "3.1",
+            "section_heading": "SECTION 3: TERMINATION",
+            "page_start": 2,
+            "page_end": 2,
+            "filename": "employment_conflicts.pdf"
+          }
+        }
+      ],
+      "has_legal_statement": true
+    },
+    {
+      "record_id": "CLAUSE-00008",
+      "record_type": "clause",
+      "clause_number": "3.2",
+      "section_heading": "SECTION 3: TERMINATION",
+      "page_start": 2,
+      "page_end": 2,
+      "filename": "employment_conflicts.pdf",
+      "text": "The Employee may undertake freelance work with the prior written approval of the Company.",
+      "entities": {
+        "dates": [],
+        "amounts": [],
+        "durations": [],
+        "percentages": []
+      },
+      "statements": [
+        {
+          "sentence": "The Employee may undertake freelance work with the prior written approval of the Company",
+          "party": "Employee",
+          "modality": "permission",
+          "modal_verb": "may",
+          "action": "undertake freelance work with the prior written approval of the Company",
+          "condition": null,
+          "exception": null,
+          "time": {
+            "phrases": [],
+            "durations": [],
+            "dates": []
+          },
+          "amounts": [],
+          "is_negated": false,
+          "source": {
+            "record_id": "CLAUSE-00008",
+            "record_type": "clause",
+            "clause_number": "3.2",
+            "section_heading": "SECTION 3: TERMINATION",
+            "page_start": 2,
+            "page_end": 2,
+            "filename": "employment_conflicts.pdf"
+          }
+        }
+      ],
+      "has_legal_statement": true
+    },
+    {
+      "record_id": "CLAUSE-00009",
+      "record_type": "clause",
+      "clause_number": "3.3",
+      "section_heading": "SECTION 3: TERMINATION",
+      "page_start": 2,
+      "page_end": 2,
+      "filename": "employment_conflicts.pdf",
+      "text": "The Company shall pay the Employee a monthly salary of Rs. 95,000.",
+      "entities": {
+        "dates": [],
+        "amounts": [
+          {
+            "text": "Rs. 95,000",
+            "currency": "INR",
+            "value": 95000.0,
+            "purpose": "salary"
+          }
+        ],
+        "durations": [],
+        "percentages": []
+      },
+      "statements": [
+        {
+          "sentence": "The Company shall pay the Employee a monthly salary of Rs. 95,000",
+          "party": "Company",
+          "modality": "obligation",
+          "modal_verb": "shall",
+          "action": "pay the Employee a monthly salary of Rs. 95,000",
+          "condition": null,
+          "exception": null,
+          "time": {
+            "phrases": [
+              "monthly"
+            ],
+            "durations": [],
+            "dates": []
+          },
+          "amounts": [
+            {
+              "text": "Rs. 95,000",
+              "currency": "INR",
+              "value": 95000.0,
+              "purpose": "salary"
+            }
+          ],
+          "is_negated": false,
+          "source": {
+            "record_id": "CLAUSE-00009",
+            "record_type": "clause",
+            "clause_number": "3.3",
+            "section_heading": "SECTION 3: TERMINATION",
+            "page_start": 2,
+            "page_end": 2,
+            "filename": "employment_conflicts.pdf"
+          }
+        }
+      ],
+      "has_legal_statement": true
+    }
+  ],
+  "statements": [
+    {
+      "sentence": "The Employee shall devote full working time to the Company and shall perform all duties assigned",
+      "party": "Employee",
+      "modality": "obligation",
+      "modal_verb": "shall",
+      "action": "devote full working time to the Company and shall perform all duties assigned",
+      "condition": null,
+      "exception": null,
+      "time": {
+        "phrases": [],
+        "durations": [],
+        "dates": []
+      },
+      "amounts": [],
+      "is_negated": false,
+      "source": {
+        "record_id": "CLAUSE-00002",
+        "record_type": "clause",
+        "clause_number": "1.1",
+        "section_heading": "SECTION 1: DUTIES AND RESTRICTIONS",
+        "page_start": 1,
+        "page_end": 1,
+        "filename": "employment_conflicts.pdf"
+      }
+    },
+    {
+      "sentence": "The Employee shall not undertake any outside employment or business during the term of employment",
+      "party": "Employee",
+      "modality": "prohibition",
+      "modal_verb": "shall not",
+      "action": "undertake any outside employment or business during the term of employment",
+      "condition": null,
+      "exception": null,
+      "time": {
+        "phrases": [
+          "during the term of employment"
+        ],
+        "durations": [],
+        "dates": []
+      },
+      "amounts": [],
+      "is_negated": true,
+      "source": {
+        "record_id": "CLAUSE-00003",
+        "record_type": "clause",
+        "clause_number": "1.2",
+        "section_heading": "SECTION 1: DUTIES AND RESTRICTIONS",
+        "page_start": 1,
+        "page_end": 1,
+        "filename": "employment_conflicts.pdf"
+      }
+    },
+    {
+      "sentence": "The Employee shall keep all Confidential Information secret and shall not disclose it to any third party",
+      "party": "Employee",
+      "modality": "prohibition",
+      "modal_verb": "shall not",
+      "action": "disclose it to any third party",
+      "condition": null,
+      "exception": null,
+      "time": {
+        "phrases": [],
+        "durations": [],
+        "dates": []
+      },
+      "amounts": [],
+      "is_negated": true,
+      "source": {
+        "record_id": "CLAUSE-00004",
+        "record_type": "clause",
+        "clause_number": "1.3",
+        "section_heading": "SECTION 1: DUTIES AND RESTRICTIONS",
+        "page_start": 1,
+        "page_end": 1,
+        "filename": "employment_conflicts.pdf"
+      }
+    },
+    {
+      "sentence": "The Company shall pay the Employee a monthly salary of Rs. 80,000 on the last working day of each month",
+      "party": "Company",
+      "modality": "obligation",
+      "modal_verb": "shall",
+      "action": "pay the Employee a monthly salary of Rs. 80,000 on the last working day of each month",
+      "condition": null,
+      "exception": null,
+      "time": {
+        "phrases": [
+          "monthly",
+          "each month"
+        ],
+        "durations": [],
+        "dates": []
+      },
+      "amounts": [
+        {
+          "text": "Rs. 80,000",
+          "currency": "INR",
+          "value": 80000.0,
+          "purpose": "salary"
+        }
+      ],
+      "is_negated": false,
+      "source": {
+        "record_id": "CLAUSE-00005",
+        "record_type": "clause",
+        "clause_number": "2.1",
+        "section_heading": "SECTION 2: COMPENSATION",
+        "page_start": 1,
+        "page_end": 1,
+        "filename": "employment_conflicts.pdf"
+      }
+    },
+    {
+      "sentence": "The Employee is entitled to 24 days of paid leave per year",
+      "party": "Employee",
+      "modality": "right",
+      "modal_verb": "is entitled to",
+      "action": "24 days of paid leave per year",
+      "condition": null,
+      "exception": null,
+      "time": {
+        "phrases": [
+          "per year"
+        ],
+        "durations": [
+          {
+            "text": "24 days",
+            "value": 24,
+            "unit": "days",
+            "day_type": null,
+            "days_approx": 24,
+            "is_notice_period": false
+          }
+        ],
+        "dates": []
+      },
+      "amounts": [],
+      "is_negated": false,
+      "source": {
+        "record_id": "CLAUSE-00006",
+        "record_type": "clause",
+        "clause_number": "2.2",
+        "section_heading": "SECTION 2: COMPENSATION",
+        "page_start": 1,
+        "page_end": 1,
+        "filename": "employment_conflicts.pdf"
+      }
+    },
+    {
+      "sentence": "Either party may terminate this Agreement by giving 60 days written notice to the other party",
+      "party": "Parties",
+      "modality": "permission",
+      "modal_verb": "may",
+      "action": "terminate this Agreement by giving 60 days written notice to the other party",
+      "condition": null,
+      "exception": null,
+      "time": {
+        "phrases": [],
+        "durations": [
+          {
+            "text": "60 days",
+            "value": 60,
+            "unit": "days",
+            "day_type": null,
+            "days_approx": 60,
+            "is_notice_period": true
+          }
+        ],
+        "dates": []
+      },
+      "amounts": [],
+      "is_negated": false,
+      "source": {
+        "record_id": "CLAUSE-00007",
+        "record_type": "clause",
+        "clause_number": "3.1",
+        "section_heading": "SECTION 3: TERMINATION",
+        "page_start": 2,
+        "page_end": 2,
+        "filename": "employment_conflicts.pdf"
+      }
+    },
+    {
+      "sentence": "The Employee may undertake freelance work with the prior written approval of the Company",
+      "party": "Employee",
+      "modality": "permission",
+      "modal_verb": "may",
+      "action": "undertake freelance work with the prior written approval of the Company",
+      "condition": null,
+      "exception": null,
+      "time": {
+        "phrases": [],
+        "durations": [],
+        "dates": []
+      },
+      "amounts": [],
+      "is_negated": false,
+      "source": {
+        "record_id": "CLAUSE-00008",
+        "record_type": "clause",
+        "clause_number": "3.2",
+        "section_heading": "SECTION 3: TERMINATION",
+        "page_start": 2,
+        "page_end": 2,
+        "filename": "employment_conflicts.pdf"
+      }
+    },
+    {
+      "sentence": "The Company shall pay the Employee a monthly salary of Rs. 95,000",
+      "party": "Company",
+      "modality": "obligation",
+      "modal_verb": "shall",
+      "action": "pay the Employee a monthly salary of Rs. 95,000",
+      "condition": null,
+      "exception": null,
+      "time": {
+        "phrases": [
+          "monthly"
+        ],
+        "durations": [],
+        "dates": []
+      },
+      "amounts": [
+        {
+          "text": "Rs. 95,000",
+          "currency": "INR",
+          "value": 95000.0,
+          "purpose": "salary"
+        }
+      ],
+      "is_negated": false,
+      "source": {
+        "record_id": "CLAUSE-00009",
+        "record_type": "clause",
+        "clause_number": "3.3",
+        "section_heading": "SECTION 3: TERMINATION",
+        "page_start": 2,
+        "page_end": 2,
+        "filename": "employment_conflicts.pdf"
+      }
+    }
+  ],
+  "extraction_method": "rule-based",
+  "processed_at_utc": "2026-11-20T08:18:15.033121+00:00",
+  "note": "Automated extraction; outputs require human review and are not legal advice."
+}

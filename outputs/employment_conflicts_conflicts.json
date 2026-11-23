@@ -1,0 +1,111 @@
+{
+  "summary": {
+    "total_clauses": 9,
+    "total_pairs": 36,
+    "candidate_pairs": 2,
+    "analyzed_pairs": 2,
+    "skipped_pairs": 34,
+    "potential_conflict_count": 2,
+    "similarity_method": "sentence-transformers all-MiniLM-L6-v2",
+    "nli_used": true,
+    "thresholds": {
+      "similarity": 0.55,
+      "high_similarity": 0.75,
+      "nli": 0.8
+    }
+  },
+  "issues": [
+    {
+      "label": "Potential Conflict - Requires Review",
+      "conflict_types": [
+        "Potential Amount Inconsistency",
+        "Possible Semantic Contradiction (NLI)"
+      ],
+      "reason": "Different amounts for 'salary': Rs. 80,000 versus Rs. 95,000. The NLI model rates these clauses as contradictory (score 0.9994).",
+      "clause_1": {
+        "record_id": "CLAUSE-00005",
+        "reference": "Page 1 | Section: SECTION 2: COMPENSATION | Clause 2.1",
+        "page_start": 1,
+        "page_end": 1,
+        "clause_number": "2.1",
+        "section_heading": "SECTION 2: COMPENSATION",
+        "text": "The Company shall pay the Employee a monthly salary of Rs. 80,000 on the last working day of each month."
+      },
+      "clause_2": {
+        "record_id": "CLAUSE-00009",
+        "reference": "Page 2 | Section: SECTION 3: TERMINATION | Clause 3.3",
+        "page_start": 2,
+        "page_end": 2,
+        "clause_number": "3.3",
+        "section_heading": "SECTION 3: TERMINATION",
+        "text": "The Company shall pay the Employee a monthly salary of Rs. 95,000."
+      },
+      "semantic_similarity": 0.8565,
+      "nli_result": {
+        "contradiction_score_forward": 0.9994,
+        "contradiction_score_reverse": 0.02,
+        "maximum_contradiction_score": 0.9994,
+        "status": "Requires Human Review"
+      },
+      "rule_based_findings": [
+        {
+          "conflict": true,
+          "conflict_type": "Potential Amount Inconsistency",
+          "amounts_clause_a": [
+            "Rs. 80,000"
+          ],
+          "amounts_clause_b": [
+            "Rs. 95,000"
+          ],
+          "status": "Requires Human Review",
+          "explanation": "Different amounts for 'salary': Rs. 80,000 versus Rs. 95,000."
+        }
+      ],
+      "issue_id": "CONF-001"
+    },
+    {
+      "label": "Potential Conflict - Requires Review",
+      "conflict_types": [
+        "Potential Modality Conflict (prohibition vs permission/obligation)"
+      ],
+      "reason": "One statement prohibits an action ('shall not') while the other allows a similar action ('may').",
+      "clause_1": {
+        "record_id": "CLAUSE-00003",
+        "reference": "Page 1 | Section: SECTION 1: DUTIES AND RESTRICTIONS | Clause 1.2",
+        "page_start": 1,
+        "page_end": 1,
+        "clause_number": "1.2",
+        "section_heading": "SECTION 1: DUTIES AND RESTRICTIONS",
+        "text": "The Employee shall not undertake any outside employment or business during the term of employment."
+      },
+      "clause_2": {
+        "record_id": "CLAUSE-00008",
+        "reference": "Page 2 | Section: SECTION 3: TERMINATION | Clause 3.2",
+        "page_start": 2,
+        "page_end": 2,
+        "clause_number": "3.2",
+        "section_heading": "SECTION 3: TERMINATION",
+        "text": "The Employee may undertake freelance work with the prior written approval of the Company."
+      },
+      "semantic_similarity": 0.3792,
+      "nli_result": null,
+      "rule_based_findings": [
+        {
+          "conflict": true,
+          "conflict_type": "Potential Modality Conflict (prohibition vs permission/obligation)",
+          "statement_1": "The Employee shall not undertake any outside employment or business during the term of employment",
+          "statement_2": "The Employee may undertake freelance work with the prior written approval of the Company",
+          "shared_action_terms": [
+            "conceptoutside",
+            "undertak",
+            "work"
+          ],
+          "status": "Requires Human Review",
+          "explanation": "One statement prohibits an action ('shall not') while the other allows a similar action ('may')."
+        }
+      ],
+      "issue_id": "CONF-002"
+    }
+  ],
+  "note": "Potential conflicts only - automated output that requires human/legal review. Not legal advice."
+}

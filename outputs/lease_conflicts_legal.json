@@ -1,0 +1,1237 @@
+{
+  "document_metadata": {
+    "filename": "lease_conflicts.pdf",
+    "file_type": "application/pdf",
+    "file_size_bytes": 3014,
+    "sha256": "b493cea22cfefba319fcbe85371379a8e8a56576ee993198d215aa3abd5f8f17",
+    "page_count": 2
+  },
+  "document_summary": {
+    "parties": [
+      {
+        "name": "Mr. Rohan Mehta",
+        "alias": "Landlord"
+      },
+      {
+        "name": "Ms. Priya Nair",
+        "alias": "Tenant"
+      }
+    ],
+    "party_aliases": [
+      "Landlord",
+      "Tenant"
+    ],
+    "defined_terms": {
+      "Landlord": {
+        "definition": null,
+        "record_id": "BLOCK-00001",
+        "page": 1
+      },
+      "Tenant": {
+        "definition": null,
+        "record_id": "BLOCK-00001",
+        "page": 1
+      }
+    },
+    "dates": [
+      {
+        "text": "1 April 2025",
+        "iso": "2025-04-01",
+        "role": "agreement_date",
+        "source": {
+          "record_id": "BLOCK-00001",
+          "record_type": "text_block",
+          "clause_number": null,
+          "section_heading": null,
+          "page_start": 1,
+          "page_end": 1,
+          "filename": "lease_conflicts.pdf"
+        }
+      }
+    ],
+    "amounts": [
+      {
+        "text": "Rs. 25,000",
+        "currency": "INR",
+        "value": 25000.0,
+        "purpose": "rent",
+        "source": {
+          "record_id": "CLAUSE-00002",
+          "record_type": "clause",
+          "clause_number": "1.1",
+          "section_heading": "ARTICLE 1: RENT AND DEPOSIT",
+          "page_start": 1,
+          "page_end": 1,
+          "filename": "lease_conflicts.pdf"
+        }
+      },
+      {
+        "text": "Rs. 50,000",
+        "currency": "INR",
+        "value": 50000.0,
+        "purpose": "deposit",
+        "source": {
+          "record_id": "CLAUSE-00003",
+          "record_type": "clause",
+          "clause_number": "1.2",
+          "section_heading": "ARTICLE 1: RENT AND DEPOSIT",
+          "page_start": 1,
+          "page_end": 1,
+          "filename": "lease_conflicts.pdf"
+        }
+      },
+      {
+        "text": "Rs. 75,000",
+        "currency": "INR",
+        "value": 75000.0,
+        "purpose": "deposit",
+        "source": {
+          "record_id": "CLAUSE-00013",
+          "record_type": "clause",
+          "clause_number": "4.4",
+          "section_heading": "ARTICLE 4: GENERAL",
+          "page_start": 2,
+          "page_end": 2,
+          "filename": "lease_conflicts.pdf"
+        }
+      }
+    ],
+    "notice_periods": [
+      {
+        "text": "30 days",
+        "value": 30,
+        "unit": "days",
+        "day_type": null,
+        "days_approx": 30,
+        "is_notice_period": true,
+        "source": {
+          "record_id": "CLAUSE-00008",
+          "record_type": "clause",
+          "clause_number": "3.1",
+          "section_heading": "ARTICLE 3: TERMINATION",
+          "page_start": 2,
+          "page_end": 2,
+          "filename": "lease_conflicts.pdf"
+        }
+      },
+      {
+        "text": "60 days",
+        "value": 60,
+        "unit": "days",
+        "day_type": null,
+        "days_approx": 60,
+        "is_notice_period": true,
+        "source": {
+          "record_id": "CLAUSE-00011",
+          "record_type": "clause",
+          "clause_number": "4.2",
+          "section_heading": "ARTICLE 4: GENERAL",
+          "page_start": 2,
+          "page_end": 2,
+          "filename": "lease_conflicts.pdf"
+        }
+      }
+    ],
+    "percentages": [],
+    "counts": {
+      "records": 17,
+      "statements": 12,
+      "by_modality": {
+        "obligation": 10,
+        "prohibition": 1,
+        "permission": 1
+      }
+    }
+  },
+  "clauses": [
+    {
+      "record_id": "BLOCK-00001",
+      "record_type": "text_block",
+      "clause_number": null,
+      "section_heading": null,
+      "page_start": 1,
+      "page_end": 1,
+      "filename": "lease_conflicts.pdf",
+      "text": "RESIDENTIAL LEASE AGREEMENT\nThis Lease Agreement is made on 1 April 2025 between Mr. Rohan Mehta (the \"Landlord\") and Ms.\nPriya Nair (the \"Tenant\").",
+      "entities": {
+        "dates": [
+          {
+            "text": "1 April 2025",
+            "iso": "2025-04-01",
+            "role": "agreement_date"
+          }
+        ],
+        "amounts": [],
+        "durations": [],
+        "percentages": []
+      },
+      "statements": [],
+      "has_legal_statement": false
+    },
+    {
+      "record_id": "SEC-0001",
+      "record_type": "section",
+      "clause_number": null,
+      "section_heading": "ARTICLE 1: RENT AND DEPOSIT",
+      "page_start": 1,
+      "page_end": 1,
+      "filename": "lease_conflicts.pdf",
+      "text": "ARTICLE 1: RENT AND DEPOSIT",
+      "entities": {
+        "dates": [],
+        "amounts": [],
+        "durations": [],
+        "percentages": []
+      },
+      "statements": [],
+      "has_legal_statement": false
+    },
+    {
+      "record_id": "CLAUSE-00002",
+      "record_type": "clause",
+      "clause_number": "1.1",
+      "section_heading": "ARTICLE 1: RENT AND DEPOSIT",
+      "page_start": 1,
+      "page_end": 1,
+      "filename": "lease_conflicts.pdf",
+      "text": "The Tenant shall pay monthly rent of Rs. 25,000 to the Landlord by the 5th day of each month.",
+      "entities": {
+        "dates": [],
+        "amounts": [
+          {
+            "text": "Rs. 25,000",
+            "currency": "INR",
+            "value": 25000.0,
+            "purpose": "rent"
+          }
+        ],
+        "durations": [],
+        "percentages": []
+      },
+      "statements": [
+        {
+          "sentence": "The Tenant shall pay monthly rent of Rs. 25,000 to the Landlord by the 5th day of each month",
+          "party": "Tenant",
+          "modality": "obligation",
+          "modal_verb": "shall",
+          "action": "pay monthly rent of Rs. 25,000 to the Landlord by the 5th day of each month",
+          "condition": null,
+          "exception": null,
+          "time": {
+            "phrases": [
+              "monthly",
+              "by the 5th day of each month"
+            ],
+            "durations": [],
+            "dates": []
+          },
+          "amounts": [
+            {
+              "text": "Rs. 25,000",
+              "currency": "INR",
+              "value": 25000.0,
+              "purpose": "rent"
+            }
+          ],
+          "is_negated": false,
+          "source": {
+            "record_id": "CLAUSE-00002",
+            "record_type": "clause",
+            "clause_number": "1.1",
+            "section_heading": "ARTICLE 1: RENT AND DEPOSIT",
+            "page_start": 1,
+            "page_end": 1,
+            "filename": "lease_conflicts.pdf"
+          }
+        }
+      ],
+      "has_legal_statement": true
+    },
+    {
+      "record_id": "CLAUSE-00003",
+      "record_type": "clause",
+      "clause_number": "1.2",
+      "section_heading": "ARTICLE 1: RENT AND DEPOSIT",
+      "page_start": 1,
+      "page_end": 1,
+      "filename": "lease_conflicts.pdf",
+      "text": "The Tenant shall pay a security deposit of Rs. 50,000 to the Landlord at the time of signing this\nAgreement.",
+      "entities": {
+        "dates": [],
+        "amounts": [
+          {
+            "text": "Rs. 50,000",
+            "currency": "INR",
+            "value": 50000.0,
+            "purpose": "deposit"
+          }
+        ],
+        "durations": [],
+        "percentages": []
+      },
+      "statements": [
+        {
+          "sentence": "The Tenant shall pay a security deposit of Rs. 50,000 to the Landlord at the time of signing this Agreement",
+          "party": "Tenant",
+          "modality": "obligation",
+          "modal_verb": "shall",
+          "action": "pay a security deposit of Rs. 50,000 to the Landlord at the time of signing this Agreement",
+          "condition": null,
+          "exception": null,
+          "time": {
+            "phrases": [],
+            "durations": [],
+            "dates": []
+          },
+          "amounts": [
+            {
+              "text": "Rs. 50,000",
+              "currency": "INR",
+              "value": 50000.0,
+              "purpose": "deposit"
+            }
+          ],
+          "is_negated": false,
+          "source": {
+            "record_id": "CLAUSE-00003",
+            "record_type": "clause",
+            "clause_number": "1.2",
+            "section_heading": "ARTICLE 1: RENT AND DEPOSIT",
+            "page_start": 1,
+            "page_end": 1,
+            "filename": "lease_conflicts.pdf"
+          }
+        }
+      ],
+      "has_legal_statement": true
+    },
+    {
+      "record_id": "CLAUSE-00004",
+      "record_type": "clause",
+      "clause_number": "1.3",
+      "section_heading": "ARTICLE 1: RENT AND DEPOSIT",
+      "page_start": 1,
+      "page_end": 1,
+      "filename": "lease_conflicts.pdf",
+      "text": "The Landlord shall refund the security deposit within 30 days after the Tenant vacates the\npremises.",
+      "entities": {
+        "dates": [],
+        "amounts": [],
+        "durations": [
+          {
+            "text": "30 days",
+            "value": 30,
+            "unit": "days",
+            "day_type": null,
+            "days_approx": 30,
+            "is_notice_period": false
+          }
+        ],
+        "percentages": []
+      },
+      "statements": [
+        {
+          "sentence": "The Landlord shall refund the security deposit within 30 days after the Tenant vacates the premises",
+          "party": "Landlord",
+          "modality": "obligation",
+          "modal_verb": "shall",
+          "action": "refund the security deposit within 30 days after the Tenant vacates the premises",
+          "condition": null,
+          "exception": null,
+          "time": {
+            "phrases": [
+              "within 30 days after the Tenant vacates the pre"
+            ],
+            "durations": [
+              {
+                "text": "30 days",
+                "value": 30,
+                "unit": "days",
+                "day_type": null,
+                "days_approx": 30,
+                "is_notice_period": false
+              }
+            ],
+            "dates": []
+          },
+          "amounts": [],
+          "is_negated": false,
+          "source": {
+            "record_id": "CLAUSE-00004",
+            "record_type": "clause",
+            "clause_number": "1.3",
+            "section_heading": "ARTICLE 1: RENT AND DEPOSIT",
+            "page_start": 1,
+            "page_end": 1,
+            "filename": "lease_conflicts.pdf"
+          }
+        }
+      ],
+      "has_legal_statement": true
+    },
+    {
+      "record_id": "SEC-0002",
+      "record_type": "section",
+      "clause_number": null,
+      "section_heading": "ARTICLE 2: USE OF PREMISES",
+      "page_start": 1,
+      "page_end": 1,
+      "filename": "lease_conflicts.pdf",
+      "text": "ARTICLE 2: USE OF PREMISES",
+      "entities": {
+        "dates": [],
+        "amounts": [],
+        "durations": [],
+        "percentages": []
+      },
+      "statements": [],
+      "has_legal_statement": false
+    },
+    {
+      "record_id": "CLAUSE-00005",
+      "record_type": "clause",
+      "clause_number": "2.1",
+      "section_heading": "ARTICLE 2: USE OF PREMISES",
+      "page_start": 1,
+      "page_end": 1,
+      "filename": "lease_conflicts.pdf",
+      "text": "The Tenant shall not sublet the premises or any part of it to any third party.",
+      "entities": {
+        "dates": [],
+        "amounts": [],
+        "durations": [],
+        "percentages": []
+      },
+      "statements": [
+        {
+          "sentence": "The Tenant shall not sublet the premises or any part of it to any third party",
+          "party": "Tenant",
+          "modality": "prohibition",
+          "modal_verb": "shall not",
+          "action": "sublet the premises or any part of it to any third party",
+          "condition": null,
+          "exception": null,
+          "time": {
+            "phrases": [],
+            "durations": [],
+            "dates": []
+          },
+          "amounts": [],
+          "is_negated": true,
+          "source": {
+            "record_id": "CLAUSE-00005",
+            "record_type": "clause",
+            "clause_number": "2.1",
+            "section_heading": "ARTICLE 2: USE OF PREMISES",
+            "page_start": 1,
+            "page_end": 1,
+            "filename": "lease_conflicts.pdf"
+          }
+        }
+      ],
+      "has_legal_statement": true
+    },
+    {
+      "record_id": "CLAUSE-00006",
+      "record_type": "clause",
+      "clause_number": "2.2",
+      "section_heading": "ARTICLE 2: USE OF PREMISES",
+      "page_start": 1,
+      "page_end": 1,
+      "filename": "lease_conflicts.pdf",
+      "text": "The Tenant shall keep the premises clean and in good condition.",
+      "entities": {
+        "dates": [],
+        "amounts": [],
+        "durations": [],
+        "percentages": []
+      },
+      "statements": [
+        {
+          "sentence": "The Tenant shall keep the premises clean and in good condition",
+          "party": "Tenant",
+          "modality": "obligation",
+          "modal_verb": "shall",
+          "action": "keep the premises clean and in good condition",
+          "condition": null,
+          "exception": null,
+          "time": {
+            "phrases": [],
+            "durations": [],
+            "dates": []
+          },
+          "amounts": [],
+          "is_negated": false,
+          "source": {
+            "record_id": "CLAUSE-00006",
+            "record_type": "clause",
+            "clause_number": "2.2",
+            "section_heading": "ARTICLE 2: USE OF PREMISES",
+            "page_start": 1,
+            "page_end": 1,
+            "filename": "lease_conflicts.pdf"
+          }
+        }
+      ],
+      "has_legal_statement": true
+    },
+    {
+      "record_id": "CLAUSE-00007",
+      "record_type": "clause",
+      "clause_number": "2.3",
+      "section_heading": "ARTICLE 2: USE OF PREMISES",
+      "page_start": 1,
+      "page_end": 1,
+      "filename": "lease_conflicts.pdf",
+      "text": "The Landlord is responsible for structural repairs and major maintenance of the building.",
+      "entities": {
+        "dates": [],
+        "amounts": [],
+        "durations": [],
+        "percentages": []
+      },
+      "statements": [
+        {
+          "sentence": "The Landlord is responsible for structural repairs and major maintenance of the building",
+          "party": "Landlord",
+          "modality": "obligation",
+          "modal_verb": "is responsible for",
+          "action": "structural repairs and major maintenance of the building",
+          "condition": null,
+          "exception": null,
+          "time": {
+            "phrases": [],
+            "durations": [],
+            "dates": []
+          },
+          "amounts": [],
+          "is_negated": false,
+          "source": {
+            "record_id": "CLAUSE-00007",
+            "record_type": "clause",
+            "clause_number": "2.3",
+            "section_heading": "ARTICLE 2: USE OF PREMISES",
+            "page_start": 1,
+            "page_end": 1,
+            "filename": "lease_conflicts.pdf"
+          }
+        }
+      ],
+      "has_legal_statement": true
+    },
+    {
+      "record_id": "SEC-0003",
+      "record_type": "section",
+      "clause_number": null,
+      "section_heading": "ARTICLE 3: TERMINATION",
+      "page_start": 2,
+      "page_end": 2,
+      "filename": "lease_conflicts.pdf",
+      "text": "ARTICLE 3: TERMINATION",
+      "entities": {
+        "dates": [],
+        "amounts": [],
+        "durations": [],
+        "percentages": []
+      },
+      "statements": [],
+      "has_legal_statement": false
+    },
+    {
+      "record_id": "CLAUSE-00008",
+      "record_type": "clause",
+      "clause_number": "3.1",
+      "section_heading": "ARTICLE 3: TERMINATION",
+      "page_start": 2,
+      "page_end": 2,
+      "filename": "lease_conflicts.pdf",
+      "text": "Either party must provide 30 days written notice before terminating this Agreement.",
+      "entities": {
+        "dates": [],
+        "amounts": [],
+        "durations": [
+          {
+            "text": "30 days",
+            "value": 30,
+            "unit": "days",
+            "day_type": null,
+            "days_approx": 30,
+            "is_notice_period": true
+          }
+        ],
+        "percentages": []
+      },
+      "statements": [
+        {
+          "sentence": "Either party must provide 30 days written notice before terminating this Agreement",
+          "party": "Parties",
+          "modality": "obligation",
+          "modal_verb": "must",
+          "action": "provide 30 days written notice before terminating this Agreement",
+          "condition": null,
+          "exception": null,
+          "time": {
+            "phrases": [],
+            "durations": [
+              {
+                "text": "30 days",
+                "value": 30,
+                "unit": "days",
+                "day_type": null,
+                "days_approx": 30,
+                "is_notice_period": true
+              }
+            ],
+            "dates": []
+          },
+          "amounts": [],
+          "is_negated": false,
+          "source": {
+            "record_id": "CLAUSE-00008",
+            "record_type": "clause",
+            "clause_number": "3.1",
+            "section_heading": "ARTICLE 3: TERMINATION",
+            "page_start": 2,
+            "page_end": 2,
+            "filename": "lease_conflicts.pdf"
+          }
+        }
+      ],
+      "has_legal_statement": true
+    },
+    {
+      "record_id": "CLAUSE-00009",
+      "record_type": "clause",
+      "clause_number": "3.2",
+      "section_heading": "ARTICLE 3: TERMINATION",
+      "page_start": 2,
+      "page_end": 2,
+      "filename": "lease_conflicts.pdf",
+      "text": "This Agreement shall be governed by the laws of India.",
+      "entities": {
+        "dates": [],
+        "amounts": [],
+        "durations": [],
+        "percentages": []
+      },
+      "statements": [
+        {
+          "sentence": "This Agreement shall be governed by the laws of India",
+          "party": null,
+          "modality": "obligation",
+          "modal_verb": "shall",
+          "action": "be governed by the laws of India",
+          "condition": null,
+          "exception": null,
+          "time": {
+            "phrases": [],
+            "durations": [],
+            "dates": []
+          },
+          "amounts": [],
+          "is_negated": false,
+          "source": {
+            "record_id": "CLAUSE-00009",
+            "record_type": "clause",
+            "clause_number": "3.2",
+            "section_heading": "ARTICLE 3: TERMINATION",
+            "page_start": 2,
+            "page_end": 2,
+            "filename": "lease_conflicts.pdf"
+          }
+        }
+      ],
+      "has_legal_statement": true
+    },
+    {
+      "record_id": "SEC-0004",
+      "record_type": "section",
+      "clause_number": null,
+      "section_heading": "ARTICLE 4: GENERAL",
+      "page_start": 2,
+      "page_end": 2,
+      "filename": "lease_conflicts.pdf",
+      "text": "ARTICLE 4: GENERAL",
+      "entities": {
+        "dates": [],
+        "amounts": [],
+        "durations": [],
+        "percentages": []
+      },
+      "statements": [],
+      "has_legal_statement": false
+    },
+    {
+      "record_id": "CLAUSE-00010",
+      "record_type": "clause",
+      "clause_number": "4.1",
+      "section_heading": "ARTICLE 4: GENERAL",
+      "page_start": 2,
+      "page_end": 2,
+      "filename": "lease_conflicts.pdf",
+      "text": "The Tenant shall pay the monthly rent by the 10th day of each month without any deduction.",
+      "entities": {
+        "dates": [],
+        "amounts": [],
+        "durations": [],
+        "percentages": []
+      },
+      "statements": [
+        {
+          "sentence": "The Tenant shall pay the monthly rent by the 10th day of each month without any deduction",
+          "party": "Tenant",
+          "modality": "obligation",
+          "modal_verb": "shall",
+          "action": "pay the monthly rent by the 10th day of each month without any deduction",
+          "condition": null,
+          "exception": null,
+          "time": {
+            "phrases": [
+              "monthly",
+              "by the 10th day of each month without any dedu"
+            ],
+            "durations": [],
+            "dates": []
+          },
+          "amounts": [],
+          "is_negated": false,
+          "source": {
+            "record_id": "CLAUSE-00010",
+            "record_type": "clause",
+            "clause_number": "4.1",
+            "section_heading": "ARTICLE 4: GENERAL",
+            "page_start": 2,
+            "page_end": 2,
+            "filename": "lease_conflicts.pdf"
+          }
+        }
+      ],
+      "has_legal_statement": true
+    },
+    {
+      "record_id": "CLAUSE-00011",
+      "record_type": "clause",
+      "clause_number": "4.2",
+      "section_heading": "ARTICLE 4: GENERAL",
+      "page_start": 2,
+      "page_end": 2,
+      "filename": "lease_conflicts.pdf",
+      "text": "The Tenant shall provide 60 days written notice before terminating this Agreement.",
+      "entities": {
+        "dates": [],
+        "amounts": [],
+        "durations": [
+          {
+            "text": "60 days",
+            "value": 60,
+            "unit": "days",
+            "day_type": null,
+            "days_approx": 60,
+            "is_notice_period": true
+          }
+        ],
+        "percentages": []
+      },
+      "statements": [
+        {
+          "sentence": "The Tenant shall provide 60 days written notice before terminating this Agreement",
+          "party": "Tenant",
+          "modality": "obligation",
+          "modal_verb": "shall",
+          "action": "provide 60 days written notice before terminating this Agreement",
+          "condition": null,
+          "exception": null,
+          "time": {
+            "phrases": [],
+            "durations": [
+              {
+                "text": "60 days",
+                "value": 60,
+                "unit": "days",
+                "day_type": null,
+                "days_approx": 60,
+                "is_notice_period": true
+              }
+            ],
+            "dates": []
+          },
+          "amounts": [],
+          "is_negated": false,
+          "source": {
+            "record_id": "CLAUSE-00011",
+            "record_type": "clause",
+            "clause_number": "4.2",
+            "section_heading": "ARTICLE 4: GENERAL",
+            "page_start": 2,
+            "page_end": 2,
+            "filename": "lease_conflicts.pdf"
+          }
+        }
+      ],
+      "has_legal_statement": true
+    },
+    {
+      "record_id": "CLAUSE-00012",
+      "record_type": "clause",
+      "clause_number": "4.3",
+      "section_heading": "ARTICLE 4: GENERAL",
+      "page_start": 2,
+      "page_end": 2,
+      "filename": "lease_conflicts.pdf",
+      "text": "The Tenant may sublet the premises to a family member with the prior written consent of the\nLandlord.",
+      "entities": {
+        "dates": [],
+        "amounts": [],
+        "durations": [],
+        "percentages": []
+      },
+      "statements": [
+        {
+          "sentence": "The Tenant may sublet the premises to a family member with the prior written consent of the Landlord",
+          "party": "Tenant",
+          "modality": "permission",
+          "modal_verb": "may",
+          "action": "sublet the premises to a family member with the prior written consent of the Landlord",
+          "condition": null,
+          "exception": null,
+          "time": {
+            "phrases": [],
+            "durations": [],
+            "dates": []
+          },
+          "amounts": [],
+          "is_negated": false,
+          "source": {
+            "record_id": "CLAUSE-00012",
+            "record_type": "clause",
+            "clause_number": "4.3",
+            "section_heading": "ARTICLE 4: GENERAL",
+            "page_start": 2,
+            "page_end": 2,
+            "filename": "lease_conflicts.pdf"
+          }
+        }
+      ],
+      "has_legal_statement": true
+    },
+    {
+      "record_id": "CLAUSE-00013",
+      "record_type": "clause",
+      "clause_number": "4.4",
+      "section_heading": "ARTICLE 4: GENERAL",
+      "page_start": 2,
+      "page_end": 2,
+      "filename": "lease_conflicts.pdf",
+      "text": "The security deposit shall be Rs. 75,000 and is refundable on vacating the premises.",
+      "entities": {
+        "dates": [],
+        "amounts": [
+          {
+            "text": "Rs. 75,000",
+            "currency": "INR",
+            "value": 75000.0,
+            "purpose": "deposit"
+          }
+        ],
+        "durations": [],
+        "percentages": []
+      },
+      "statements": [
+        {
+          "sentence": "The security deposit shall be Rs. 75,000 and is refundable on vacating the premises",
+          "party": null,
+          "modality": "obligation",
+          "modal_verb": "shall",
+          "action": "be Rs. 75,000 and is refundable on vacating the premises",
+          "condition": null,
+          "exception": null,
+          "time": {
+            "phrases": [],
+            "durations": [],
+            "dates": []
+          },
+          "amounts": [
+            {
+              "text": "Rs. 75,000",
+              "currency": "INR",
+              "value": 75000.0,
+              "purpose": "deposit"
+            }
+          ],
+          "is_negated": false,
+          "source": {
+            "record_id": "CLAUSE-00013",
+            "record_type": "clause",
+            "clause_number": "4.4",
+            "section_heading": "ARTICLE 4: GENERAL",
+            "page_start": 2,
+            "page_end": 2,
+            "filename": "lease_conflicts.pdf"
+          }
+        }
+      ],
+      "has_legal_statement": true
+    }
+  ],
+  "statements": [
+    {
+      "sentence": "The Tenant shall pay monthly rent of Rs. 25,000 to the Landlord by the 5th day of each month",
+      "party": "Tenant",
+      "modality": "obligation",
+      "modal_verb": "shall",
+      "action": "pay monthly rent of Rs. 25,000 to the Landlord by the 5th day of each month",
+      "condition": null,
+      "exception": null,
+      "time": {
+        "phrases": [
+          "monthly",
+          "by the 5th day of each month"
+        ],
+        "durations": [],
+        "dates": []
+      },
+      "amounts": [
+        {
+          "text": "Rs. 25,000",
+          "currency": "INR",
+          "value": 25000.0,
+          "purpose": "rent"
+        }
+      ],
+      "is_negated": false,
+      "source": {
+        "record_id": "CLAUSE-00002",
+        "record_type": "clause",
+        "clause_number": "1.1",
+        "section_heading": "ARTICLE 1: RENT AND DEPOSIT",
+        "page_start": 1,
+        "page_end": 1,
+        "filename": "lease_conflicts.pdf"
+      }
+    },
+    {
+      "sentence": "The Tenant shall pay a security deposit of Rs. 50,000 to the Landlord at the time of signing this Agreement",
+      "party": "Tenant",
+      "modality": "obligation",
+      "modal_verb": "shall",
+      "action": "pay a security deposit of Rs. 50,000 to the Landlord at the time of signing this Agreement",
+      "condition": null,
+      "exception": null,
+      "time": {
+        "phrases": [],
+        "durations": [],
+        "dates": []
+      },
+      "amounts": [
+        {
+          "text": "Rs. 50,000",
+          "currency": "INR",
+          "value": 50000.0,
+          "purpose": "deposit"
+        }
+      ],
+      "is_negated": false,
+      "source": {
+        "record_id": "CLAUSE-00003",
+        "record_type": "clause",
+        "clause_number": "1.2",
+        "section_heading": "ARTICLE 1: RENT AND DEPOSIT",
+        "page_start": 1,
+        "page_end": 1,
+        "filename": "lease_conflicts.pdf"
+      }
+    },
+    {
+      "sentence": "The Landlord shall refund the security deposit within 30 days after the Tenant vacates the premises",
+      "party": "Landlord",
+      "modality": "obligation",
+      "modal_verb": "shall",
+      "action": "refund the security deposit within 30 days after the Tenant vacates the premises",
+      "condition": null,
+      "exception": null,
+      "time": {
+        "phrases": [
+          "within 30 days after the Tenant vacates the pre"
+        ],
+        "durations": [
+          {
+            "text": "30 days",
+            "value": 30,
+            "unit": "days",
+            "day_type": null,
+            "days_approx": 30,
+            "is_notice_period": false
+          }
+        ],
+        "dates": []
+      },
+      "amounts": [],
+      "is_negated": false,
+      "source": {
+        "record_id": "CLAUSE-00004",
+        "record_type": "clause",
+        "clause_number": "1.3",
+        "section_heading": "ARTICLE 1: RENT AND DEPOSIT",
+        "page_start": 1,
+        "page_end": 1,
+        "filename": "lease_conflicts.pdf"
+      }
+    },
+    {
+      "sentence": "The Tenant shall not sublet the premises or any part of it to any third party",
+      "party": "Tenant",
+      "modality": "prohibition",
+      "modal_verb": "shall not",
+      "action": "sublet the premises or any part of it to any third party",
+      "condition": null,
+      "exception": null,
+      "time": {
+        "phrases": [],
+        "durations": [],
+        "dates": []
+      },
+      "amounts": [],
+      "is_negated": true,
+      "source": {
+        "record_id": "CLAUSE-00005",
+        "record_type": "clause",
+        "clause_number": "2.1",
+        "section_heading": "ARTICLE 2: USE OF PREMISES",
+        "page_start": 1,
+        "page_end": 1,
+        "filename": "lease_conflicts.pdf"
+      }
+    },
+    {
+      "sentence": "The Tenant shall keep the premises clean and in good condition",
+      "party": "Tenant",
+      "modality": "obligation",
+      "modal_verb": "shall",
+      "action": "keep the premises clean and in good condition",
+      "condition": null,
+      "exception": null,
+      "time": {
+        "phrases": [],
+        "durations": [],
+        "dates": []
+      },
+      "amounts": [],
+      "is_negated": false,
+      "source": {
+        "record_id": "CLAUSE-00006",
+        "record_type": "clause",
+        "clause_number": "2.2",
+        "section_heading": "ARTICLE 2: USE OF PREMISES",
+        "page_start": 1,
+        "page_end": 1,
+        "filename": "lease_conflicts.pdf"
+      }
+    },
+    {
+      "sentence": "The Landlord is responsible for structural repairs and major maintenance of the building",
+      "party": "Landlord",
+      "modality": "obligation",
+      "modal_verb": "is responsible for",
+      "action": "structural repairs and major maintenance of the building",
+      "condition": null,
+      "exception": null,
+      "time": {
+        "phrases": [],
+        "durations": [],
+        "dates": []
+      },
+      "amounts": [],
+      "is_negated": false,
+      "source": {
+        "record_id": "CLAUSE-00007",
+        "record_type": "clause",
+        "clause_number": "2.3",
+        "section_heading": "ARTICLE 2: USE OF PREMISES",
+        "page_start": 1,
+        "page_end": 1,
+        "filename": "lease_conflicts.pdf"
+      }
+    },
+    {
+      "sentence": "Either party must provide 30 days written notice before terminating this Agreement",
+      "party": "Parties",
+      "modality": "obligation",
+      "modal_verb": "must",
+      "action": "provide 30 days written notice before terminating this Agreement",
+      "condition": null,
+      "exception": null,
+      "time": {
+        "phrases": [],
+        "durations": [
+          {
+            "text": "30 days",
+            "value": 30,
+            "unit": "days",
+            "day_type": null,
+            "days_approx": 30,
+            "is_notice_period": true
+          }
+        ],
+        "dates": []
+      },
+      "amounts": [],
+      "is_negated": false,
+      "source": {
+        "record_id": "CLAUSE-00008",
+        "record_type": "clause",
+        "clause_number": "3.1",
+        "section_heading": "ARTICLE 3: TERMINATION",
+        "page_start": 2,
+        "page_end": 2,
+        "filename": "lease_conflicts.pdf"
+      }
+    },
+    {
+      "sentence": "This Agreement shall be governed by the laws of India",
+      "party": null,
+      "modality": "obligation",
+      "modal_verb": "shall",
+      "action": "be governed by the laws of India",
+      "condition": null,
+      "exception": null,
+      "time": {
+        "phrases": [],
+        "durations": [],
+        "dates": []
+      },
+      "amounts": [],
+      "is_negated": false,
+      "source": {
+        "record_id": "CLAUSE-00009",
+        "record_type": "clause",
+        "clause_number": "3.2",
+        "section_heading": "ARTICLE 3: TERMINATION",
+        "page_start": 2,
+        "page_end": 2,
+        "filename": "lease_conflicts.pdf"
+      }
+    },
+    {
+      "sentence": "The Tenant shall pay the monthly rent by the 10th day of each month without any deduction",
+      "party": "Tenant",
+      "modality": "obligation",
+      "modal_verb": "shall",
+      "action": "pay the monthly rent by the 10th day of each month without any deduction",
+      "condition": null,
+      "exception": null,
+      "time": {
+        "phrases": [
+          "monthly",
+          "by the 10th day of each month without any dedu"
+        ],
+        "durations": [],
+        "dates": []
+      },
+      "amounts": [],
+      "is_negated": false,
+      "source": {
+        "record_id": "CLAUSE-00010",
+        "record_type": "clause",
+        "clause_number": "4.1",
+        "section_heading": "ARTICLE 4: GENERAL",
+        "page_start": 2,
+        "page_end": 2,
+        "filename": "lease_conflicts.pdf"
+      }
+    },
+    {
+      "sentence": "The Tenant shall provide 60 days written notice before terminating this Agreement",
+      "party": "Tenant",
+      "modality": "obligation",
+      "modal_verb": "shall",
+      "action": "provide 60 days written notice before terminating this Agreement",
+      "condition": null,
+      "exception": null,
+      "time": {
+        "phrases": [],
+        "durations": [
+          {
+            "text": "60 days",
+            "value": 60,
+            "unit": "days",
+            "day_type": null,
+            "days_approx": 60,
+            "is_notice_period": true
+          }
+        ],
+        "dates": []
+      },
+      "amounts": [],
+      "is_negated": false,
+      "source": {
+        "record_id": "CLAUSE-00011",
+        "record_type": "clause",
+        "clause_number": "4.2",
+        "section_heading": "ARTICLE 4: GENERAL",
+        "page_start": 2,
+        "page_end": 2,
+        "filename": "lease_conflicts.pdf"
+      }
+    },
+    {
+      "sentence": "The Tenant may sublet the premises to a family member with the prior written consent of the Landlord",
+      "party": "Tenant",
+      "modality": "permission",
+      "modal_verb": "may",
+      "action": "sublet the premises to a family member with the prior written consent of the Landlord",
+      "condition": null,
+      "exception": null,
+      "time": {
+        "phrases": [],
+        "durations": [],
+        "dates": []
+      },
+      "amounts": [],
+      "is_negated": false,
+      "source": {
+        "record_id": "CLAUSE-00012",
+        "record_type": "clause",
+        "clause_number": "4.3",
+        "section_heading": "ARTICLE 4: GENERAL",
+        "page_start": 2,
+        "page_end": 2,
+        "filename": "lease_conflicts.pdf"
+      }
+    },
+    {
+      "sentence": "The security deposit shall be Rs. 75,000 and is refundable on vacating the premises",
+      "party": null,
+      "modality": "obligation",
+      "modal_verb": "shall",
+      "action": "be Rs. 75,000 and is refundable on vacating the premises",
+      "condition": null,
+      "exception": null,
+      "time": {
+        "phrases": [],
+        "durations": [],
+        "dates": []
+      },
+      "amounts": [
+        {
+          "text": "Rs. 75,000",
+          "currency": "INR",
+          "value": 75000.0,
+          "purpose": "deposit"
+        }
+      ],
+      "is_negated": false,
+      "source": {
+        "record_id": "CLAUSE-00013",
+        "record_type": "clause",
+        "clause_number": "4.4",
+        "section_heading": "ARTICLE 4: GENERAL",
+        "page_start": 2,
+        "page_end": 2,
+        "filename": "lease_conflicts.pdf"
+      }
+    }
+  ],
+  "extraction_method": "rule-based",
+  "processed_at_utc": "2026-10-31T16:06:17.379416+00:00",
+  "note": "Automated extraction; outputs require human review and are not legal advice."
+}

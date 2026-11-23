@@ -1,0 +1,12 @@
+streamlit
+pymupdf
+pdfplumber
+pytesseract
+Pillow
+numpy
+scikit-learn
+sentence-transformers
+transformers
+torch
+sentencepiece
+protobuf

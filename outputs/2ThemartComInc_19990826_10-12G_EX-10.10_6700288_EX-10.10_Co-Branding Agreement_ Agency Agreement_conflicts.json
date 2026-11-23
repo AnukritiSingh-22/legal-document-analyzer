@@ -1,0 +1,54 @@
+{
+  "summary": {
+    "total_clauses": 77,
+    "total_pairs": 2926,
+    "candidate_pairs": 192,
+    "analyzed_pairs": 192,
+    "skipped_pairs": 2734,
+    "potential_conflict_count": 1,
+    "similarity_method": "sentence-transformers all-MiniLM-L6-v2",
+    "nli_used": true,
+    "thresholds": {
+      "similarity": 0.55,
+      "high_similarity": 0.75,
+      "nli": 0.8
+    }
+  },
+  "issues": [
+    {
+      "label": "Potential Conflict - Requires Review",
+      "conflict_types": [
+        "Possible Semantic Contradiction (NLI)"
+      ],
+      "reason": "The NLI model rates these clauses as contradictory (score 0.9548).",
+      "clause_1": {
+        "record_id": "CLAUSE-00007",
+        "reference": "Page 1 | Clause 1(e)",
+        "page_start": 1,
+        "page_end": 1,
+        "clause_number": "1(e)",
+        "section_heading": null,
+        "text": "\"ESCROW SERVICES\" means services for auction sellers and high bidders whereby an agent holds a buyer's money in trust until the buyer approves the applicable item that was physically delivered, at which time the agent releases the buyer's money to seller, after subtracting the escrow fees."
+      },
+      "clause_2": {
+        "record_id": "CLAUSE-00011",
+        "reference": "Page 1 | Clause 1(i)",
+        "page_start": 1,
+        "page_end": 1,
+        "clause_number": "1(i)",
+        "section_heading": null,
+        "text": "\"SERVICES\" means i-Escrow's implementation and performance of the Escrow Services as of the Effective Date, as modified over time."
+      },
+      "semantic_similarity": 0.7604,
+      "nli_result": {
+        "contradiction_score_forward": 0.0272,
+        "contradiction_score_reverse": 0.9548,
+        "maximum_contradiction_score": 0.9548,
+        "status": "Requires Human Review"
+      },
+      "rule_based_findings": [],
+      "issue_id": "CONF-001"
+    }
+  ],
+  "note": "Potential conflicts only - automated output that requires human/legal review. Not legal advice."
+}

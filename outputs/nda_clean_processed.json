@@ -1,0 +1,184 @@
+{
+  "document_metadata": {
+    "filename": "nda_clean.pdf",
+    "file_type": "application/pdf",
+    "file_size_bytes": 2107,
+    "sha256": "abeccd9ae3b3f6c6722835e162f83ad8f5c3fd9e1e036a92e3903e3075246152",
+    "page_count": 1
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "MUTUAL NON-DISCLOSURE AGREEMENT\nThis Agreement is made on 2 March 2025 between Globex Corporation (the \"Disclosing Party\") and\nInitech Ltd. (the \"Receiving Party\").\nARTICLE 1: CONFIDENTIALITY\n1.1 The Receiving Party shall not disclose Confidential Information to any third party without written\nconsent.\n1.2 The Receiving Party shall use the Confidential Information solely for evaluating the proposed\nbusiness relationship.\n1.3 The obligations of confidentiality shall continue for a period of 3 years from the date of\ndisclosure.\nARTICLE 2: TERM\n2.1 This Agreement shall commence on 2 March 2025 and shall remain in force for 2 years.\n2.2 Either party may terminate this Agreement by giving 30 days written notice.\n2.3 This Agreement shall be governed by the laws of India and courts in Delhi shall have\njurisdiction.",
+      "extraction_method": "PyMuPDF",
+      "character_count": 819,
+      "is_likely_blank": false
+    }
+  ],
+  "records": [
+    {
+      "record_id": "BLOCK-00001",
+      "record_type": "text_block",
+      "section_heading": null,
+      "clause_number": null,
+      "page_start": 1,
+      "page_end": 1,
+      "source_filename": "nda_clean.pdf",
+      "extraction_method": "PyMuPDF",
+      "text": "MUTUAL NON-DISCLOSURE AGREEMENT\nThis Agreement is made on 2 March 2025 between Globex Corporation (the \"Disclosing Party\") and\nInitech Ltd. (the \"Receiving Party\").",
+      "character_count": 164,
+      "source": {
+        "filename": "nda_clean.pdf",
+        "sha256": "abeccd9ae3b3f6c6722835e162f83ad8f5c3fd9e1e036a92e3903e3075246152",
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "record_id": "SEC-0001",
+      "record_type": "section",
+      "section_heading": "ARTICLE 1: CONFIDENTIALITY",
+      "clause_number": null,
+      "text": "ARTICLE 1: CONFIDENTIALITY",
+      "page_start": 1,
+      "page_end": 1,
+      "source_filename": "nda_clean.pdf",
+      "extraction_method": "PyMuPDF",
+      "character_count": 26,
+      "source": {
+        "filename": "nda_clean.pdf",
+        "sha256": "abeccd9ae3b3f6c6722835e162f83ad8f5c3fd9e1e036a92e3903e3075246152",
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "record_id": "CLAUSE-00002",
+      "record_type": "clause",
+      "section_heading": "ARTICLE 1: CONFIDENTIALITY",
+      "clause_number": "1.1",
+      "page_start": 1,
+      "page_end": 1,
+      "source_filename": "nda_clean.pdf",
+      "extraction_method": "PyMuPDF",
+      "text": "The Receiving Party shall not disclose Confidential Information to any third party without written\nconsent.",
+      "character_count": 107,
+      "source": {
+        "filename": "nda_clean.pdf",
+        "sha256": "abeccd9ae3b3f6c6722835e162f83ad8f5c3fd9e1e036a92e3903e3075246152",
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "record_id": "CLAUSE-00003",
+      "record_type": "clause",
+      "section_heading": "ARTICLE 1: CONFIDENTIALITY",
+      "clause_number": "1.2",
+      "page_start": 1,
+      "page_end": 1,
+      "source_filename": "nda_clean.pdf",
+      "extraction_method": "PyMuPDF",
+      "text": "The Receiving Party shall use the Confidential Information solely for evaluating the proposed\nbusiness relationship.",
+      "character_count": 116,
+      "source": {
+        "filename": "nda_clean.pdf",
+        "sha256": "abeccd9ae3b3f6c6722835e162f83ad8f5c3fd9e1e036a92e3903e3075246152",
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "record_id": "CLAUSE-00004",
+      "record_type": "clause",
+      "section_heading": "ARTICLE 1: CONFIDENTIALITY",
+      "clause_number": "1.3",
+      "page_start": 1,
+      "page_end": 1,
+      "source_filename": "nda_clean.pdf",
+      "extraction_method": "PyMuPDF",
+      "text": "The obligations of confidentiality shall continue for a period of 3 years from the date of\ndisclosure.",
+      "character_count": 102,
+      "source": {
+        "filename": "nda_clean.pdf",
+        "sha256": "abeccd9ae3b3f6c6722835e162f83ad8f5c3fd9e1e036a92e3903e3075246152",
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "record_id": "SEC-0002",
+      "record_type": "section",
+      "section_heading": "ARTICLE 2: TERM",
+      "clause_number": null,
+      "text": "ARTICLE 2: TERM",
+      "page_start": 1,
+      "page_end": 1,
+      "source_filename": "nda_clean.pdf",
+      "extraction_method": "PyMuPDF",
+      "character_count": 15,
+      "source": {
+        "filename": "nda_clean.pdf",
+        "sha256": "abeccd9ae3b3f6c6722835e162f83ad8f5c3fd9e1e036a92e3903e3075246152",
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "record_id": "CLAUSE-00005",
+      "record_type": "clause",
+      "section_heading": "ARTICLE 2: TERM",
+      "clause_number": "2.1",
+      "page_start": 1,
+      "page_end": 1,
+      "source_filename": "nda_clean.pdf",
+      "extraction_method": "PyMuPDF",
+      "text": "This Agreement shall commence on 2 March 2025 and shall remain in force for 2 years.",
+      "character_count": 84,
+      "source": {
+        "filename": "nda_clean.pdf",
+        "sha256": "abeccd9ae3b3f6c6722835e162f83ad8f5c3fd9e1e036a92e3903e3075246152",
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "record_id": "CLAUSE-00006",
+      "record_type": "clause",
+      "section_heading": "ARTICLE 2: TERM",
+      "clause_number": "2.2",
+      "page_start": 1,
+      "page_end": 1,
+      "source_filename": "nda_clean.pdf",
+      "extraction_method": "PyMuPDF",
+      "text": "Either party may terminate this Agreement by giving 30 days written notice.",
+      "character_count": 75,
+      "source": {
+        "filename": "nda_clean.pdf",
+        "sha256": "abeccd9ae3b3f6c6722835e162f83ad8f5c3fd9e1e036a92e3903e3075246152",
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "record_id": "CLAUSE-00007",
+      "record_type": "clause",
+      "section_heading": "ARTICLE 2: TERM",
+      "clause_number": "2.3",
+      "page_start": 1,
+      "page_end": 1,
+      "source_filename": "nda_clean.pdf",
+      "extraction_method": "PyMuPDF",
+      "text": "This Agreement shall be governed by the laws of India and courts in Delhi shall have\njurisdiction.",
+      "character_count": 98,
+      "source": {
+        "filename": "nda_clean.pdf",
+        "sha256": "abeccd9ae3b3f6c6722835e162f83ad8f5c3fd9e1e036a92e3903e3075246152",
+        "page_start": 1,
+        "page_end": 1
+      }
+    }
+  ],
+  "warnings": [],
+  "processed_at_utc": "2026-10-30T06:57:56.747083+00:00"
+}

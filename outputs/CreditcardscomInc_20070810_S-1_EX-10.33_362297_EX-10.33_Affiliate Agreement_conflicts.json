@@ -1,0 +1,88 @@
+{
+  "summary": {
+    "total_clauses": 23,
+    "total_pairs": 253,
+    "candidate_pairs": 36,
+    "analyzed_pairs": 36,
+    "skipped_pairs": 217,
+    "potential_conflict_count": 2,
+    "similarity_method": "sentence-transformers all-MiniLM-L6-v2",
+    "nli_used": true,
+    "thresholds": {
+      "similarity": 0.55,
+      "high_similarity": 0.75,
+      "nli": 0.8
+    }
+  },
+  "issues": [
+    {
+      "label": "Potential Conflict - Requires Review",
+      "conflict_types": [
+        "Possible Semantic Contradiction (NLI)"
+      ],
+      "reason": "The NLI model rates these clauses as contradictory (score 0.9006).",
+      "clause_1": {
+        "record_id": "BLOCK-00001",
+        "reference": "Page 1 | BLOCK-00001",
+        "page_start": 1,
+        "page_end": 1,
+        "clause_number": null,
+        "section_heading": null,
+        "text": "Exhibit 10.33 Last Updated: April 6, 2007 CHASE AFFILIATE AGREEMENT THIS AGREEMENT sets forth the terms and conditions agreed to between Chase Bank USA, N.A. (?Chase?) and you as an “Affiliate” in the Chase Affiliate Program (the “Affiliate Program”). Once accepted into the Affiliate Program, an Affiliate can establish links from the Affiliate’s Website to [Chase.com]. Chase will pay Affiliate a fee for each approved credit card account that originates from a link in Affiliate’s Website. THIS IS A LEGAL AND CONTRACTUALLY BINDING AGREEMENT BETWEEN AFFILIATE AND CHASE. TO APPLY TO THE AFFILIATE PROGRAM, YOU MUST COMPLETE AND SUBMIT THE AFFILIATE REGISTRATION FORM AND CLICK ON THE “AGREE” BUTTON BELOW TO INDICATE YOUR WILLINGNESS TO BE BOUND TO CHASE BY THIS AGREEMENT. THIS AGREEMENT WILL TAKE EFFECT IF AND WHEN CHASE REVIEWS AND ACCEPTS YOUR REGISTRATION FORM AND PROVIDES YOU NOTICE OF ACCEPTANCE. BY SUBMITTING YOUR REGISTRATION FORM, AFFILIATE CERTIFIES THAT YOU HAVE READ AND UNDERSTAND THE TERMS SET FORTH BELOW, AND THAT YOU ARE AUTHORIZED TO SUBMIT THIS REGISTRATION FORM BY THE NAMED AFFILIATE. In connection with your participation in the Affiliate Program, Affiliate and Chase agree as follows:"
+      },
+      "clause_2": {
+        "record_id": "CLAUSE-00005",
+        "reference": "Page 4 | Clause 4",
+        "page_start": 4,
+        "page_end": 4,
+        "clause_number": "4",
+        "section_heading": null,
+        "text": "Approved Account For purposes of determining Affiliate’s Commission, an “Approved Account” means any Chase credit card application that is: (i) submitted by any user who clicks on an e-mail, banner or any other advertising material from Affiliate’s Website; (ii) is approved by Chase; and (iii) is reported as approved by Chase to Affiliate. 5.Term of this Agreement The term of this Agreement will commence on the date that the Affiliate Registration Form is approved by Chase and will end when terminated by either party. Either Affiliate or Chase may terminate this Agreement at any time, with or without cause, by giving the other party written or e-mail notice of termination. At the time of termination, any links to Chase’s Website must be removed immediately. Affiliate will continue to receive Commission payments for all Approved Accounts placed during the term of this Agreement. Notwithstanding the foregoing, Chase may terminate this Agreement if Affiliate does not comply with the terms and conditions herein."
+      },
+      "semantic_similarity": 0.8217,
+      "nli_result": {
+        "contradiction_score_forward": 0.9006,
+        "contradiction_score_reverse": 0.8128,
+        "maximum_contradiction_score": 0.9006,
+        "status": "Requires Human Review"
+      },
+      "rule_based_findings": [],
+      "issue_id": "CONF-001"
+    },
+    {
+      "label": "Potential Conflict - Requires Review",
+      "conflict_types": [
+        "Possible Semantic Contradiction (NLI)"
+      ],
+      "reason": "The NLI model rates these clauses as contradictory (score 0.9889).",
+      "clause_1": {
+        "record_id": "CLAUSE-00005",
+        "reference": "Page 4 | Clause 4",
+        "page_start": 4,
+        "page_end": 4,
+        "clause_number": "4",
+        "section_heading": null,
+        "text": "Approved Account For purposes of determining Affiliate’s Commission, an “Approved Account” means any Chase credit card application that is: (i) submitted by any user who clicks on an e-mail, banner or any other advertising material from Affiliate’s Website; (ii) is approved by Chase; and (iii) is reported as approved by Chase to Affiliate. 5.Term of this Agreement The term of this Agreement will commence on the date that the Affiliate Registration Form is approved by Chase and will end when terminated by either party. Either Affiliate or Chase may terminate this Agreement at any time, with or without cause, by giving the other party written or e-mail notice of termination. At the time of termination, any links to Chase’s Website must be removed immediately. Affiliate will continue to receive Commission payments for all Approved Accounts placed during the term of this Agreement. Notwithstanding the foregoing, Chase may terminate this Agreement if Affiliate does not comply with the terms and conditions herein."
+      },
+      "clause_2": {
+        "record_id": "CLAUSE-00008",
+        "reference": "Page 5 | Clause 8",
+        "page_start": 5,
+        "page_end": 5,
+        "clause_number": "8",
+        "section_heading": null,
+        "text": "Tracking of Sales Chase will be solely responsible for tracking Approved Accounts made to customers who follow Affiliate’s Links. Affiliate will be solely responsible for ensuring that the Links are formatted properly and maintained in a manner, which allows Chase to track such Approved Accounts. No Commission shall be paid if the Approved Account cannot be tracked by Chase’s system or if the customer accesses the Chase site through means other than the Links. Chase will provide Affiliate with statements of Approved Account activity at the time Commissions are paid."
+      },
+      "semantic_similarity": 0.7698,
+      "nli_result": {
+        "contradiction_score_forward": 0.9889,
+        "contradiction_score_reverse": 0.9858,
+        "maximum_contradiction_score": 0.9889,
+        "status": "Requires Human Review"
+      },
+      "rule_based_findings": [],
+      "issue_id": "CONF-002"
+    }
+  ],
+  "note": "Potential conflicts only - automated output that requires human/legal review. Not legal advice."
+}

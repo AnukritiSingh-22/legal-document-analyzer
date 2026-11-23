@@ -1,0 +1,460 @@
+{
+  "summary": {
+    "total_clauses": 150,
+    "total_pairs": 11175,
+    "candidate_pairs": 329,
+    "analyzed_pairs": 329,
+    "skipped_pairs": 10846,
+    "potential_conflict_count": 12,
+    "similarity_method": "sentence-transformers all-MiniLM-L6-v2",
+    "nli_used": true,
+    "thresholds": {
+      "similarity": 0.55,
+      "high_similarity": 0.75,
+      "nli": 0.8
+    }
+  },
+  "issues": [
+    {
+      "label": "Potential Conflict - Requires Review",
+      "conflict_types": [
+        "Possible Semantic Contradiction (NLI)"
+      ],
+      "reason": "The NLI model rates these clauses as contradictory (score 0.9714).",
+      "clause_1": {
+        "record_id": "CLAUSE-00012",
+        "reference": "Page 5 | Clause 3",
+        "page_start": 5,
+        "page_end": 5,
+        "clause_number": "3",
+        "section_heading": null,
+        "text": "“Issuer-Represented Free Writing Prospectus” means any “issuer free writing prospectus,” as defined in Rule 433(h) of the 1933 Act Regulations, relating to the offered Shares in the form filed or required or, if not required to be filed, in the form retained in the Company’s records pursuant to Rule 433(g) under the 1933 Act Regulations. The term does not include any writing exempted from the definition of prospectus pursuant to clause (a) of Section 2(a)(10) of the 1933 Act, without regard to Rule 172 or Rule 173 of the 1933 Act Regulations."
+      },
+      "clause_2": {
+        "record_id": "CLAUSE-00014",
+        "reference": "Page 5 | Clause 5",
+        "page_start": 5,
+        "page_end": 5,
+        "clause_number": "5",
+        "section_heading": null,
+        "text": "“Issuer-Represented Limited-Use Free Writing Prospectus” means any Issuer-Represented Free Writing Prospectus that is not an Issuer- Represented General Free Writing Prospectus. The term Issuer-Represented Limited-Use Free Writing Prospectus also includes any “bona fide electronic road show,” as defined in Rule 433 of the 1933 Act Regulations, that is made available without restriction pursuant to Rule 433(d)(8)(ii) of the 1933 Act Regulations or otherwise, even though not required to be filed with the Commission."
+      },
+      "semantic_similarity": 0.8727,
+      "nli_result": {
+        "contradiction_score_forward": 0.7685,
+        "contradiction_score_reverse": 0.9714,
+        "maximum_contradiction_score": 0.9714,
+        "status": "Requires Human Review"
+      },
+      "rule_based_findings": [],
+      "issue_id": "CONF-001"
+    },
+    {
+      "label": "Potential Conflict - Requires Review",
+      "conflict_types": [
+        "Possible Semantic Contradiction (NLI)"
+      ],
+      "reason": "The NLI model rates these clauses as contradictory (score 0.9905).",
+      "clause_1": {
+        "record_id": "CLAUSE-00012",
+        "reference": "Page 5 | Clause 3",
+        "page_start": 5,
+        "page_end": 5,
+        "clause_number": "3",
+        "section_heading": null,
+        "text": "“Issuer-Represented Free Writing Prospectus” means any “issuer free writing prospectus,” as defined in Rule 433(h) of the 1933 Act Regulations, relating to the offered Shares in the form filed or required or, if not required to be filed, in the form retained in the Company’s records pursuant to Rule 433(g) under the 1933 Act Regulations. The term does not include any writing exempted from the definition of prospectus pursuant to clause (a) of Section 2(a)(10) of the 1933 Act, without regard to Rule 172 or Rule 173 of the 1933 Act Regulations."
+      },
+      "clause_2": {
+        "record_id": "CLAUSE-00013",
+        "reference": "Page 5 | Clause 4",
+        "page_start": 5,
+        "page_end": 5,
+        "clause_number": "4",
+        "section_heading": null,
+        "text": "“Issuer-Represented General Free Writing Prospectus” means any Issuer-Represented Free Writing Prospectus that is intended for general distribution to prospective investors."
+      },
+      "semantic_similarity": 0.8406,
+      "nli_result": {
+        "contradiction_score_forward": 0.4717,
+        "contradiction_score_reverse": 0.9905,
+        "maximum_contradiction_score": 0.9905,
+        "status": "Requires Human Review"
+      },
+      "rule_based_findings": [],
+      "issue_id": "CONF-002"
+    },
+    {
+      "label": "Potential Conflict - Requires Review",
+      "conflict_types": [
+        "Possible Semantic Contradiction (NLI)"
+      ],
+      "reason": "The NLI model rates these clauses as contradictory (score 0.9729).",
+      "clause_1": {
+        "record_id": "CLAUSE-00008",
+        "reference": "Page 4 | Clause (b)",
+        "page_start": 4,
+        "page_end": 4,
+        "clause_number": "(b)",
+        "section_heading": null,
+        "text": "At the time of filing the Registration Statement relating to the offering of the Shares and at the date hereof, the Company was not, and is not, an ineligible issuer, as defined in Rule 405 of the 1933 Act Regulations. At the time of the filing of the Registration Statement and at the time of the use of any issuer free writing prospectus, as defined in Rule 433(h) of the 1933 Act Regulations, the Company met the conditions required by Rules 164 and 433 of the 1933 Act Regulations for the use of a free writing prospectus. If required to be filed, the Company has filed any issuer free writing prospectus related to the offered Shares at the time it is required to be filed under Rule 433 of the 1933 Act Regulations and, if not required to be filed, will retain such free writing prospectus in the Company’s records pursuant to Rule 433(g) of the 1933 Act Regulations and if any issuer free writing prospectus is used after the date hereof in connection with the offering of the Shares the Company will file or retain such free writing prospectus as required by Rule 433 of the 1933 Act Regulations."
+      },
+      "clause_2": {
+        "record_id": "CLAUSE-00012",
+        "reference": "Page 5 | Clause 3",
+        "page_start": 5,
+        "page_end": 5,
+        "clause_number": "3",
+        "section_heading": null,
+        "text": "“Issuer-Represented Free Writing Prospectus” means any “issuer free writing prospectus,” as defined in Rule 433(h) of the 1933 Act Regulations, relating to the offered Shares in the form filed or required or, if not required to be filed, in the form retained in the Company’s records pursuant to Rule 433(g) under the 1933 Act Regulations. The term does not include any writing exempted from the definition of prospectus pursuant to clause (a) of Section 2(a)(10) of the 1933 Act, without regard to Rule 172 or Rule 173 of the 1933 Act Regulations."
+      },
+      "semantic_similarity": 0.8257,
+      "nli_result": {
+        "contradiction_score_forward": 0.9729,
+        "contradiction_score_reverse": 0.9576,
+        "maximum_contradiction_score": 0.9729,
+        "status": "Requires Human Review"
+      },
+      "rule_based_findings": [],
+      "issue_id": "CONF-003"
+    },
+    {
+      "label": "Potential Conflict - Requires Review",
+      "conflict_types": [
+        "Possible Semantic Contradiction (NLI)"
+      ],
+      "reason": "The NLI model rates these clauses as contradictory (score 0.9877).",
+      "clause_1": {
+        "record_id": "CLAUSE-00015",
+        "reference": "Page 5 | Clause 6",
+        "page_start": 5,
+        "page_end": 5,
+        "clause_number": "6",
+        "section_heading": null,
+        "text": "“Permitted Free Writing Prospectus” means any free writing prospectus as defined in Rule 405 of the 1933 Act Regulations that is consented to by the Company, the Bank and the Agent."
+      },
+      "clause_2": {
+        "record_id": "CLAUSE-00065",
+        "reference": "Page 15 | Clause 6(c)",
+        "page_start": 15,
+        "page_end": 15,
+        "clause_number": "6(c)",
+        "section_heading": null,
+        "text": "The Company and the Bank represent and agree that, unless it obtains the prior consent of the Agent, and the Agent represents and agrees that, unless it obtains the prior consent of the Company or the Bank, it has not made and will not make any offer relating to the offered Shares that would constitute an “issuer free writing prospectus” as defined in Rule 433 of the 1933 Act Regulations, or that would constitute a “free writing prospectus,” as defined in Rule 405 of the 1933 Act Regulations, required to be filed with the Commission. Any such free writing prospectus consented to by the Company, the Bank and the Agent is hereinafter referred to as a “Permitted Free Writing Prospectus.” The Company and the Bank represent that it has treated or agrees that it will treat each Permitted Free Writing Prospectus as an “issuer free writing prospectus,” as defined in Rule 433 of the 1933 Act Regulations, and has complied and will comply with the requirements of Rule 433 of the 1933 Act Regulations applicable to any Permitted Free Writing Prospectus, including timely Commission filing where required, legending and record keeping. The Company and the Bank need not treat any communication as a free writing prospectus if it is exempt from the definition of prospectus pursuant to Clause (a) of Section 2(a)(10) of the 1933 Act without regard to Rule 172 or 173 of the 1933 Act Regulations."
+      },
+      "semantic_similarity": 0.8102,
+      "nli_result": {
+        "contradiction_score_forward": 0.9877,
+        "contradiction_score_reverse": 0.9114,
+        "maximum_contradiction_score": 0.9877,
+        "status": "Requires Human Review"
+      },
+      "rule_based_findings": [],
+      "issue_id": "CONF-004"
+    },
+    {
+      "label": "Potential Conflict - Requires Review",
+      "conflict_types": [
+        "Possible Semantic Contradiction (NLI)"
+      ],
+      "reason": "The NLI model rates these clauses as contradictory (score 0.9874).",
+      "clause_1": {
+        "record_id": "CLAUSE-00141",
+        "reference": "Page 27 | Section: Section 8 hereof, unless such condition is waived in writing by the Agent. | Clause (l)",
+        "page_start": 27,
+        "page_end": 27,
+        "clause_number": "(l)",
+        "section_heading": "Section 8 hereof, unless such condition is waived in writing by the Agent.",
+        "text": "Subsequent to the date hereof, there shall not have occurred any of the following; (i) a suspension or limitation in trading in securities generally on the New York Stock Exchange (the “NYSE”) or in the over-the-counter market, or quotations halted generally on The Nasdaq Stock Market, or minimum or maximum prices for trading have been fixed, or maximum ranges for prices for securities have been required by either of such exchanges or the Nasdaq Stock Market or by order of the Commission or any other governmental authority; (ii) a general moratorium on the operations of commercial banks, or federal savings and loan associations or a general moratorium on the withdrawal of deposits from commercial banks or federal savings and loan associations declared by federal or state authorities; (iii) the engagement by the United States in hostilities which have resulted in the declaration, on or after the date hereof, of a national emergency or war; or (iv) a material decline in the price of equity or debt securities if the effect of such a declaration or decline, in the Agent’s reasonable judgment, makes it impracticable or inadvisable to proceed with the Offering or the delivery of the Shares on the terms and in the manner contemplated in the Registration Statement and the Prospectus."
+      },
+      "clause_2": {
+        "record_id": "CLAUSE-00147",
+        "reference": "Page 31 | Section: Section 9. Indemnification. | Clause (a)",
+        "page_start": 31,
+        "page_end": 31,
+        "clause_number": "(a)",
+        "section_heading": "Section 9. Indemnification.",
+        "text": "If any domestic or international event or act or occurrence has materially disrupted the United States securities markets such as to make it, in the Agent’s reasonable opinion, impracticable to proceed with the offering of the Shares; or if trading on the NYSE shall have suspended (except that this shall not apply to the imposition of NYSE trading collars imposed on program trading); or if the United States shall have become involved in a war or major hostilities; or if a general banking moratorium has been declared by a state or federal authority which has a material effect on the Company on a consolidated basis; or if a moratorium in foreign exchange trading by major international banks or persons has been declared; or if there shall have been a material adverse change in the financial condition, results of operations or business of the Bank, or if the Bank shall have sustained a material or substantial loss by fire, flood, accident, hurricane, earthquake, theft, sabotage or other calamity or malicious act, whether or not said loss shall have been insured; or if there shall have been a material adverse change in the financial condition, results of operations or business of the Bank."
+      },
+      "semantic_similarity": 0.8036,
+      "nli_result": {
+        "contradiction_score_forward": 0.0017,
+        "contradiction_score_reverse": 0.9874,
+        "maximum_contradiction_score": 0.9874,
+        "status": "Requires Human Review"
+      },
+      "rule_based_findings": [],
+      "issue_id": "CONF-005"
+    },
+    {
+      "label": "Potential Conflict - Requires Review",
+      "conflict_types": [
+        "Possible Semantic Contradiction (NLI)"
+      ],
+      "reason": "The NLI model rates these clauses as contradictory (score 0.9926).",
+      "clause_1": {
+        "record_id": "CLAUSE-00012",
+        "reference": "Page 5 | Clause 3",
+        "page_start": 5,
+        "page_end": 5,
+        "clause_number": "3",
+        "section_heading": null,
+        "text": "“Issuer-Represented Free Writing Prospectus” means any “issuer free writing prospectus,” as defined in Rule 433(h) of the 1933 Act Regulations, relating to the offered Shares in the form filed or required or, if not required to be filed, in the form retained in the Company’s records pursuant to Rule 433(g) under the 1933 Act Regulations. The term does not include any writing exempted from the definition of prospectus pursuant to clause (a) of Section 2(a)(10) of the 1933 Act, without regard to Rule 172 or Rule 173 of the 1933 Act Regulations."
+      },
+      "clause_2": {
+        "record_id": "CLAUSE-00065",
+        "reference": "Page 15 | Clause 6(c)",
+        "page_start": 15,
+        "page_end": 15,
+        "clause_number": "6(c)",
+        "section_heading": null,
+        "text": "The Company and the Bank represent and agree that, unless it obtains the prior consent of the Agent, and the Agent represents and agrees that, unless it obtains the prior consent of the Company or the Bank, it has not made and will not make any offer relating to the offered Shares that would constitute an “issuer free writing prospectus” as defined in Rule 433 of the 1933 Act Regulations, or that would constitute a “free writing prospectus,” as defined in Rule 405 of the 1933 Act Regulations, required to be filed with the Commission. Any such free writing prospectus consented to by the Company, the Bank and the Agent is hereinafter referred to as a “Permitted Free Writing Prospectus.” The Company and the Bank represent that it has treated or agrees that it will treat each Permitted Free Writing Prospectus as an “issuer free writing prospectus,” as defined in Rule 433 of the 1933 Act Regulations, and has complied and will comply with the requirements of Rule 433 of the 1933 Act Regulations applicable to any Permitted Free Writing Prospectus, including timely Commission filing where required, legending and record keeping. The Company and the Bank need not treat any communication as a free writing prospectus if it is exempt from the definition of prospectus pursuant to Clause (a) of Section 2(a)(10) of the 1933 Act without regard to Rule 172 or 173 of the 1933 Act Regulations."
+      },
+      "semantic_similarity": 0.7978,
+      "nli_result": {
+        "contradiction_score_forward": 0.9903,
+        "contradiction_score_reverse": 0.9926,
+        "maximum_contradiction_score": 0.9926,
+        "status": "Requires Human Review"
+      },
+      "rule_based_findings": [],
+      "issue_id": "CONF-006"
+    },
+    {
+      "label": "Potential Conflict - Requires Review",
+      "conflict_types": [
+        "Possible Semantic Contradiction (NLI)"
+      ],
+      "reason": "The NLI model rates these clauses as contradictory (score 0.9978).",
+      "clause_1": {
+        "record_id": "CLAUSE-00012",
+        "reference": "Page 5 | Clause 3",
+        "page_start": 5,
+        "page_end": 5,
+        "clause_number": "3",
+        "section_heading": null,
+        "text": "“Issuer-Represented Free Writing Prospectus” means any “issuer free writing prospectus,” as defined in Rule 433(h) of the 1933 Act Regulations, relating to the offered Shares in the form filed or required or, if not required to be filed, in the form retained in the Company’s records pursuant to Rule 433(g) under the 1933 Act Regulations. The term does not include any writing exempted from the definition of prospectus pursuant to clause (a) of Section 2(a)(10) of the 1933 Act, without regard to Rule 172 or Rule 173 of the 1933 Act Regulations."
+      },
+      "clause_2": {
+        "record_id": "CLAUSE-00015",
+        "reference": "Page 5 | Clause 6",
+        "page_start": 5,
+        "page_end": 5,
+        "clause_number": "6",
+        "section_heading": null,
+        "text": "“Permitted Free Writing Prospectus” means any free writing prospectus as defined in Rule 405 of the 1933 Act Regulations that is consented to by the Company, the Bank and the Agent."
+      },
+      "semantic_similarity": 0.7572,
+      "nli_result": {
+        "contradiction_score_forward": 0.9691,
+        "contradiction_score_reverse": 0.9978,
+        "maximum_contradiction_score": 0.9978,
+        "status": "Requires Human Review"
+      },
+      "rule_based_findings": [],
+      "issue_id": "CONF-007"
+    },
+    {
+      "label": "Potential Conflict - Requires Review",
+      "conflict_types": [
+        "Possible Semantic Contradiction (NLI)"
+      ],
+      "reason": "The NLI model rates these clauses as contradictory (score 0.9262).",
+      "clause_1": {
+        "record_id": "CLAUSE-00063",
+        "reference": "Page 14 | Clause 6(a)",
+        "page_start": 14,
+        "page_end": 14,
+        "clause_number": "6(a)",
+        "section_heading": null,
+        "text": "The Company will not, at any time after the date the Registration Statement is declared effective, file any amendment or supplement to the Registration Statement without providing the Agent and its counsel an opportunity to review such amendment or supplement or file any amendment or supplement to which amendment or supplement the Agent or its counsel shall reasonably object."
+      },
+      "clause_2": {
+        "record_id": "CLAUSE-00068",
+        "reference": "Page 15 | Clause 6(f)",
+        "page_start": 15,
+        "page_end": 15,
+        "clause_number": "6(f)",
+        "section_heading": null,
+        "text": "The Company and the Bank will use their best efforts to cause any post-effective amendment to the Registration Statement to be declared effective by the Commission and any post-effective amendment to the Form AC or the Holding Company Application to be approved by the OTS and will immediately upon receipt of any information concerning the events listed below notify the Agent: (i) when the Registration Statement, as amended, has become effective; (ii) when the Form AC or the Holding Company Application, as amended, has been approved by the OTS; (iii) of any comments from the Commission, the OTS or any other governmental entity with respect to the Conversion contemplated by this Agreement;"
+      },
+      "semantic_similarity": 0.7515,
+      "nli_result": {
+        "contradiction_score_forward": 0.0024,
+        "contradiction_score_reverse": 0.9262,
+        "maximum_contradiction_score": 0.9262,
+        "status": "Requires Human Review"
+      },
+      "rule_based_findings": [],
+      "issue_id": "CONF-008"
+    },
+    {
+      "label": "Potential Conflict - Requires Review",
+      "conflict_types": [
+        "Potential Amount Inconsistency"
+      ],
+      "reason": "Different amounts for 'fee': $30,000 versus $200,000.",
+      "clause_1": {
+        "record_id": "CLAUSE-00002",
+        "reference": "Page 3 | Clause (a)",
+        "page_start": 3,
+        "page_end": 3,
+        "clause_number": "(a)",
+        "section_heading": null,
+        "text": "A management fee of $30,000 payable in four consecutive monthly installments of $7,500 each commencing with the execution of the Engagement Letter. This fee shall be deemed to have been earned when due and shall be non-refundable."
+      },
+      "clause_2": {
+        "record_id": "CLAUSE-00003",
+        "reference": "Page 3 | Clause (b)",
+        "page_start": 3,
+        "page_end": 3,
+        "clause_number": "(b)",
+        "section_heading": null,
+        "text": "A success fee upon completion of the Offering of 1.125% of the aggregate purchase price of the Common Shares sold in the Subscription Offering and Community Offering excluding shares purchased by the Bank’s officers, directors, or employees (or members of their immediate family), any ESOP, tax-qualified or stock-based compensation plans (except IRAs) or similar plan created by the Bank or the Company for some or all of its directors or employees, or contributed to any charitable foundation established by the Bank in connection with the Conversion. In no event shall the success fee paid for the sale of Common Stock in the Subscription and Community Offering be less than $200,000. The management fee will be applied against the first success fee."
+      },
+      "semantic_similarity": 0.4526,
+      "nli_result": null,
+      "rule_based_findings": [
+        {
+          "conflict": true,
+          "conflict_type": "Potential Amount Inconsistency",
+          "amounts_clause_a": [
+            "$30,000"
+          ],
+          "amounts_clause_b": [
+            "$200,000"
+          ],
+          "status": "Requires Human Review",
+          "explanation": "Different amounts for 'fee': $30,000 versus $200,000."
+        }
+      ],
+      "issue_id": "CONF-009"
+    },
+    {
+      "label": "Potential Conflict - Requires Review",
+      "conflict_types": [
+        "Potential Amount Inconsistency"
+      ],
+      "reason": "Different amounts for 'expense': $100,000 versus $50,000.",
+      "clause_1": {
+        "record_id": "BLOCK-00001",
+        "reference": "Pages 1-3 | BLOCK-00001",
+        "page_start": 1,
+        "page_end": 3,
+        "clause_number": null,
+        "section_heading": null,
+        "text": "Exhibit 1.2 ATHENS BANCSHARES CORPORATION up to Shares (subject to increase up to shares) COMMON SHARES ($.01 Par Value) Subscription Price $10.00 Per Share AGENCY AGREEMENT , 2009 Keefe, Bruyette & Woods, Inc. Investment Banking 10 South Wacker Drive, Suite 3400 Chicago, Illinois 60606 Ladies and Gentlemen: Athens Bancshares Corporation, a Tennessee corporation (the “Company”), and Athens Federal Community Bank, a federal savings bank located in Athens, Tennessee (the “Bank”) (references to the “Bank” include the Bank in mutual or stock form as indicated by the context), the deposit accounts of which are insured by the Federal Deposit Insurance Corporation (“FDIC”), hereby confirm their agreement with Keefe, Bruyette & Woods, Inc. (the “Agent”) as follows: Section 1. The Offering. The Bank, in accordance with its plan of conversion adopted by its Board of Directors (the “Plan”), intends to convert from a federally-chartered mutual savings bank to a federal stock savings bank (the “Conversion”), and issue all of its issued and outstanding capital stock to the Company. The Conversion will be accomplished pursuant to federal law and the rules and regulations of the Office of Thrift Supervision (the “OTS”). Pursuant to the Plan, the Company will offer and sell up to shares (subject to increase up to shares) of its common stock, $.01 par value per share (the “Shares” or “Common Shares”), in a subscription offering (the “Subscription Offering”) to (1) depositors of the Bank with Qualifying Deposits (as defined in the Plan) as of March 31, 2008 (“Eligible Account Holders”), (2) the employee stock ownership plan established by either the Bank or the Company (the “ESOP”), (3) depositors of the Bank with Qualifying Deposits as of September 30, 2009 (“Supplemental Eligible Account Holders”), and (4) other depositor and borrower members of the Bank as defined in the Plan. Subject to the prior subscription rights of the above-listed parties, the Company may offer for sale in a community offering (the “Community Offering” and when referred to together with or subsequent to the Subscription Offering, the “Subscription and Community Offering”) the Shares not subscribed for or ordered in the Subscription Offering to members of the general public to whom a copy of the Prospectus (as hereinafter defined) is delivered with a preference given first to natural persons who are residents of Blount, Bradley, Hamilton, Knox, Loudon, McMinn, Meras, Monroe and Polk Counties in Tennessee. It is anticipated that shares not subscribed for in the Subscription and Community Offering may be offered to certain members of the general public on a best efforts basis through a selected dealers agreement (the “Syndicated Community Offering”) (the Subscription Offering, Community Offering and Syndicated Community Offering are collectively referred to as the “Offering”). It is acknowledged that the purchase of Shares in the Offering is subject to the maximum and minimum purchase limitations as described in the Plan and that the Company may reject, in whole or in part, any orders received in the Community Offering or Syndicated Community Offering. In connection with the Conversion and pursuant to the terms of the Plan as described in the Prospectus, immediately following the consummation of the Conversion, subject to the approval of the Bank’s depositors and compliance with certain conditions as may be imposed by regulatory authorities, the Company will contribute $100,000 and 100,000 shares of Common Stock to the Athens Federal Foundation (the “Foundation”) such shares hereinafter being referred to as the (“Foundation Shares”). The Company has filed with the Securities and Exchange Commission (the “Commission”) a registration statement on Form S-1 (File No. 333- ) (the “Registration Statement”), containing a prospectus relating to the Offering, for the registration of the Shares under the Securities Act of 1933 (the “1933 Act”), and has filed such amendments thereof and such amended prospectuses as may have been required to the date hereof. The term “Registration Statement” shall include any documents incorporated by reference therein and all financial schedules and exhibits thereto, as amended, including post-effective amendments. The prospectus, as amended, on file with the Commission at the time the Registration Statement initially became effective is hereinafter called the “Prospectus,” except that if any Prospectus is filed by the Company pursuant to Rule 424(b) or (c) of the rules and regulations of the Commission under the 1933 Act (the “1933 Act Regulations”) differing from the prospectus on file at the time the Registration Statement initially became effective, the term “Prospectus” shall refer to the prospectus filed pursuant to Rule 424(b) or (c) from and after the time said prospectus is filed with the Commission. In accordance with Title 12, Part 563b of the Code of Federal Regulations (the “Conversion Regulations”), the Bank has filed with the OTS an Application For Conversion on Form AC (the “Form AC”), including the Prospectus and the Conversion Valuation Appraisal Report prepared by Keller & Company, Inc. (the “Appraisal”) and has filed such amendments thereto as may have been required by the OTS. The Form AC has been approved by the OTS and the related Prospectus has been authorized for use by the OTS. In addition, the Company has filed with the OTS its Application H-(e)l-S (the “Holding Company Application”) to become a savings and loan holding company under the Home Owners’ Loan Act, as amended (“HOLA”) and the regulations promulgated thereunder (the “Control Act Regulations”). Section 2. Retention and Compensation of Agent. Subject to the terms and conditions herein set forth, the Company and the Bank hereby appoint the Agent as their exclusive financial advisor and marketing agent (i) to utilize its best efforts to solicit subscriptions for Common Shares and to advise and assist the Company and the Bank with respect to the Company’s sale of the Shares in the Offering and (ii) to participate in the Offering in the areas of market making and in syndicate formation (if necessary). On the basis of the representations, warranties, and agreements herein contained, but subject to the terms and conditions herein set forth, the Agent accepts such appointment and agrees to consult with and advise the Company and the Bank as to the matters set forth in the letter agreement, dated June 9, 2009, between the Bank and the Agent (a copy of which is attached hereto as Exhibit A) (the “Engagement Letter”). It is acknowledged by the Company and the Bank that the Agent shall not be required to purchase any Shares or be obligated to take any action which is inconsistent with all applicable laws, regulations, decisions or orders. The obligations of the Agent pursuant to this Agreement shall terminate upon termination of the Offering, but in no event later than 45 days after the completion of the Subscription Offering (the “End Date”). All fees or expenses due to the Agent but unpaid will be payable to the Agent in next day funds at the earlier of the Closing Date (as hereinafter defined) or the End Date. In the event the Offering is extended beyond the End Date, the Company and the Agent may agree to renew this Agreement under mutually acceptable terms. In the event the Company is unable to sell a minimum of Shares within the period herein provided, this Agreement shall terminate and the Company shall refund to any persons who have subscribed for any of the Shares the full amount which it may have received from them plus accrued interest, as set forth in the Prospectus; and none of the parties to this Agreement shall have any obligation to the other parties hereunder, except as set forth in this Section 2 and in Sections 7, 9 and 10 hereof. In the event the Offering is terminated for any reason not attributable to the action or inaction of the Agent, the Agent shall be paid the fees due to the date of such termination pursuant to subparagraphs (a) and (d) below. 2 The Agent shall receive the following compensation for its services hereunder:"
+      },
+      "clause_2": {
+        "record_id": "CLAUSE-00005",
+        "reference": "Pages 3-4 | Clause (d)",
+        "page_start": 3,
+        "page_end": 4,
+        "clause_number": "(d)",
+        "section_heading": null,
+        "text": "The Company and the Bank shall reimburse the Agent for reasonable out-of-pocket expenses, including costs of travel, meals and lodging, photocopying, telephone, facsimile and couriers. The Company and the Bank will reimburse the Agent for the fees and expenses of the Agent’s counsel which will not exceed $50,000. The Company will bear the expenses of the Offering customarily borne by issuers including, without limitation, regulatory filing fees, SEC, “Blue Sky,” and FINRA filing and registration fees; the fees of the Company’s accountants, attorneys, appraiser, transfer agent and registrar, printing, mailing and marketing and syndicate expenses associated with the conversion; and the fees set forth under this Section 2; and any fees for Blue Sky legal work. Full payment of the Agent’s actual and accountable expenses, advisory fees and compensation shall be made in next day funds on the earlier of the Closing Date or a determination by the Bank to terminate or abandon the Offering. The payment of such expenses assume no unusual circumstances or delays, or a re-solicitation in connection with the subscription and community offering. The Company and the Bank acknowledge that such expense cap may be increased by mutual consent, including in the event of a material delay in the Offering which would require an update of the financial information in tabular form to reflect a period later than that set forth in the original filing. Section 3. Sale and Delivery of Shares. If all conditions precedent to the consummation of the Conversion, including without limitation, the sale of all Shares required by the Plan to be sold, are satisfied, the Company agrees to issue, or have issued, the Shares sold in the Offering and to release for delivery certificates for such Shares on the Closing Date against payment to the Company by any means authorized by the Plan; provided, however, that no funds shall be released to the Company until the conditions specified in Section 8 hereof shall have been complied with to the reasonable satisfaction of the Agent and its counsel. The release of Shares against payment therefor shall be made on a date and at a place acceptable to the Company, the Bank and the Agent. Certificates for shares shall be delivered 3 directly to the purchasers in accordance with their directions. The date upon which the Company shall release or deliver the shares sold in the Offering, in accordance with the terms herein, is called the “Closing Date.” Section 4. Representations and Warranties of the Company and the Bank. The Company and the Bank jointly and severally represent and warrant to and agree with the Agent as follows:"
+      },
+      "semantic_similarity": 0.3304,
+      "nli_result": null,
+      "rule_based_findings": [
+        {
+          "conflict": true,
+          "conflict_type": "Potential Amount Inconsistency",
+          "amounts_clause_a": [
+            "$100,000"
+          ],
+          "amounts_clause_b": [
+            "$50,000"
+          ],
+          "status": "Requires Human Review",
+          "explanation": "Different amounts for 'expense': $100,000 versus $50,000."
+        }
+      ],
+      "issue_id": "CONF-010"
+    },
+    {
+      "label": "Potential Conflict - Requires Review",
+      "conflict_types": [
+        "Potential Amount Inconsistency"
+      ],
+      "reason": "Different amounts for 'fee': $100,000 versus $200,000.",
+      "clause_1": {
+        "record_id": "BLOCK-00001",
+        "reference": "Pages 1-3 | BLOCK-00001",
+        "page_start": 1,
+        "page_end": 3,
+        "clause_number": null,
+        "section_heading": null,
+        "text": "Exhibit 1.2 ATHENS BANCSHARES CORPORATION up to Shares (subject to increase up to shares) COMMON SHARES ($.01 Par Value) Subscription Price $10.00 Per Share AGENCY AGREEMENT , 2009 Keefe, Bruyette & Woods, Inc. Investment Banking 10 South Wacker Drive, Suite 3400 Chicago, Illinois 60606 Ladies and Gentlemen: Athens Bancshares Corporation, a Tennessee corporation (the “Company”), and Athens Federal Community Bank, a federal savings bank located in Athens, Tennessee (the “Bank”) (references to the “Bank” include the Bank in mutual or stock form as indicated by the context), the deposit accounts of which are insured by the Federal Deposit Insurance Corporation (“FDIC”), hereby confirm their agreement with Keefe, Bruyette & Woods, Inc. (the “Agent”) as follows: Section 1. The Offering. The Bank, in accordance with its plan of conversion adopted by its Board of Directors (the “Plan”), intends to convert from a federally-chartered mutual savings bank to a federal stock savings bank (the “Conversion”), and issue all of its issued and outstanding capital stock to the Company. The Conversion will be accomplished pursuant to federal law and the rules and regulations of the Office of Thrift Supervision (the “OTS”). Pursuant to the Plan, the Company will offer and sell up to shares (subject to increase up to shares) of its common stock, $.01 par value per share (the “Shares” or “Common Shares”), in a subscription offering (the “Subscription Offering”) to (1) depositors of the Bank with Qualifying Deposits (as defined in the Plan) as of March 31, 2008 (“Eligible Account Holders”), (2) the employee stock ownership plan established by either the Bank or the Company (the “ESOP”), (3) depositors of the Bank with Qualifying Deposits as of September 30, 2009 (“Supplemental Eligible Account Holders”), and (4) other depositor and borrower members of the Bank as defined in the Plan. Subject to the prior subscription rights of the above-listed parties, the Company may offer for sale in a community offering (the “Community Offering” and when referred to together with or subsequent to the Subscription Offering, the “Subscription and Community Offering”) the Shares not subscribed for or ordered in the Subscription Offering to members of the general public to whom a copy of the Prospectus (as hereinafter defined) is delivered with a preference given first to natural persons who are residents of Blount, Bradley, Hamilton, Knox, Loudon, McMinn, Meras, Monroe and Polk Counties in Tennessee. It is anticipated that shares not subscribed for in the Subscription and Community Offering may be offered to certain members of the general public on a best efforts basis through a selected dealers agreement (the “Syndicated Community Offering”) (the Subscription Offering, Community Offering and Syndicated Community Offering are collectively referred to as the “Offering”). It is acknowledged that the purchase of Shares in the Offering is subject to the maximum and minimum purchase limitations as described in the Plan and that the Company may reject, in whole or in part, any orders received in the Community Offering or Syndicated Community Offering. In connection with the Conversion and pursuant to the terms of the Plan as described in the Prospectus, immediately following the consummation of the Conversion, subject to the approval of the Bank’s depositors and compliance with certain conditions as may be imposed by regulatory authorities, the Company will contribute $100,000 and 100,000 shares of Common Stock to the Athens Federal Foundation (the “Foundation”) such shares hereinafter being referred to as the (“Foundation Shares”). The Company has filed with the Securities and Exchange Commission (the “Commission”) a registration statement on Form S-1 (File No. 333- ) (the “Registration Statement”), containing a prospectus relating to the Offering, for the registration of the Shares under the Securities Act of 1933 (the “1933 Act”), and has filed such amendments thereof and such amended prospectuses as may have been required to the date hereof. The term “Registration Statement” shall include any documents incorporated by reference therein and all financial schedules and exhibits thereto, as amended, including post-effective amendments. The prospectus, as amended, on file with the Commission at the time the Registration Statement initially became effective is hereinafter called the “Prospectus,” except that if any Prospectus is filed by the Company pursuant to Rule 424(b) or (c) of the rules and regulations of the Commission under the 1933 Act (the “1933 Act Regulations”) differing from the prospectus on file at the time the Registration Statement initially became effective, the term “Prospectus” shall refer to the prospectus filed pursuant to Rule 424(b) or (c) from and after the time said prospectus is filed with the Commission. In accordance with Title 12, Part 563b of the Code of Federal Regulations (the “Conversion Regulations”), the Bank has filed with the OTS an Application For Conversion on Form AC (the “Form AC”), including the Prospectus and the Conversion Valuation Appraisal Report prepared by Keller & Company, Inc. (the “Appraisal”) and has filed such amendments thereto as may have been required by the OTS. The Form AC has been approved by the OTS and the related Prospectus has been authorized for use by the OTS. In addition, the Company has filed with the OTS its Application H-(e)l-S (the “Holding Company Application”) to become a savings and loan holding company under the Home Owners’ Loan Act, as amended (“HOLA”) and the regulations promulgated thereunder (the “Control Act Regulations”). Section 2. Retention and Compensation of Agent. Subject to the terms and conditions herein set forth, the Company and the Bank hereby appoint the Agent as their exclusive financial advisor and marketing agent (i) to utilize its best efforts to solicit subscriptions for Common Shares and to advise and assist the Company and the Bank with respect to the Company’s sale of the Shares in the Offering and (ii) to participate in the Offering in the areas of market making and in syndicate formation (if necessary). On the basis of the representations, warranties, and agreements herein contained, but subject to the terms and conditions herein set forth, the Agent accepts such appointment and agrees to consult with and advise the Company and the Bank as to the matters set forth in the letter agreement, dated June 9, 2009, between the Bank and the Agent (a copy of which is attached hereto as Exhibit A) (the “Engagement Letter”). It is acknowledged by the Company and the Bank that the Agent shall not be required to purchase any Shares or be obligated to take any action which is inconsistent with all applicable laws, regulations, decisions or orders. The obligations of the Agent pursuant to this Agreement shall terminate upon termination of the Offering, but in no event later than 45 days after the completion of the Subscription Offering (the “End Date”). All fees or expenses due to the Agent but unpaid will be payable to the Agent in next day funds at the earlier of the Closing Date (as hereinafter defined) or the End Date. In the event the Offering is extended beyond the End Date, the Company and the Agent may agree to renew this Agreement under mutually acceptable terms. In the event the Company is unable to sell a minimum of Shares within the period herein provided, this Agreement shall terminate and the Company shall refund to any persons who have subscribed for any of the Shares the full amount which it may have received from them plus accrued interest, as set forth in the Prospectus; and none of the parties to this Agreement shall have any obligation to the other parties hereunder, except as set forth in this Section 2 and in Sections 7, 9 and 10 hereof. In the event the Offering is terminated for any reason not attributable to the action or inaction of the Agent, the Agent shall be paid the fees due to the date of such termination pursuant to subparagraphs (a) and (d) below. 2 The Agent shall receive the following compensation for its services hereunder:"
+      },
+      "clause_2": {
+        "record_id": "CLAUSE-00003",
+        "reference": "Page 3 | Clause (b)",
+        "page_start": 3,
+        "page_end": 3,
+        "clause_number": "(b)",
+        "section_heading": null,
+        "text": "A success fee upon completion of the Offering of 1.125% of the aggregate purchase price of the Common Shares sold in the Subscription Offering and Community Offering excluding shares purchased by the Bank’s officers, directors, or employees (or members of their immediate family), any ESOP, tax-qualified or stock-based compensation plans (except IRAs) or similar plan created by the Bank or the Company for some or all of its directors or employees, or contributed to any charitable foundation established by the Bank in connection with the Conversion. In no event shall the success fee paid for the sale of Common Stock in the Subscription and Community Offering be less than $200,000. The management fee will be applied against the first success fee."
+      },
+      "semantic_similarity": 0.3083,
+      "nli_result": null,
+      "rule_based_findings": [
+        {
+          "conflict": true,
+          "conflict_type": "Potential Amount Inconsistency",
+          "amounts_clause_a": [
+            "$100,000"
+          ],
+          "amounts_clause_b": [
+            "$200,000"
+          ],
+          "status": "Requires Human Review",
+          "explanation": "Different amounts for 'fee': $100,000 versus $200,000."
+        }
+      ],
+      "issue_id": "CONF-011"
+    },
+    {
+      "label": "Potential Conflict - Requires Review",
+      "conflict_types": [
+        "Potential Amount Inconsistency"
+      ],
+      "reason": "Different amounts for 'fee': $100,000 versus $30,000.",
+      "clause_1": {
+        "record_id": "BLOCK-00001",
+        "reference": "Pages 1-3 | BLOCK-00001",
+        "page_start": 1,
+        "page_end": 3,
+        "clause_number": null,
+        "section_heading": null,
+        "text": "Exhibit 1.2 ATHENS BANCSHARES CORPORATION up to Shares (subject to increase up to shares) COMMON SHARES ($.01 Par Value) Subscription Price $10.00 Per Share AGENCY AGREEMENT , 2009 Keefe, Bruyette & Woods, Inc. Investment Banking 10 South Wacker Drive, Suite 3400 Chicago, Illinois 60606 Ladies and Gentlemen: Athens Bancshares Corporation, a Tennessee corporation (the “Company”), and Athens Federal Community Bank, a federal savings bank located in Athens, Tennessee (the “Bank”) (references to the “Bank” include the Bank in mutual or stock form as indicated by the context), the deposit accounts of which are insured by the Federal Deposit Insurance Corporation (“FDIC”), hereby confirm their agreement with Keefe, Bruyette & Woods, Inc. (the “Agent”) as follows: Section 1. The Offering. The Bank, in accordance with its plan of conversion adopted by its Board of Directors (the “Plan”), intends to convert from a federally-chartered mutual savings bank to a federal stock savings bank (the “Conversion”), and issue all of its issued and outstanding capital stock to the Company. The Conversion will be accomplished pursuant to federal law and the rules and regulations of the Office of Thrift Supervision (the “OTS”). Pursuant to the Plan, the Company will offer and sell up to shares (subject to increase up to shares) of its common stock, $.01 par value per share (the “Shares” or “Common Shares”), in a subscription offering (the “Subscription Offering”) to (1) depositors of the Bank with Qualifying Deposits (as defined in the Plan) as of March 31, 2008 (“Eligible Account Holders”), (2) the employee stock ownership plan established by either the Bank or the Company (the “ESOP”), (3) depositors of the Bank with Qualifying Deposits as of September 30, 2009 (“Supplemental Eligible Account Holders”), and (4) other depositor and borrower members of the Bank as defined in the Plan. Subject to the prior subscription rights of the above-listed parties, the Company may offer for sale in a community offering (the “Community Offering” and when referred to together with or subsequent to the Subscription Offering, the “Subscription and Community Offering”) the Shares not subscribed for or ordered in the Subscription Offering to members of the general public to whom a copy of the Prospectus (as hereinafter defined) is delivered with a preference given first to natural persons who are residents of Blount, Bradley, Hamilton, Knox, Loudon, McMinn, Meras, Monroe and Polk Counties in Tennessee. It is anticipated that shares not subscribed for in the Subscription and Community Offering may be offered to certain members of the general public on a best efforts basis through a selected dealers agreement (the “Syndicated Community Offering”) (the Subscription Offering, Community Offering and Syndicated Community Offering are collectively referred to as the “Offering”). It is acknowledged that the purchase of Shares in the Offering is subject to the maximum and minimum purchase limitations as described in the Plan and that the Company may reject, in whole or in part, any orders received in the Community Offering or Syndicated Community Offering. In connection with the Conversion and pursuant to the terms of the Plan as described in the Prospectus, immediately following the consummation of the Conversion, subject to the approval of the Bank’s depositors and compliance with certain conditions as may be imposed by regulatory authorities, the Company will contribute $100,000 and 100,000 shares of Common Stock to the Athens Federal Foundation (the “Foundation”) such shares hereinafter being referred to as the (“Foundation Shares”). The Company has filed with the Securities and Exchange Commission (the “Commission”) a registration statement on Form S-1 (File No. 333- ) (the “Registration Statement”), containing a prospectus relating to the Offering, for the registration of the Shares under the Securities Act of 1933 (the “1933 Act”), and has filed such amendments thereof and such amended prospectuses as may have been required to the date hereof. The term “Registration Statement” shall include any documents incorporated by reference therein and all financial schedules and exhibits thereto, as amended, including post-effective amendments. The prospectus, as amended, on file with the Commission at the time the Registration Statement initially became effective is hereinafter called the “Prospectus,” except that if any Prospectus is filed by the Company pursuant to Rule 424(b) or (c) of the rules and regulations of the Commission under the 1933 Act (the “1933 Act Regulations”) differing from the prospectus on file at the time the Registration Statement initially became effective, the term “Prospectus” shall refer to the prospectus filed pursuant to Rule 424(b) or (c) from and after the time said prospectus is filed with the Commission. In accordance with Title 12, Part 563b of the Code of Federal Regulations (the “Conversion Regulations”), the Bank has filed with the OTS an Application For Conversion on Form AC (the “Form AC”), including the Prospectus and the Conversion Valuation Appraisal Report prepared by Keller & Company, Inc. (the “Appraisal”) and has filed such amendments thereto as may have been required by the OTS. The Form AC has been approved by the OTS and the related Prospectus has been authorized for use by the OTS. In addition, the Company has filed with the OTS its Application H-(e)l-S (the “Holding Company Application”) to become a savings and loan holding company under the Home Owners’ Loan Act, as amended (“HOLA”) and the regulations promulgated thereunder (the “Control Act Regulations”). Section 2. Retention and Compensation of Agent. Subject to the terms and conditions herein set forth, the Company and the Bank hereby appoint the Agent as their exclusive financial advisor and marketing agent (i) to utilize its best efforts to solicit subscriptions for Common Shares and to advise and assist the Company and the Bank with respect to the Company’s sale of the Shares in the Offering and (ii) to participate in the Offering in the areas of market making and in syndicate formation (if necessary). On the basis of the representations, warranties, and agreements herein contained, but subject to the terms and conditions herein set forth, the Agent accepts such appointment and agrees to consult with and advise the Company and the Bank as to the matters set forth in the letter agreement, dated June 9, 2009, between the Bank and the Agent (a copy of which is attached hereto as Exhibit A) (the “Engagement Letter”). It is acknowledged by the Company and the Bank that the Agent shall not be required to purchase any Shares or be obligated to take any action which is inconsistent with all applicable laws, regulations, decisions or orders. The obligations of the Agent pursuant to this Agreement shall terminate upon termination of the Offering, but in no event later than 45 days after the completion of the Subscription Offering (the “End Date”). All fees or expenses due to the Agent but unpaid will be payable to the Agent in next day funds at the earlier of the Closing Date (as hereinafter defined) or the End Date. In the event the Offering is extended beyond the End Date, the Company and the Agent may agree to renew this Agreement under mutually acceptable terms. In the event the Company is unable to sell a minimum of Shares within the period herein provided, this Agreement shall terminate and the Company shall refund to any persons who have subscribed for any of the Shares the full amount which it may have received from them plus accrued interest, as set forth in the Prospectus; and none of the parties to this Agreement shall have any obligation to the other parties hereunder, except as set forth in this Section 2 and in Sections 7, 9 and 10 hereof. In the event the Offering is terminated for any reason not attributable to the action or inaction of the Agent, the Agent shall be paid the fees due to the date of such termination pursuant to subparagraphs (a) and (d) below. 2 The Agent shall receive the following compensation for its services hereunder:"
+      },
+      "clause_2": {
+        "record_id": "CLAUSE-00002",
+        "reference": "Page 3 | Clause (a)",
+        "page_start": 3,
+        "page_end": 3,
+        "clause_number": "(a)",
+        "section_heading": null,
+        "text": "A management fee of $30,000 payable in four consecutive monthly installments of $7,500 each commencing with the execution of the Engagement Letter. This fee shall be deemed to have been earned when due and shall be non-refundable."
+      },
+      "semantic_similarity": 0.146,
+      "nli_result": null,
+      "rule_based_findings": [
+        {
+          "conflict": true,
+          "conflict_type": "Potential Amount Inconsistency",
+          "amounts_clause_a": [
+            "$100,000"
+          ],
+          "amounts_clause_b": [
+            "$30,000"
+          ],
+          "status": "Requires Human Review",
+          "explanation": "Different amounts for 'fee': $100,000 versus $30,000."
+        }
+      ],
+      "issue_id": "CONF-012"
+    }
+  ],
+  "note": "Potential conflicts only - automated output that requires human/legal review. Not legal advice."
+}

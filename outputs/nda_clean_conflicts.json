@@ -1,0 +1,19 @@
+{
+  "summary": {
+    "total_clauses": 7,
+    "total_pairs": 21,
+    "candidate_pairs": 3,
+    "analyzed_pairs": 3,
+    "skipped_pairs": 18,
+    "potential_conflict_count": 0,
+    "similarity_method": "sentence-transformers all-MiniLM-L6-v2",
+    "nli_used": true,
+    "thresholds": {
+      "similarity": 0.55,
+      "high_similarity": 0.75,
+      "nli": 0.8
+    }
+  },
+  "issues": [],
+  "note": "Potential conflicts only - automated output that requires human/legal review. Not legal advice."
+}

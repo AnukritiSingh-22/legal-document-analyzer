@@ -1,0 +1,286 @@
+{
+  "summary": {
+    "total_clauses": 13,
+    "total_pairs": 78,
+    "candidate_pairs": 8,
+    "analyzed_pairs": 8,
+    "skipped_pairs": 70,
+    "potential_conflict_count": 6,
+    "similarity_method": "sentence-transformers all-MiniLM-L6-v2",
+    "nli_used": true,
+    "thresholds": {
+      "similarity": 0.55,
+      "high_similarity": 0.75,
+      "nli": 0.8
+    }
+  },
+  "issues": [
+    {
+      "label": "Potential Conflict - Requires Review",
+      "conflict_types": [
+        "Potential Notice Period Inconsistency",
+        "Possible Semantic Contradiction (NLI)"
+      ],
+      "reason": "Different notice periods: 30 day(s) versus 60 day(s). (They may legitimately differ by party - please review.) The NLI model rates these clauses as contradictory (score 0.99).",
+      "clause_1": {
+        "record_id": "CLAUSE-00008",
+        "reference": "Page 2 | Section: ARTICLE 3: TERMINATION | Clause 3.1",
+        "page_start": 2,
+        "page_end": 2,
+        "clause_number": "3.1",
+        "section_heading": "ARTICLE 3: TERMINATION",
+        "text": "Either party must provide 30 days written notice before terminating this Agreement."
+      },
+      "clause_2": {
+        "record_id": "CLAUSE-00011",
+        "reference": "Page 2 | Section: ARTICLE 4: GENERAL | Clause 4.2",
+        "page_start": 2,
+        "page_end": 2,
+        "clause_number": "4.2",
+        "section_heading": "ARTICLE 4: GENERAL",
+        "text": "The Tenant shall provide 60 days written notice before terminating this Agreement."
+      },
+      "semantic_similarity": 0.7876,
+      "nli_result": {
+        "contradiction_score_forward": 0.9876,
+        "contradiction_score_reverse": 0.99,
+        "maximum_contradiction_score": 0.99,
+        "status": "Requires Human Review"
+      },
+      "rule_based_findings": [
+        {
+          "conflict": true,
+          "conflict_type": "Potential Notice Period Inconsistency",
+          "period_1": [
+            {
+              "value": 30,
+              "unit": "day"
+            }
+          ],
+          "period_2": [
+            {
+              "value": 60,
+              "unit": "day"
+            }
+          ],
+          "status": "Requires Human Review",
+          "explanation": "Different notice periods: 30 day(s) versus 60 day(s). (They may legitimately differ by party - please review.)"
+        }
+      ],
+      "issue_id": "CONF-001"
+    },
+    {
+      "label": "Potential Conflict - Requires Review",
+      "conflict_types": [
+        "Possible Semantic Contradiction (NLI)"
+      ],
+      "reason": "The NLI model rates these clauses as contradictory (score 0.9732).",
+      "clause_1": {
+        "record_id": "CLAUSE-00002",
+        "reference": "Page 1 | Section: ARTICLE 1: RENT AND DEPOSIT | Clause 1.1",
+        "page_start": 1,
+        "page_end": 1,
+        "clause_number": "1.1",
+        "section_heading": "ARTICLE 1: RENT AND DEPOSIT",
+        "text": "The Tenant shall pay monthly rent of Rs. 25,000 to the Landlord by the 5th day of each month."
+      },
+      "clause_2": {
+        "record_id": "CLAUSE-00003",
+        "reference": "Page 1 | Section: ARTICLE 1: RENT AND DEPOSIT | Clause 1.2",
+        "page_start": 1,
+        "page_end": 1,
+        "clause_number": "1.2",
+        "section_heading": "ARTICLE 1: RENT AND DEPOSIT",
+        "text": "The Tenant shall pay a security deposit of Rs. 50,000 to the Landlord at the time of signing this Agreement."
+      },
+      "semantic_similarity": 0.7185,
+      "nli_result": {
+        "contradiction_score_forward": 0.9732,
+        "contradiction_score_reverse": 0.0194,
+        "maximum_contradiction_score": 0.9732,
+        "status": "Requires Human Review"
+      },
+      "rule_based_findings": [],
+      "issue_id": "CONF-002"
+    },
+    {
+      "label": "Potential Conflict - Requires Review",
+      "conflict_types": [
+        "Potential Payment Deadline Inconsistency",
+        "Possible Semantic Contradiction (NLI)"
+      ],
+      "reason": "One clause sets a deadline on day 5 of the month, the other on day 10. The NLI model rates these clauses as contradictory (score 0.9982).",
+      "clause_1": {
+        "record_id": "CLAUSE-00002",
+        "reference": "Page 1 | Section: ARTICLE 1: RENT AND DEPOSIT | Clause 1.1",
+        "page_start": 1,
+        "page_end": 1,
+        "clause_number": "1.1",
+        "section_heading": "ARTICLE 1: RENT AND DEPOSIT",
+        "text": "The Tenant shall pay monthly rent of Rs. 25,000 to the Landlord by the 5th day of each month."
+      },
+      "clause_2": {
+        "record_id": "CLAUSE-00010",
+        "reference": "Page 2 | Section: ARTICLE 4: GENERAL | Clause 4.1",
+        "page_start": 2,
+        "page_end": 2,
+        "clause_number": "4.1",
+        "section_heading": "ARTICLE 4: GENERAL",
+        "text": "The Tenant shall pay the monthly rent by the 10th day of each month without any deduction."
+      },
+      "semantic_similarity": 0.6914,
+      "nli_result": {
+        "contradiction_score_forward": 0.9982,
+        "contradiction_score_reverse": 0.5911,
+        "maximum_contradiction_score": 0.9982,
+        "status": "Requires Human Review"
+      },
+      "rule_based_findings": [
+        {
+          "conflict": true,
+          "conflict_type": "Potential Payment Deadline Inconsistency",
+          "deadline_1": [
+            "5"
+          ],
+          "deadline_2": [
+            "10"
+          ],
+          "status": "Requires Human Review",
+          "explanation": "One clause sets a deadline on day 5 of the month, the other on day 10."
+        }
+      ],
+      "issue_id": "CONF-003"
+    },
+    {
+      "label": "Potential Conflict - Requires Review",
+      "conflict_types": [
+        "Potential Amount Inconsistency",
+        "Possible Semantic Contradiction (NLI)"
+      ],
+      "reason": "Different amounts for 'deposit': Rs. 50,000 versus Rs. 75,000. The NLI model rates these clauses as contradictory (score 0.9949).",
+      "clause_1": {
+        "record_id": "CLAUSE-00003",
+        "reference": "Page 1 | Section: ARTICLE 1: RENT AND DEPOSIT | Clause 1.2",
+        "page_start": 1,
+        "page_end": 1,
+        "clause_number": "1.2",
+        "section_heading": "ARTICLE 1: RENT AND DEPOSIT",
+        "text": "The Tenant shall pay a security deposit of Rs. 50,000 to the Landlord at the time of signing this Agreement."
+      },
+      "clause_2": {
+        "record_id": "CLAUSE-00013",
+        "reference": "Page 2 | Section: ARTICLE 4: GENERAL | Clause 4.4",
+        "page_start": 2,
+        "page_end": 2,
+        "clause_number": "4.4",
+        "section_heading": "ARTICLE 4: GENERAL",
+        "text": "The security deposit shall be Rs. 75,000 and is refundable on vacating the premises."
+      },
+      "semantic_similarity": 0.6872,
+      "nli_result": {
+        "contradiction_score_forward": 0.8194,
+        "contradiction_score_reverse": 0.9949,
+        "maximum_contradiction_score": 0.9949,
+        "status": "Requires Human Review"
+      },
+      "rule_based_findings": [
+        {
+          "conflict": true,
+          "conflict_type": "Potential Amount Inconsistency",
+          "amounts_clause_a": [
+            "Rs. 50,000"
+          ],
+          "amounts_clause_b": [
+            "Rs. 75,000"
+          ],
+          "status": "Requires Human Review",
+          "explanation": "Different amounts for 'deposit': Rs. 50,000 versus Rs. 75,000."
+        }
+      ],
+      "issue_id": "CONF-004"
+    },
+    {
+      "label": "Potential Conflict - Requires Review",
+      "conflict_types": [
+        "Potential Modality Conflict (prohibition vs permission/obligation)",
+        "Possible Semantic Contradiction (NLI)"
+      ],
+      "reason": "One statement prohibits an action ('shall not') while the other allows a similar action ('may'). The NLI model rates these clauses as contradictory (score 0.9938).",
+      "clause_1": {
+        "record_id": "CLAUSE-00005",
+        "reference": "Page 1 | Section: ARTICLE 2: USE OF PREMISES | Clause 2.1",
+        "page_start": 1,
+        "page_end": 1,
+        "clause_number": "2.1",
+        "section_heading": "ARTICLE 2: USE OF PREMISES",
+        "text": "The Tenant shall not sublet the premises or any part of it to any third party."
+      },
+      "clause_2": {
+        "record_id": "CLAUSE-00012",
+        "reference": "Page 2 | Section: ARTICLE 4: GENERAL | Clause 4.3",
+        "page_start": 2,
+        "page_end": 2,
+        "clause_number": "4.3",
+        "section_heading": "ARTICLE 4: GENERAL",
+        "text": "The Tenant may sublet the premises to a family member with the prior written consent of the Landlord."
+      },
+      "semantic_similarity": 0.6828,
+      "nli_result": {
+        "contradiction_score_forward": 0.1661,
+        "contradiction_score_reverse": 0.9938,
+        "maximum_contradiction_score": 0.9938,
+        "status": "Requires Human Review"
+      },
+      "rule_based_findings": [
+        {
+          "conflict": true,
+          "conflict_type": "Potential Modality Conflict (prohibition vs permission/obligation)",
+          "statement_1": "The Tenant shall not sublet the premises or any part of it to any third party",
+          "statement_2": "The Tenant may sublet the premises to a family member with the prior written consent of the Landlord",
+          "shared_action_terms": [
+            "conceptsublet",
+            "premis"
+          ],
+          "status": "Requires Human Review",
+          "explanation": "One statement prohibits an action ('shall not') while the other allows a similar action ('may')."
+        }
+      ],
+      "issue_id": "CONF-005"
+    },
+    {
+      "label": "Potential Conflict - Requires Review",
+      "conflict_types": [
+        "Possible Semantic Contradiction (NLI)"
+      ],
+      "reason": "The NLI model rates these clauses as contradictory (score 0.9456).",
+      "clause_1": {
+        "record_id": "CLAUSE-00003",
+        "reference": "Page 1 | Section: ARTICLE 1: RENT AND DEPOSIT | Clause 1.2",
+        "page_start": 1,
+        "page_end": 1,
+        "clause_number": "1.2",
+        "section_heading": "ARTICLE 1: RENT AND DEPOSIT",
+        "text": "The Tenant shall pay a security deposit of Rs. 50,000 to the Landlord at the time of signing this Agreement."
+      },
+      "clause_2": {
+        "record_id": "CLAUSE-00004",
+        "reference": "Page 1 | Section: ARTICLE 1: RENT AND DEPOSIT | Clause 1.3",
+        "page_start": 1,
+        "page_end": 1,
+        "clause_number": "1.3",
+        "section_heading": "ARTICLE 1: RENT AND DEPOSIT",
+        "text": "The Landlord shall refund the security deposit within 30 days after the Tenant vacates the premises."
+      },
+      "semantic_similarity": 0.5509,
+      "nli_result": {
+        "contradiction_score_forward": 0.0021,
+        "contradiction_score_reverse": 0.9456,
+        "maximum_contradiction_score": 0.9456,
+        "status": "Requires Human Review"
+      },
+      "rule_based_findings": [],
+      "issue_id": "CONF-006"
+    }
+  ],
+  "note": "Potential conflicts only - automated output that requires human/legal review. Not legal advice."
+}

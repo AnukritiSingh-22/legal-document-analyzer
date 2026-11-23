@@ -1,0 +1,245 @@
+{
+  "document_metadata": {
+    "filename": "employment_conflicts.pdf",
+    "file_type": "application/pdf",
+    "file_size_bytes": 2800,
+    "sha256": "33e88fbe24d158cc682444bbceb22b48d99e305c4a20dd282900f9ea72215f2c",
+    "page_count": 2
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "EMPLOYMENT AGREEMENT\nThis Employment Agreement is entered into on 15 January 2025 between Acme Technologies Pvt.\nLtd. (the \"Company\") and Mr. Arjun Rao (the \"Employee\").\nSECTION 1: DUTIES AND RESTRICTIONS\n1.1 The Employee shall devote full working time to the Company and shall perform all duties\nassigned.\n1.2 The Employee shall not undertake any outside employment or business during the term of\nemployment.\n1.3 The Employee shall keep all Confidential Information secret and shall not disclose it to any third\nparty.\nSECTION 2: COMPENSATION\n2.1 The Company shall pay the Employee a monthly salary of Rs. 80,000 on the last working day of\neach month.\n2.2 The Employee is entitled to 24 days of paid leave per year.",
+      "extraction_method": "PyMuPDF",
+      "character_count": 716,
+      "is_likely_blank": false
+    },
+    {
+      "page_number": 2,
+      "text": "SECTION 3: TERMINATION\n3.1 Either party may terminate this Agreement by giving 60 days written notice to the other party.\n3.2 The Employee may undertake freelance work with the prior written approval of the Company.\n3.3 The Company shall pay the Employee a monthly salary of Rs. 95,000.",
+      "extraction_method": "PyMuPDF",
+      "character_count": 286,
+      "is_likely_blank": false
+    }
+  ],
+  "records": [
+    {
+      "record_id": "BLOCK-00001",
+      "record_type": "text_block",
+      "section_heading": null,
+      "clause_number": null,
+      "page_start": 1,
+      "page_end": 1,
+      "source_filename": "employment_conflicts.pdf",
+      "extraction_method": "PyMuPDF",
+      "text": "EMPLOYMENT AGREEMENT\nThis Employment Agreement is entered into on 15 January 2025 between Acme Technologies Pvt.\nLtd. (the \"Company\") and Mr. Arjun Rao (the \"Employee\").",
+      "character_count": 169,
+      "source": {
+        "filename": "employment_conflicts.pdf",
+        "sha256": "33e88fbe24d158cc682444bbceb22b48d99e305c4a20dd282900f9ea72215f2c",
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "record_id": "SEC-0001",
+      "record_type": "section",
+      "section_heading": "SECTION 1: DUTIES AND RESTRICTIONS",
+      "clause_number": null,
+      "text": "SECTION 1: DUTIES AND RESTRICTIONS",
+      "page_start": 1,
+      "page_end": 1,
+      "source_filename": "employment_conflicts.pdf",
+      "extraction_method": "PyMuPDF",
+      "character_count": 34,
+      "source": {
+        "filename": "employment_conflicts.pdf",
+        "sha256": "33e88fbe24d158cc682444bbceb22b48d99e305c4a20dd282900f9ea72215f2c",
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "record_id": "CLAUSE-00002",
+      "record_type": "clause",
+      "section_heading": "SECTION 1: DUTIES AND RESTRICTIONS",
+      "clause_number": "1.1",
+      "page_start": 1,
+      "page_end": 1,
+      "source_filename": "employment_conflicts.pdf",
+      "extraction_method": "PyMuPDF",
+      "text": "The Employee shall devote full working time to the Company and shall perform all duties\nassigned.",
+      "character_count": 97,
+      "source": {
+        "filename": "employment_conflicts.pdf",
+        "sha256": "33e88fbe24d158cc682444bbceb22b48d99e305c4a20dd282900f9ea72215f2c",
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "record_id": "CLAUSE-00003",
+      "record_type": "clause",
+      "section_heading": "SECTION 1: DUTIES AND RESTRICTIONS",
+      "clause_number": "1.2",
+      "page_start": 1,
+      "page_end": 1,
+      "source_filename": "employment_conflicts.pdf",
+      "extraction_method": "PyMuPDF",
+      "text": "The Employee shall not undertake any outside employment or business during the term of\nemployment.",
+      "character_count": 98,
+      "source": {
+        "filename": "employment_conflicts.pdf",
+        "sha256": "33e88fbe24d158cc682444bbceb22b48d99e305c4a20dd282900f9ea72215f2c",
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "record_id": "CLAUSE-00004",
+      "record_type": "clause",
+      "section_heading": "SECTION 1: DUTIES AND RESTRICTIONS",
+      "clause_number": "1.3",
+      "page_start": 1,
+      "page_end": 1,
+      "source_filename": "employment_conflicts.pdf",
+      "extraction_method": "PyMuPDF",
+      "text": "The Employee shall keep all Confidential Information secret and shall not disclose it to any third\nparty.",
+      "character_count": 105,
+      "source": {
+        "filename": "employment_conflicts.pdf",
+        "sha256": "33e88fbe24d158cc682444bbceb22b48d99e305c4a20dd282900f9ea72215f2c",
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "record_id": "SEC-0002",
+      "record_type": "section",
+      "section_heading": "SECTION 2: COMPENSATION",
+      "clause_number": null,
+      "text": "SECTION 2: COMPENSATION",
+      "page_start": 1,
+      "page_end": 1,
+      "source_filename": "employment_conflicts.pdf",
+      "extraction_method": "PyMuPDF",
+      "character_count": 23,
+      "source": {
+        "filename": "employment_conflicts.pdf",
+        "sha256": "33e88fbe24d158cc682444bbceb22b48d99e305c4a20dd282900f9ea72215f2c",
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "record_id": "CLAUSE-00005",
+      "record_type": "clause",
+      "section_heading": "SECTION 2: COMPENSATION",
+      "clause_number": "2.1",
+      "page_start": 1,
+      "page_end": 1,
+      "source_filename": "employment_conflicts.pdf",
+      "extraction_method": "PyMuPDF",
+      "text": "The Company shall pay the Employee a monthly salary of Rs. 80,000 on the last working day of\neach month.",
+      "character_count": 104,
+      "source": {
+        "filename": "employment_conflicts.pdf",
+        "sha256": "33e88fbe24d158cc682444bbceb22b48d99e305c4a20dd282900f9ea72215f2c",
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "record_id": "CLAUSE-00006",
+      "record_type": "clause",
+      "section_heading": "SECTION 2: COMPENSATION",
+      "clause_number": "2.2",
+      "page_start": 1,
+      "page_end": 1,
+      "source_filename": "employment_conflicts.pdf",
+      "extraction_method": "PyMuPDF",
+      "text": "The Employee is entitled to 24 days of paid leave per year.",
+      "character_count": 59,
+      "source": {
+        "filename": "employment_conflicts.pdf",
+        "sha256": "33e88fbe24d158cc682444bbceb22b48d99e305c4a20dd282900f9ea72215f2c",
+        "page_start": 1,
+        "page_end": 1
+      }
+    },
+    {
+      "record_id": "SEC-0003",
+      "record_type": "section",
+      "section_heading": "SECTION 3: TERMINATION",
+      "clause_number": null,
+      "text": "SECTION 3: TERMINATION",
+      "page_start": 2,
+      "page_end": 2,
+      "source_filename": "employment_conflicts.pdf",
+      "extraction_method": "PyMuPDF",
+      "character_count": 22,
+      "source": {
+        "filename": "employment_conflicts.pdf",
+        "sha256": "33e88fbe24d158cc682444bbceb22b48d99e305c4a20dd282900f9ea72215f2c",
+        "page_start": 2,
+        "page_end": 2
+      }
+    },
+    {
+      "record_id": "CLAUSE-00007",
+      "record_type": "clause",
+      "section_heading": "SECTION 3: TERMINATION",
+      "clause_number": "3.1",
+      "page_start": 2,
+      "page_end": 2,
+      "source_filename": "employment_conflicts.pdf",
+      "extraction_method": "PyMuPDF",
+      "text": "Either party may terminate this Agreement by giving 60 days written notice to the other party.",
+      "character_count": 94,
+      "source": {
+        "filename": "employment_conflicts.pdf",
+        "sha256": "33e88fbe24d158cc682444bbceb22b48d99e305c4a20dd282900f9ea72215f2c",
+        "page_start": 2,
+        "page_end": 2
+      }
+    },
+    {
+      "record_id": "CLAUSE-00008",
+      "record_type": "clause",
+      "section_heading": "SECTION 3: TERMINATION",
+      "clause_number": "3.2",
+      "page_start": 2,
+      "page_end": 2,
+      "source_filename": "employment_conflicts.pdf",
+      "extraction_method": "PyMuPDF",
+      "text": "The Employee may undertake freelance work with the prior written approval of the Company.",
+      "character_count": 89,
+      "source": {
+        "filename": "employment_conflicts.pdf",
+        "sha256": "33e88fbe24d158cc682444bbceb22b48d99e305c4a20dd282900f9ea72215f2c",
+        "page_start": 2,
+        "page_end": 2
+      }
+    },
+    {
+      "record_id": "CLAUSE-00009",
+      "record_type": "clause",
+      "section_heading": "SECTION 3: TERMINATION",
+      "clause_number": "3.3",
+      "page_start": 2,
+      "page_end": 2,
+      "source_filename": "employment_conflicts.pdf",
+      "extraction_method": "PyMuPDF",
+      "text": "The Company shall pay the Employee a monthly salary of Rs. 95,000.",
+      "character_count": 66,
+      "source": {
+        "filename": "employment_conflicts.pdf",
+        "sha256": "33e88fbe24d158cc682444bbceb22b48d99e305c4a20dd282900f9ea72215f2c",
+        "page_start": 2,
+        "page_end": 2
+      }
+    }
+  ],
+  "warnings": [],
+  "processed_at_utc": "2026-11-20T08:18:15.023157+00:00"
+}

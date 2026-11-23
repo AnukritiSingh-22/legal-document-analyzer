@@ -1,0 +1,673 @@
+{
+  "document_metadata": {
+    "filename": "nda_clean.pdf",
+    "file_type": "application/pdf",
+    "file_size_bytes": 2107,
+    "sha256": "abeccd9ae3b3f6c6722835e162f83ad8f5c3fd9e1e036a92e3903e3075246152",
+    "page_count": 1
+  },
+  "document_summary": {
+    "parties": [
+      {
+        "name": "Globex Corporation",
+        "alias": "Disclosing Party"
+      },
+      {
+        "name": "Initech Ltd.",
+        "alias": "Receiving Party"
+      }
+    ],
+    "party_aliases": [
+      "Disclosing Party",
+      "Receiving Party"
+    ],
+    "defined_terms": {
+      "Disclosing Party": {
+        "definition": null,
+        "record_id": "BLOCK-00001",
+        "page": 1
+      },
+      "Receiving Party": {
+        "definition": null,
+        "record_id": "BLOCK-00001",
+        "page": 1
+      }
+    },
+    "dates": [
+      {
+        "text": "2 March 2025",
+        "iso": "2025-03-02",
+        "role": "agreement_date",
+        "source": {
+          "record_id": "BLOCK-00001",
+          "record_type": "text_block",
+          "clause_number": null,
+          "section_heading": null,
+          "page_start": 1,
+          "page_end": 1,
+          "filename": "nda_clean.pdf"
+        }
+      },
+      {
+        "text": "2 March 2025",
+        "iso": "2025-03-02",
+        "role": "start_date",
+        "source": {
+          "record_id": "CLAUSE-00005",
+          "record_type": "clause",
+          "clause_number": "2.1",
+          "section_heading": "ARTICLE 2: TERM",
+          "page_start": 1,
+          "page_end": 1,
+          "filename": "nda_clean.pdf"
+        }
+      }
+    ],
+    "amounts": [],
+    "notice_periods": [
+      {
+        "text": "30 days",
+        "value": 30,
+        "unit": "days",
+        "day_type": null,
+        "days_approx": 30,
+        "is_notice_period": true,
+        "source": {
+          "record_id": "CLAUSE-00006",
+          "record_type": "clause",
+          "clause_number": "2.2",
+          "section_heading": "ARTICLE 2: TERM",
+          "page_start": 1,
+          "page_end": 1,
+          "filename": "nda_clean.pdf"
+        }
+      }
+    ],
+    "percentages": [],
+    "counts": {
+      "records": 9,
+      "statements": 6,
+      "by_modality": {
+        "prohibition": 1,
+        "obligation": 4,
+        "permission": 1
+      }
+    }
+  },
+  "clauses": [
+    {
+      "record_id": "BLOCK-00001",
+      "record_type": "text_block",
+      "clause_number": null,
+      "section_heading": null,
+      "page_start": 1,
+      "page_end": 1,
+      "filename": "nda_clean.pdf",
+      "text": "MUTUAL NON-DISCLOSURE AGREEMENT\nThis Agreement is made on 2 March 2025 between Globex Corporation (the \"Disclosing Party\") and\nInitech Ltd. (the \"Receiving Party\").",
+      "entities": {
+        "dates": [
+          {
+            "text": "2 March 2025",
+            "iso": "2025-03-02",
+            "role": "agreement_date"
+          }
+        ],
+        "amounts": [],
+        "durations": [],
+        "percentages": []
+      },
+      "statements": [],
+      "has_legal_statement": false
+    },
+    {
+      "record_id": "SEC-0001",
+      "record_type": "section",
+      "clause_number": null,
+      "section_heading": "ARTICLE 1: CONFIDENTIALITY",
+      "page_start": 1,
+      "page_end": 1,
+      "filename": "nda_clean.pdf",
+      "text": "ARTICLE 1: CONFIDENTIALITY",
+      "entities": {
+        "dates": [],
+        "amounts": [],
+        "durations": [],
+        "percentages": []
+      },
+      "statements": [],
+      "has_legal_statement": false
+    },
+    {
+      "record_id": "CLAUSE-00002",
+      "record_type": "clause",
+      "clause_number": "1.1",
+      "section_heading": "ARTICLE 1: CONFIDENTIALITY",
+      "page_start": 1,
+      "page_end": 1,
+      "filename": "nda_clean.pdf",
+      "text": "The Receiving Party shall not disclose Confidential Information to any third party without written\nconsent.",
+      "entities": {
+        "dates": [],
+        "amounts": [],
+        "durations": [],
+        "percentages": []
+      },
+      "statements": [
+        {
+          "sentence": "The Receiving Party shall not disclose Confidential Information to any third party without written consent",
+          "party": "Receiving Party",
+          "modality": "prohibition",
+          "modal_verb": "shall not",
+          "action": "disclose Confidential Information to any third party without written consent",
+          "condition": null,
+          "exception": null,
+          "time": {
+            "phrases": [],
+            "durations": [],
+            "dates": []
+          },
+          "amounts": [],
+          "is_negated": true,
+          "source": {
+            "record_id": "CLAUSE-00002",
+            "record_type": "clause",
+            "clause_number": "1.1",
+            "section_heading": "ARTICLE 1: CONFIDENTIALITY",
+            "page_start": 1,
+            "page_end": 1,
+            "filename": "nda_clean.pdf"
+          }
+        }
+      ],
+      "has_legal_statement": true
+    },
+    {
+      "record_id": "CLAUSE-00003",
+      "record_type": "clause",
+      "clause_number": "1.2",
+      "section_heading": "ARTICLE 1: CONFIDENTIALITY",
+      "page_start": 1,
+      "page_end": 1,
+      "filename": "nda_clean.pdf",
+      "text": "The Receiving Party shall use the Confidential Information solely for evaluating the proposed\nbusiness relationship.",
+      "entities": {
+        "dates": [],
+        "amounts": [],
+        "durations": [],
+        "percentages": []
+      },
+      "statements": [
+        {
+          "sentence": "The Receiving Party shall use the Confidential Information solely for evaluating the proposed business relationship",
+          "party": "Receiving Party",
+          "modality": "obligation",
+          "modal_verb": "shall",
+          "action": "use the Confidential Information solely for evaluating the proposed business relationship",
+          "condition": null,
+          "exception": null,
+          "time": {
+            "phrases": [],
+            "durations": [],
+            "dates": []
+          },
+          "amounts": [],
+          "is_negated": false,
+          "source": {
+            "record_id": "CLAUSE-00003",
+            "record_type": "clause",
+            "clause_number": "1.2",
+            "section_heading": "ARTICLE 1: CONFIDENTIALITY",
+            "page_start": 1,
+            "page_end": 1,
+            "filename": "nda_clean.pdf"
+          }
+        }
+      ],
+      "has_legal_statement": true
+    },
+    {
+      "record_id": "CLAUSE-00004",
+      "record_type": "clause",
+      "clause_number": "1.3",
+      "section_heading": "ARTICLE 1: CONFIDENTIALITY",
+      "page_start": 1,
+      "page_end": 1,
+      "filename": "nda_clean.pdf",
+      "text": "The obligations of confidentiality shall continue for a period of 3 years from the date of\ndisclosure.",
+      "entities": {
+        "dates": [],
+        "amounts": [],
+        "durations": [
+          {
+            "text": "3 years",
+            "value": 3,
+            "unit": "years",
+            "day_type": null,
+            "days_approx": 1095,
+            "is_notice_period": false
+          }
+        ],
+        "percentages": []
+      },
+      "statements": [
+        {
+          "sentence": "The obligations of confidentiality shall continue for a period of 3 years from the date of disclosure",
+          "party": null,
+          "modality": "obligation",
+          "modal_verb": "shall",
+          "action": "continue for a period of 3 years from the date of disclosure",
+          "condition": null,
+          "exception": null,
+          "time": {
+            "phrases": [
+              "for a period of 3 years from the date of disclosure"
+            ],
+            "durations": [
+              {
+                "text": "3 years",
+                "value": 3,
+                "unit": "years",
+                "day_type": null,
+                "days_approx": 1095,
+                "is_notice_period": false
+              }
+            ],
+            "dates": []
+          },
+          "amounts": [],
+          "is_negated": false,
+          "source": {
+            "record_id": "CLAUSE-00004",
+            "record_type": "clause",
+            "clause_number": "1.3",
+            "section_heading": "ARTICLE 1: CONFIDENTIALITY",
+            "page_start": 1,
+            "page_end": 1,
+            "filename": "nda_clean.pdf"
+          }
+        }
+      ],
+      "has_legal_statement": true
+    },
+    {
+      "record_id": "SEC-0002",
+      "record_type": "section",
+      "clause_number": null,
+      "section_heading": "ARTICLE 2: TERM",
+      "page_start": 1,
+      "page_end": 1,
+      "filename": "nda_clean.pdf",
+      "text": "ARTICLE 2: TERM",
+      "entities": {
+        "dates": [],
+        "amounts": [],
+        "durations": [],
+        "percentages": []
+      },
+      "statements": [],
+      "has_legal_statement": false
+    },
+    {
+      "record_id": "CLAUSE-00005",
+      "record_type": "clause",
+      "clause_number": "2.1",
+      "section_heading": "ARTICLE 2: TERM",
+      "page_start": 1,
+      "page_end": 1,
+      "filename": "nda_clean.pdf",
+      "text": "This Agreement shall commence on 2 March 2025 and shall remain in force for 2 years.",
+      "entities": {
+        "dates": [
+          {
+            "text": "2 March 2025",
+            "iso": "2025-03-02",
+            "role": "start_date"
+          }
+        ],
+        "amounts": [],
+        "durations": [
+          {
+            "text": "2 years",
+            "value": 2,
+            "unit": "years",
+            "day_type": null,
+            "days_approx": 730,
+            "is_notice_period": false
+          }
+        ],
+        "percentages": []
+      },
+      "statements": [
+        {
+          "sentence": "This Agreement shall commence on 2 March 2025 and shall remain in force for 2 years",
+          "party": null,
+          "modality": "obligation",
+          "modal_verb": "shall",
+          "action": "commence on 2 March 2025 and shall remain in force for 2 years",
+          "condition": null,
+          "exception": null,
+          "time": {
+            "phrases": [],
+            "durations": [
+              {
+                "text": "2 years",
+                "value": 2,
+                "unit": "years",
+                "day_type": null,
+                "days_approx": 730,
+                "is_notice_period": false
+              }
+            ],
+            "dates": [
+              "2025-03-02"
+            ]
+          },
+          "amounts": [],
+          "is_negated": false,
+          "source": {
+            "record_id": "CLAUSE-00005",
+            "record_type": "clause",
+            "clause_number": "2.1",
+            "section_heading": "ARTICLE 2: TERM",
+            "page_start": 1,
+            "page_end": 1,
+            "filename": "nda_clean.pdf"
+          }
+        }
+      ],
+      "has_legal_statement": true
+    },
+    {
+      "record_id": "CLAUSE-00006",
+      "record_type": "clause",
+      "clause_number": "2.2",
+      "section_heading": "ARTICLE 2: TERM",
+      "page_start": 1,
+      "page_end": 1,
+      "filename": "nda_clean.pdf",
+      "text": "Either party may terminate this Agreement by giving 30 days written notice.",
+      "entities": {
+        "dates": [],
+        "amounts": [],
+        "durations": [
+          {
+            "text": "30 days",
+            "value": 30,
+            "unit": "days",
+            "day_type": null,
+            "days_approx": 30,
+            "is_notice_period": true
+          }
+        ],
+        "percentages": []
+      },
+      "statements": [
+        {
+          "sentence": "Either party may terminate this Agreement by giving 30 days written notice",
+          "party": "Parties",
+          "modality": "permission",
+          "modal_verb": "may",
+          "action": "terminate this Agreement by giving 30 days written notice",
+          "condition": null,
+          "exception": null,
+          "time": {
+            "phrases": [],
+            "durations": [
+              {
+                "text": "30 days",
+                "value": 30,
+                "unit": "days",
+                "day_type": null,
+                "days_approx": 30,
+                "is_notice_period": true
+              }
+            ],
+            "dates": []
+          },
+          "amounts": [],
+          "is_negated": false,
+          "source": {
+            "record_id": "CLAUSE-00006",
+            "record_type": "clause",
+            "clause_number": "2.2",
+            "section_heading": "ARTICLE 2: TERM",
+            "page_start": 1,
+            "page_end": 1,
+            "filename": "nda_clean.pdf"
+          }
+        }
+      ],
+      "has_legal_statement": true
+    },
+    {
+      "record_id": "CLAUSE-00007",
+      "record_type": "clause",
+      "clause_number": "2.3",
+      "section_heading": "ARTICLE 2: TERM",
+      "page_start": 1,
+      "page_end": 1,
+      "filename": "nda_clean.pdf",
+      "text": "This Agreement shall be governed by the laws of India and courts in Delhi shall have\njurisdiction.",
+      "entities": {
+        "dates": [],
+        "amounts": [],
+        "durations": [],
+        "percentages": []
+      },
+      "statements": [
+        {
+          "sentence": "This Agreement shall be governed by the laws of India and courts in Delhi shall have jurisdiction",
+          "party": null,
+          "modality": "obligation",
+          "modal_verb": "shall",
+          "action": "be governed by the laws of India and courts in Delhi shall have jurisdiction",
+          "condition": null,
+          "exception": null,
+          "time": {
+            "phrases": [],
+            "durations": [],
+            "dates": []
+          },
+          "amounts": [],
+          "is_negated": false,
+          "source": {
+            "record_id": "CLAUSE-00007",
+            "record_type": "clause",
+            "clause_number": "2.3",
+            "section_heading": "ARTICLE 2: TERM",
+            "page_start": 1,
+            "page_end": 1,
+            "filename": "nda_clean.pdf"
+          }
+        }
+      ],
+      "has_legal_statement": true
+    }
+  ],
+  "statements": [
+    {
+      "sentence": "The Receiving Party shall not disclose Confidential Information to any third party without written consent",
+      "party": "Receiving Party",
+      "modality": "prohibition",
+      "modal_verb": "shall not",
+      "action": "disclose Confidential Information to any third party without written consent",
+      "condition": null,
+      "exception": null,
+      "time": {
+        "phrases": [],
+        "durations": [],
+        "dates": []
+      },
+      "amounts": [],
+      "is_negated": true,
+      "source": {
+        "record_id": "CLAUSE-00002",
+        "record_type": "clause",
+        "clause_number": "1.1",
+        "section_heading": "ARTICLE 1: CONFIDENTIALITY",
+        "page_start": 1,
+        "page_end": 1,
+        "filename": "nda_clean.pdf"
+      }
+    },
+    {
+      "sentence": "The Receiving Party shall use the Confidential Information solely for evaluating the proposed business relationship",
+      "party": "Receiving Party",
+      "modality": "obligation",
+      "modal_verb": "shall",
+      "action": "use the Confidential Information solely for evaluating the proposed business relationship",
+      "condition": null,
+      "exception": null,
+      "time": {
+        "phrases": [],
+        "durations": [],
+        "dates": []
+      },
+      "amounts": [],
+      "is_negated": false,
+      "source": {
+        "record_id": "CLAUSE-00003",
+        "record_type": "clause",
+        "clause_number": "1.2",
+        "section_heading": "ARTICLE 1: CONFIDENTIALITY",
+        "page_start": 1,
+        "page_end": 1,
+        "filename": "nda_clean.pdf"
+      }
+    },
+    {
+      "sentence": "The obligations of confidentiality shall continue for a period of 3 years from the date of disclosure",
+      "party": null,
+      "modality": "obligation",
+      "modal_verb": "shall",
+      "action": "continue for a period of 3 years from the date of disclosure",
+      "condition": null,
+      "exception": null,
+      "time": {
+        "phrases": [
+          "for a period of 3 years from the date of disclosure"
+        ],
+        "durations": [
+          {
+            "text": "3 years",
+            "value": 3,
+            "unit": "years",
+            "day_type": null,
+            "days_approx": 1095,
+            "is_notice_period": false
+          }
+        ],
+        "dates": []
+      },
+      "amounts": [],
+      "is_negated": false,
+      "source": {
+        "record_id": "CLAUSE-00004",
+        "record_type": "clause",
+        "clause_number": "1.3",
+        "section_heading": "ARTICLE 1: CONFIDENTIALITY",
+        "page_start": 1,
+        "page_end": 1,
+        "filename": "nda_clean.pdf"
+      }
+    },
+    {
+      "sentence": "This Agreement shall commence on 2 March 2025 and shall remain in force for 2 years",
+      "party": null,
+      "modality": "obligation",
+      "modal_verb": "shall",
+      "action": "commence on 2 March 2025 and shall remain in force for 2 years",
+      "condition": null,
+      "exception": null,
+      "time": {
+        "phrases": [],
+        "durations": [
+          {
+            "text": "2 years",
+            "value": 2,
+            "unit": "years",
+            "day_type": null,
+            "days_approx": 730,
+            "is_notice_period": false
+          }
+        ],
+        "dates": [
+          "2025-03-02"
+        ]
+      },
+      "amounts": [],
+      "is_negated": false,
+      "source": {
+        "record_id": "CLAUSE-00005",
+        "record_type": "clause",
+        "clause_number": "2.1",
+        "section_heading": "ARTICLE 2: TERM",
+        "page_start": 1,
+        "page_end": 1,
+        "filename": "nda_clean.pdf"
+      }
+    },
+    {
+      "sentence": "Either party may terminate this Agreement by giving 30 days written notice",
+      "party": "Parties",
+      "modality": "permission",
+      "modal_verb": "may",
+      "action": "terminate this Agreement by giving 30 days written notice",
+      "condition": null,
+      "exception": null,
+      "time": {
+        "phrases": [],
+        "durations": [
+          {
+            "text": "30 days",
+            "value": 30,
+            "unit": "days",
+            "day_type": null,
+            "days_approx": 30,
+            "is_notice_period": true
+          }
+        ],
+        "dates": []
+      },
+      "amounts": [],
+      "is_negated": false,
+      "source": {
+        "record_id": "CLAUSE-00006",
+        "record_type": "clause",
+        "clause_number": "2.2",
+        "section_heading": "ARTICLE 2: TERM",
+        "page_start": 1,
+        "page_end": 1,
+        "filename": "nda_clean.pdf"
+      }
+    },
+    {
+      "sentence": "This Agreement shall be governed by the laws of India and courts in Delhi shall have jurisdiction",
+      "party": null,
+      "modality": "obligation",
+      "modal_verb": "shall",
+      "action": "be governed by the laws of India and courts in Delhi shall have jurisdiction",
+      "condition": null,
+      "exception": null,
+      "time": {
+        "phrases": [],
+        "durations": [],
+        "dates": []
+      },
+      "amounts": [],
+      "is_negated": false,
+      "source": {
+        "record_id": "CLAUSE-00007",
+        "record_type": "clause",
+        "clause_number": "2.3",
+        "section_heading": "ARTICLE 2: TERM",
+        "page_start": 1,
+        "page_end": 1,
+        "filename": "nda_clean.pdf"
+      }
+    }
+  ],
+  "extraction_method": "rule-based",
+  "processed_at_utc": "2026-10-30T06:57:56.753047+00:00",
+  "note": "Automated extraction; outputs require human review and are not legal advice."
+}
