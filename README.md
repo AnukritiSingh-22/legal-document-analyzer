@@ -97,6 +97,6 @@ Start with `--max-docs 5` to check paths, then go to 20–30. Processed PDFs are
 | `No CUAD contract titles matched a PDF` | `--pdf-dir` must be the `full_contract_pdf` folder (sub-folders are searched); `--cuad-json` the annotation file |
 | Port already in use | `python -m streamlit run main_app.py --server.port 8502` |
 
-## 7. Known limitations (put these in the report)
+## 7. Known limitations
 
 Rule-based extraction (regex) misses unusual phrasing; clause segmentation depends on how the PDF's text flows; conflict flags are *potential* conflicts for human review, never legal conclusions; notice periods that legitimately differ by party are still flagged; jurisdiction-specific law is not modelled; chat answers are extractive (copied sentences), not generated.
